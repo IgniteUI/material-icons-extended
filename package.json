@@ -1,0 +1,32 @@
+{
+  "name": "material-icons-extended",
+  "version": "1.0.0",
+  "description": "A subset of Material Icons that extend the official Material Design Icons by Google.",
+  "scripts": {
+    "build": "tsc"
+  },
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IgniteUI/material-icons-extended.git"
+  },
+  "keywords": [
+    "icons",
+    "material"
+  ],
+  "author": "Infragistics",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IgniteUI/material-icons-extended/issues"
+  },
+  "homepage": "https://github.com/IgniteUI/material-icons-extended#readme",
+  "dependencies": {
+    "@types/node": "^14.0.25"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "typescript": "^3.9.7"
+  }
+}

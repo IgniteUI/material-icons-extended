@@ -1,0 +1,17 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "declaration": true,
+    "strict": true,
+    "outDir": "./build",
+    "sourceMap": true,
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "noImplicitAny": true,
+    "removeComments": true
+  },
+  "exclude": ["build"]
+}
