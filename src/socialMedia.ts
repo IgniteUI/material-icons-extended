@@ -1,116 +1,152 @@
 import { IMXIcon, IconCategory } from "./common/icon";
+import behanceSvg from "../svgs/social-media/behance.svg";
+import dribbbleSvg from "../svgs/social-media/dribbble.svg";
+import facebookMessengerSvg from "../svgs/social-media/facebook-messenger.svg";
+import facebookSvg from "../svgs/social-media/facebook.svg";
+import githubSvg from "../svgs/social-media/github.svg";
+import instagramSvg from "../svgs/social-media/instagram.svg";
+import linkedinSvg from "../svgs/social-media/linkedin.svg";
+import mediumSvg from "../svgs/social-media/medium.svg";
+import pinterestSvg from "../svgs/social-media/pinterest.svg";
+import redditSvg from "../svgs/social-media/reddit.svg";
+import snapchatSvg from "../svgs/social-media/snapchat.svg";
+import telegramSvg from "../svgs/social-media/telegram.svg";
+import tiktokSvg from "../svgs/social-media/tiktok.svg";
+import twitterSvg from "../svgs/social-media/twitter.svg";
+import viberSvg from "../svgs/social-media/viber.svg";
+import wechatSvg from "../svgs/social-media/wechat.svg";
+import whatsappSvg from "../svgs/social-media/whatsapp.svg";
+import youtubeSvg from "../svgs/social-media/youtube.svg";
 
 export const behance: IMXIcon = {
   name: "behance",
-  value: require("../svgs/social-media/behance.svg") as string,
+  value: behanceSvg,
+  module: require("../svgs/social-media/behance.svg"),
   categories: [IconCategory.SocialMedia],
 };
 
-export const dribble: IMXIcon = {
-  name: "dribble",
-  value: require("../svgs/social-media/dribble.svg") as string,
+export const dribbble: IMXIcon = {
+  name: "dribbble",
+  value: dribbbleSvg,
+  module: require("../svgs/social-media/dribbble.svg"),
   categories: [IconCategory.SocialMedia],
 };
 
 export const facebookMessenger: IMXIcon = {
   name: "facebook-messenger",
-  value: require("../svgs/social-media/facebook-messenger.svg") as string,
+  value: facebookMessengerSvg,
+  module: require("../svgs/social-media/facebook-messenger.svg"),
   categories: [IconCategory.SocialMedia],
 };
 
 export const facebook: IMXIcon = {
   name: "facebook",
-  value: require("../svgs/social-media/facebook.svg") as string,
+  value: facebookSvg,
+  module: require("../svgs/social-media/facebook.svg"),
   categories: [IconCategory.SocialMedia],
 };
 
 export const github: IMXIcon = {
   name: "github",
-  value: require("../svgs/social-media/github.svg") as string,
+  value: githubSvg,
+  module: require("../svgs/social-media/github.svg"),
   categories: [IconCategory.SocialMedia],
 };
 
 export const instagram: IMXIcon = {
   name: "instagram",
-  value: require("../svgs/social-media/instagram.svg") as string,
+  value: instagramSvg,
+  module: require("../svgs/social-media/instagram.svg"),
   categories: [IconCategory.SocialMedia],
 };
 
 export const linkedin: IMXIcon = {
   name: "linkedin",
-  value: require("../svgs/social-media/linkedin.svg") as string,
+  value: linkedinSvg,
+  module: require("../svgs/social-media/linkedin.svg"),
   categories: [IconCategory.SocialMedia],
 };
 
 export const medium: IMXIcon = {
   name: "medium",
-  value: require("../svgs/social-media/medium.svg") as string,
+  value: mediumSvg,
+  module: require("../svgs/social-media/medium.svg"),
   categories: [IconCategory.SocialMedia],
 };
 
 export const pinterest: IMXIcon = {
   name: "pinterest",
-  value: require("../svgs/social-media/pinterest.svg") as string,
+  value: pinterestSvg,
+  module: require("../svgs/social-media/pinterest.svg"),
   categories: [IconCategory.SocialMedia],
 };
 
 export const reddit: IMXIcon = {
   name: "reddit",
-  value: require("../svgs/social-media/reddit.svg") as string,
+  value: redditSvg,
+  module: require("../svgs/social-media/reddit.svg"),
   categories: [IconCategory.SocialMedia],
 };
 
 export const snapchat: IMXIcon = {
   name: "snapchat",
-  value: require("../svgs/social-media/snapchat.svg") as string,
+  value: snapchatSvg,
+  module: require("../svgs/social-media/snapchat.svg"),
   categories: [IconCategory.Logos, IconCategory.SocialMedia],
 };
 
 export const telegram: IMXIcon = {
   name: "telegram",
-  value: require("../svgs/social-media/telegram.svg") as string,
+  value: telegramSvg,
+  module: require("../svgs/social-media/telegram.svg"),
   categories: [IconCategory.Logos, IconCategory.SocialMedia],
 };
 
 export const tiktok: IMXIcon = {
   name: "tiktok",
-  value: require("../svgs/social-media/tiktok.svg") as string,
+  value: tiktokSvg,
+  module: require("../svgs/social-media/tiktok.svg"),
   categories: [IconCategory.SocialMedia],
 };
 
 export const twitter: IMXIcon = {
   name: "twitter",
-  value: require("../svgs/social-media/twitter.svg") as string,
+  value: twitterSvg,
+  module: require("../svgs/social-media/twitter.svg"),
   categories: [IconCategory.SocialMedia],
 };
 
 export const viber: IMXIcon = {
   name: "viber",
-  value: require("../svgs/social-media/viber.svg") as string,
+  value: viberSvg,
+  module: require("../svgs/social-media/viber.svg"),
   categories: [IconCategory.SocialMedia],
 };
 
 export const wechat: IMXIcon = {
   name: "wechat",
-  value: require("../svgs/social-media/wechat.svg") as string,
+  value: wechatSvg,
+  module: require("../svgs/social-media/wechat.svg"),
   categories: [IconCategory.SocialMedia],
 };
 
 export const whatsapp: IMXIcon = {
   name: "whatsapp",
-  value: require("../svgs/social-media/whatsapp.svg") as string,
+  value: whatsappSvg,
+  module: require("../svgs/social-media/whatsapp.svg"),
   categories: [IconCategory.SocialMedia],
 };
 
 export const youtube: IMXIcon = {
   name: "youtube",
-  value: require("../svgs/social-media/youtube.svg") as string,
+  value: youtubeSvg,
+  module: require("../svgs/social-media/youtube.svg"),
   categories: [IconCategory.SocialMedia],
 };
 
 export default [
   behance,
-  dribble,
+  dribbble,
   facebookMessenger,
   facebook,
   github,
@@ -126,5 +162,5 @@ export default [
   viber,
   wechat,
   whatsapp,
-  youtube
+  youtube,
 ];

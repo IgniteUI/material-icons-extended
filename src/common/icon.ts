@@ -7,10 +7,11 @@ export const enum IconCategory {
 }
 
 export interface IMXIcon {
-  name: String;
-  value: String;
+  name: string;
+  value: string;
+  module?: string;
   categories: IconCategory[];
-  fontSet?: String;
-  keywords?: String[];
+  fontSet?: string;
+  keywords?: string[];
 }
 
