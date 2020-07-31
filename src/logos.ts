@@ -2,7 +2,7 @@ import { IMXIcon, IconCategory } from "./common/icon";
 
 export const amazon: IMXIcon = {
   name: "amazon",
-  value: require("../svgs/logos/amazon.svg") as string,
+  value: require("../svgs/logos/amazon.svg"),
   categories: [IconCategory.Logos],
 };
 
@@ -78,9 +78,9 @@ export const ebay: IMXIcon = {
   categories: [IconCategory.Logos],
 };
 
-export const etherium: IMXIcon = {
+export const ethereum: IMXIcon = {
   name: "etherium",
-  value: require("../svgs/logos/etherium.svg") as string,
+  value: require("../svgs/logos/ethereum.svg") as string,
   categories: [IconCategory.Logos],
 };
 
@@ -234,12 +234,6 @@ export const slack: IMXIcon = {
   categories: [IconCategory.Logos],
 };
 
-export const snapchat: IMXIcon = {
-  name: "snapchat",
-  value: require("../svgs/logos/snapchat.svg") as string,
-  categories: [IconCategory.Logos],
-};
-
 export const soundcloud: IMXIcon = {
   name: "soundcloud",
   value: require("../svgs/logos/soundcloud.svg") as string,
@@ -267,12 +261,6 @@ export const steam: IMXIcon = {
 export const stripe: IMXIcon = {
   name: "stripe",
   value: require("../svgs/logos/stripe.svg") as string,
-  categories: [IconCategory.Logos],
-};
-
-export const telegram: IMXIcon = {
-  name: "telegram",
-  value: require("../svgs/logos/telegram.svg") as string,
   categories: [IconCategory.Logos],
 };
 
@@ -326,7 +314,7 @@ export default [
   discord,
   dropbox,
   ebay,
-  etherium,
+  ethereum,
   firefox,
   google,
   googleDrive,
@@ -352,13 +340,11 @@ export default [
   sass,
   skype,
   slack,
-  snapchat,
   soundcloud,
   spotify,
   stackoverflow,
   steam,
   stripe,
-  telegram,
   tinder,
   touchId,
   twitch,

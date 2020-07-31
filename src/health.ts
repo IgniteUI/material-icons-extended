@@ -348,9 +348,9 @@ export const stethoscope: IMXIcon = {
   categories: [IconCategory.Health],
 };
 
-export const strecher: IMXIcon = {
+export const stretcher: IMXIcon = {
   name: "strecher",
-  value: require("../svgs/health/strecher.svg") as string,
+  value: require("../svgs/health/stretcher.svg") as string,
   categories: [IconCategory.Health],
 };
 
@@ -491,7 +491,7 @@ export default [
   signLanguage,
   sneeze,
   stethoscope,
-  strecher,
+  stretcher,
   syringe,
   teeth,
   thermometer,

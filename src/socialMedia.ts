@@ -63,13 +63,13 @@ export const reddit: IMXIcon = {
 export const snapchat: IMXIcon = {
   name: "snapchat",
   value: require("../svgs/social-media/snapchat.svg") as string,
-  categories: [IconCategory.SocialMedia],
+  categories: [IconCategory.Logos, IconCategory.SocialMedia],
 };
 
 export const telegram: IMXIcon = {
   name: "telegram",
   value: require("../svgs/social-media/telegram.svg") as string,
-  categories: [IconCategory.SocialMedia],
+  categories: [IconCategory.Logos, IconCategory.SocialMedia],
 };
 
 export const tiktok: IMXIcon = {
