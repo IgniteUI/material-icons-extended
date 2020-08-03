@@ -9,7 +9,7 @@ export const enum IconCategory {
 export interface IMXIcon {
   name: string;
   value: string;
-  module?: string;
+  module: NodeModule;
   categories: IconCategory[];
   fontSet?: string;
   keywords?: string[];
