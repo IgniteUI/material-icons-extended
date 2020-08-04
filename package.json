@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A subset of Material Icons that extend the official Material Design Icons by Google.",
   "scripts": {
-    "build": "tsc"
+    "build": "gulp build && tsc"
   },
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -26,7 +26,8 @@
   },
   "devDependencies": {
     "gulp": "^4.0.2",
-    "gulp-typescript": "^6.0.0-alpha.1",
+    "gulp-svg-sprite": "^1.5.0",
+    "rimraf": "^3.0.2",
     "typescript": "^3.9.7"
   }
 }
