@@ -11,6 +11,9 @@
     "type": "git",
     "url": "git+https://github.com/IgniteUI/material-icons-extended.git"
   },
+ "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "icons",
     "material"
