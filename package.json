@@ -1,5 +1,5 @@
 {
-  "name": "material-icons-extended",
+  "name": "@igniteui/material-icons-extended",
   "version": "1.0.0",
   "description": "A subset of Material Icons that extend the official Material Design Icons by Google.",
   "scripts": {
