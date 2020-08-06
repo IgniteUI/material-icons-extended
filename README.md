@@ -41,7 +41,28 @@ export class SampleComponent implements OnInit {
   constructor(private iconService: IgxIconService) {}
 
   ngOnInit(): void {
+    // Register a single icon
     this.iconService.addSvgIcon(github.name, github.value, "imx-icons");
+  }
+}
+```
+
+Or to register multiple icons/categories:
+
+```typescript
+//...
+import { github, health, programming } from "@igniteui/material-icons-extended";
+
+export class SampleComponent implements OnInit {
+  //...
+  addIcons() {
+    for (let icon of [...health, ...programming, github]) {
+      this.iconService.addSvgIcon(icon.name, icon.value, "imx-icons");
+    }
+  }
+
+  ngOnInit(): void {
+    this.addIcons();
   }
 }
 ```
