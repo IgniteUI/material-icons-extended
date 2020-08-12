@@ -1,0 +1,3176 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta charset="utf-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+		<title>SVG CSS sprite preview | svg-sprite</title>
+		<style>@charset "UTF-8";body{padding:0;margin:0;color:#666;background:#fafafa;font-family:Arial,Helvetica,sans-serif;font-size:1em;line-height:1.4}header{display:block;padding:3em 3em 2em 3em;background-color:#fff}header p{margin:2em 0 0 0}section{border-top:1px solid #eee;padding:2em 3em 0 3em}section ul{margin:0;padding:0}section li{display:inline;display:inline-block;background-color:#fff;position:relative;margin:0 2em 2em 0;vertical-align:top;border:1px solid #ccc;padding:1em 1em 3em 1em;cursor:default}.icon-box{margin:0;width:144px;height:144px;position:relative;background:#ccc url("data:image/gif;base64,R0lGODlhDAAMAIAAAMzMzP///yH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4wLWMwNjEgNjQuMTQwOTQ5LCAyMDEwLzEyLzA3LTEwOjU3OjAxICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1LjEgV2luZG93cyIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozQjk4OTI0MUY5NTIxMUUyQkJDMEI5NEFEM0Y1QTYwQyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozQjk4OTI0MkY5NTIxMUUyQkJDMEI5NEFEM0Y1QTYwQyI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjNCOTg5MjNGRjk1MjExRTJCQkMwQjk0QUQzRjVBNjBDIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjNCOTg5MjQwRjk1MjExRTJCQkMwQjk0QUQzRjVBNjBDIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+Af/+/fz7+vn49/b19PPy8fDv7u3s6+rp6Ofm5eTj4uHg397d3Nva2djX1tXU09LR0M/OzczLysnIx8bFxMPCwcC/vr28u7q5uLe2tbSzsrGwr66trKuqqainpqWko6KhoJ+enZybmpmYl5aVlJOSkZCPjo2Mi4qJiIeGhYSDgoGAf359fHt6eXh3dnV0c3JxcG9ubWxramloZ2ZlZGNiYWBfXl1cW1pZWFdWVVRTUlFQT05NTEtKSUhHRkVEQ0JBQD8+PTw7Ojk4NzY1NDMyMTAvLi0sKyopKCcmJSQjIiEgHx4dHBsaGRgXFhUUExIREA8ODQwLCgkIBwYFBAMCAQAAIfkEAAAAAAAsAAAAAAwADAAAAhaEH6mHmmzcgzJAUG/NVGrfOZ8YLlABADs=") top left repeat;border:1px solid #ccc;display:table-cell;vertical-align:middle;text-align:center}.icon{display:inline;display:inline-block}h1{margin-top:0}h2{margin:0;padding:0;font-size:1em;font-weight:normal;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;position:absolute;left:1em;right:1em;bottom:1em}footer{display:block;margin:0;padding:0 3em 3em 3em}footer p{margin:0;font-size:.7em}footer a{color:#0f7595;margin-left:0}</style>
+		<style>i{text-indent:200%;white-space:nowrap;overflow:hidden;display:inline-block;background-size:114176px 512px!important}</style>
+
+<!--
+
+Sprite CSS
+====================================================================================================
+This is an all-in-one inline version of the CSS necessary to use the SVG sprite.
+
+-->
+
+<style type="text/css">
+.imx-accessibility {
+	background: url("svg/sprite.css-7de12af7.svg") 0 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-aids-ribbon {
+	background: url("svg/sprite.css-7de12af7.svg") 0.45045045045045046% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-amazon {
+	background: url("svg/sprite.css-7de12af7.svg") 0.9009009009009009% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-ambulance {
+	background: url("svg/sprite.css-7de12af7.svg") 1.3513513513513513% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-american-express {
+	background: url("svg/sprite.css-7de12af7.svg") 1.8018018018018018% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-anxiety {
+	background: url("svg/sprite.css-7de12af7.svg") 2.2522522522522523% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-api {
+	background: url("svg/sprite.css-7de12af7.svg") 2.7027027027027026% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-app-symbol {
+	background: url("svg/sprite.css-7de12af7.svg") 3.1531531531531534% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-apple {
+	background: url("svg/sprite.css-7de12af7.svg") 3.6036036036036037% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-apple-app-store {
+	background: url("svg/sprite.css-7de12af7.svg") 4.054054054054054% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-apple-pay {
+	background: url("svg/sprite.css-7de12af7.svg") 4.504504504504505% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-atm {
+	background: url("svg/sprite.css-7de12af7.svg") 4.954954954954955% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-atm-dollar {
+	background: url("svg/sprite.css-7de12af7.svg") 5.405405405405405% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-atm-euro {
+	background: url("svg/sprite.css-7de12af7.svg") 5.8558558558558556% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-atm-pound {
+	background: url("svg/sprite.css-7de12af7.svg") 6.306306306306307% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-atm-yen {
+	background: url("svg/sprite.css-7de12af7.svg") 6.756756756756757% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-auction {
+	background: url("svg/sprite.css-7de12af7.svg") 7.207207207207207% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-award {
+	background: url("svg/sprite.css-7de12af7.svg") 7.657657657657658% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-baby-bottle {
+	background: url("svg/sprite.css-7de12af7.svg") 8.108108108108109% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-bacteria {
+	background: url("svg/sprite.css-7de12af7.svg") 8.558558558558559% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-bandage {
+	background: url("svg/sprite.css-7de12af7.svg") 9.00900900900901% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-bank-safe {
+	background: url("svg/sprite.css-7de12af7.svg") 9.45945945945946% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-barcode {
+	background: url("svg/sprite.css-7de12af7.svg") 9.90990990990991% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-bear-market {
+	background: url("svg/sprite.css-7de12af7.svg") 10.36036036036036% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-behance {
+	background: url("svg/sprite.css-7de12af7.svg") 10.81081081081081% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-bill-paid {
+	background: url("svg/sprite.css-7de12af7.svg") 11.26126126126126% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-biohazard {
+	background: url("svg/sprite.css-7de12af7.svg") 11.711711711711711% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-bitcoin {
+	background: url("svg/sprite.css-7de12af7.svg") 12.162162162162161% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-blood {
+	background: url("svg/sprite.css-7de12af7.svg") 12.612612612612613% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-blu-ray {
+	background: url("svg/sprite.css-7de12af7.svg") 13.063063063063064% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-box {
+	background: url("svg/sprite.css-7de12af7.svg") 13.513513513513514% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-braille {
+	background: url("svg/sprite.css-7de12af7.svg") 13.963963963963964% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-breastfeeding {
+	background: url("svg/sprite.css-7de12af7.svg") 14.414414414414415% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-budget-spending {
+	background: url("svg/sprite.css-7de12af7.svg") 14.864864864864865% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-bug {
+	background: url("svg/sprite.css-7de12af7.svg") 15.315315315315315% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-bull-market {
+	background: url("svg/sprite.css-7de12af7.svg") 15.765765765765765% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-business-development {
+	background: url("svg/sprite.css-7de12af7.svg") 16.216216216216218% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-caduceus {
+	background: url("svg/sprite.css-7de12af7.svg") 16.666666666666668% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-calculator {
+	background: url("svg/sprite.css-7de12af7.svg") 17.117117117117118% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-cancer-ribbon {
+	background: url("svg/sprite.css-7de12af7.svg") 17.56756756756757% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-cash-1 {
+	background: url("svg/sprite.css-7de12af7.svg") 18.01801801801802% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-cash-2 {
+	background: url("svg/sprite.css-7de12af7.svg") 18.46846846846847% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-cash-only {
+	background: url("svg/sprite.css-7de12af7.svg") 18.91891891891892% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-certificate {
+	background: url("svg/sprite.css-7de12af7.svg") 19.36936936936937% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-chrome {
+	background: url("svg/sprite.css-7de12af7.svg") 19.81981981981982% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-clinic {
+	background: url("svg/sprite.css-7de12af7.svg") 20.27027027027027% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-code {
+	background: url("svg/sprite.css-7de12af7.svg") 20.72072072072072% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-code-fork {
+	background: url("svg/sprite.css-7de12af7.svg") 21.17117117117117% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-code-review {
+	background: url("svg/sprite.css-7de12af7.svg") 21.62162162162162% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-commodities {
+	background: url("svg/sprite.css-7de12af7.svg") 22.07207207207207% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-condom {
+	background: url("svg/sprite.css-7de12af7.svg") 22.52252252252252% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-condom-used {
+	background: url("svg/sprite.css-7de12af7.svg") 22.972972972972972% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-console {
+	background: url("svg/sprite.css-7de12af7.svg") 23.423423423423422% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-contraception {
+	background: url("svg/sprite.css-7de12af7.svg") 23.873873873873872% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-coronavirus {
+	background: url("svg/sprite.css-7de12af7.svg") 24.324324324324323% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-credit-cards {
+	background: url("svg/sprite.css-7de12af7.svg") 24.774774774774773% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-credit-control {
+	background: url("svg/sprite.css-7de12af7.svg") 25.225225225225227% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-crowdfunding {
+	background: url("svg/sprite.css-7de12af7.svg") 25.675675675675677% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-deafness {
+	background: url("svg/sprite.css-7de12af7.svg") 26.126126126126128% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-debt {
+	background: url("svg/sprite.css-7de12af7.svg") 26.576576576576578% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-delivery {
+	background: url("svg/sprite.css-7de12af7.svg") 27.027027027027028% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-dental-floss {
+	background: url("svg/sprite.css-7de12af7.svg") 27.47747747747748% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-dental-implant {
+	background: url("svg/sprite.css-7de12af7.svg") 27.92792792792793% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-development {
+	background: url("svg/sprite.css-7de12af7.svg") 28.37837837837838% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-diabetes {
+	background: url("svg/sprite.css-7de12af7.svg") 28.82882882882883% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-diamond {
+	background: url("svg/sprite.css-7de12af7.svg") 29.27927927927928% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-diamond-circled {
+	background: url("svg/sprite.css-7de12af7.svg") 29.72972972972973% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-diners-club {
+	background: url("svg/sprite.css-7de12af7.svg") 30.18018018018018% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-discord {
+	background: url("svg/sprite.css-7de12af7.svg") 30.63063063063063% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-discount {
+	background: url("svg/sprite.css-7de12af7.svg") 31.08108108108108% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-dividents {
+	background: url("svg/sprite.css-7de12af7.svg") 31.53153153153153% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-dna {
+	background: url("svg/sprite.css-7de12af7.svg") 31.98198198198198% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-doctor {
+	background: url("svg/sprite.css-7de12af7.svg") 32.432432432432435% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-doctors-bag {
+	background: url("svg/sprite.css-7de12af7.svg") 32.88288288288288% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-dollar-circled {
+	background: url("svg/sprite.css-7de12af7.svg") 33.333333333333336% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-dose {
+	background: url("svg/sprite.css-7de12af7.svg") 33.78378378378378% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-dribbble {
+	background: url("svg/sprite.css-7de12af7.svg") 34.234234234234236% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-drop-shipping {
+	background: url("svg/sprite.css-7de12af7.svg") 34.68468468468468% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-dropbox {
+	background: url("svg/sprite.css-7de12af7.svg") 35.13513513513514% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-ebay {
+	background: url("svg/sprite.css-7de12af7.svg") 35.585585585585584% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-embryo {
+	background: url("svg/sprite.css-7de12af7.svg") 36.03603603603604% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-ethereum {
+	background: url("svg/sprite.css-7de12af7.svg") 36.486486486486484% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-euro-circled {
+	background: url("svg/sprite.css-7de12af7.svg") 36.93693693693694% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-face-id {
+	background: url("svg/sprite.css-7de12af7.svg") 37.387387387387385% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-facebook {
+	background: url("svg/sprite.css-7de12af7.svg") 37.83783783783784% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-facebook-messenger {
+	background: url("svg/sprite.css-7de12af7.svg") 38.288288288288285% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-fertilization {
+	background: url("svg/sprite.css-7de12af7.svg") 38.73873873873874% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-file-changes {
+	background: url("svg/sprite.css-7de12af7.svg") 39.189189189189186% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-file-tree {
+	background: url("svg/sprite.css-7de12af7.svg") 39.63963963963964% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-financial-insurance {
+	background: url("svg/sprite.css-7de12af7.svg") 40.090090090090094% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-firefox {
+	background: url("svg/sprite.css-7de12af7.svg") 40.54054054054054% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-fitness-watch {
+	background: url("svg/sprite.css-7de12af7.svg") 40.990990990990994% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-foreign-exchange {
+	background: url("svg/sprite.css-7de12af7.svg") 41.44144144144144% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-gas-mask {
+	background: url("svg/sprite.css-7de12af7.svg") 41.891891891891895% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-gift {
+	background: url("svg/sprite.css-7de12af7.svg") 42.34234234234234% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-git-branch {
+	background: url("svg/sprite.css-7de12af7.svg") 42.792792792792795% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-git-commit {
+	background: url("svg/sprite.css-7de12af7.svg") 43.24324324324324% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-git-compare {
+	background: url("svg/sprite.css-7de12af7.svg") 43.693693693693696% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-git-issue {
+	background: url("svg/sprite.css-7de12af7.svg") 44.14414414414414% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-git-merge {
+	background: url("svg/sprite.css-7de12af7.svg") 44.5945945945946% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-github {
+	background: url("svg/sprite.css-7de12af7.svg") 45.04504504504504% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-gold {
+	background: url("svg/sprite.css-7de12af7.svg") 45.4954954954955% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-google {
+	background: url("svg/sprite.css-7de12af7.svg") 45.945945945945944% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-google-drive {
+	background: url("svg/sprite.css-7de12af7.svg") 46.3963963963964% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-google-hangouts {
+	background: url("svg/sprite.css-7de12af7.svg") 46.846846846846844% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-google-maps {
+	background: url("svg/sprite.css-7de12af7.svg") 47.2972972972973% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-google-pay {
+	background: url("svg/sprite.css-7de12af7.svg") 47.747747747747745% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-google-play {
+	background: url("svg/sprite.css-7de12af7.svg") 48.1981981981982% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-google-translate {
+	background: url("svg/sprite.css-7de12af7.svg") 48.648648648648646% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-grid {
+	background: url("svg/sprite.css-7de12af7.svg") 49.0990990990991% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-hearing-aid {
+	background: url("svg/sprite.css-7de12af7.svg") 49.549549549549546% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-heart-care {
+	background: url("svg/sprite.css-7de12af7.svg") 50% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-heart-monitor {
+	background: url("svg/sprite.css-7de12af7.svg") 50.450450450450454% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-hospital {
+	background: url("svg/sprite.css-7de12af7.svg") 50.9009009009009% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-hospital-bed {
+	background: url("svg/sprite.css-7de12af7.svg") 51.351351351351354% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-hospital-sign {
+	background: url("svg/sprite.css-7de12af7.svg") 51.8018018018018% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-idea-generation {
+	background: url("svg/sprite.css-7de12af7.svg") 52.252252252252255% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-inspect-code {
+	background: url("svg/sprite.css-7de12af7.svg") 52.7027027027027% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-instagram {
+	background: url("svg/sprite.css-7de12af7.svg") 53.153153153153156% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-internet-explorer {
+	background: url("svg/sprite.css-7de12af7.svg") 53.6036036036036% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-invoice {
+	background: url("svg/sprite.css-7de12af7.svg") 54.054054054054056% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-ios {
+	background: url("svg/sprite.css-7de12af7.svg") 54.5045045045045% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-jsfiddle {
+	background: url("svg/sprite.css-7de12af7.svg") 54.95495495495496% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-keep-away-from-children {
+	background: url("svg/sprite.css-7de12af7.svg") 55.4054054054054% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-legal-document {
+	background: url("svg/sprite.css-7de12af7.svg") 55.85585585585586% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-linkedin {
+	background: url("svg/sprite.css-7de12af7.svg") 56.306306306306304% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-loan {
+	background: url("svg/sprite.css-7de12af7.svg") 56.75675675675676% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-maestro {
+	background: url("svg/sprite.css-7de12af7.svg") 57.207207207207205% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-mask-1 {
+	background: url("svg/sprite.css-7de12af7.svg") 57.65765765765766% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-mask-2 {
+	background: url("svg/sprite.css-7de12af7.svg") 58.108108108108105% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-massage {
+	background: url("svg/sprite.css-7de12af7.svg") 58.55855855855856% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-mastercard {
+	background: url("svg/sprite.css-7de12af7.svg") 59.009009009009006% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-medical-book {
+	background: url("svg/sprite.css-7de12af7.svg") 59.45945945945946% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-medicine {
+	background: url("svg/sprite.css-7de12af7.svg") 59.909909909909906% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-medium {
+	background: url("svg/sprite.css-7de12af7.svg") 60.36036036036036% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-microorganisms {
+	background: url("svg/sprite.css-7de12af7.svg") 60.810810810810814% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-microscope {
+	background: url("svg/sprite.css-7de12af7.svg") 61.26126126126126% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-milestone {
+	background: url("svg/sprite.css-7de12af7.svg") 61.711711711711715% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-module {
+	background: url("svg/sprite.css-7de12af7.svg") 62.16216216216216% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-money-bag {
+	background: url("svg/sprite.css-7de12af7.svg") 62.612612612612615% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-ms-edge {
+	background: url("svg/sprite.css-7de12af7.svg") 63.06306306306306% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-ms-excel {
+	background: url("svg/sprite.css-7de12af7.svg") 63.513513513513516% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-ms-outlook {
+	background: url("svg/sprite.css-7de12af7.svg") 63.96396396396396% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-ms-powerpoint {
+	background: url("svg/sprite.css-7de12af7.svg") 64.41441441441441% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-ms-word {
+	background: url("svg/sprite.css-7de12af7.svg") 64.86486486486487% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-nurse {
+	background: url("svg/sprite.css-7de12af7.svg") 65.31531531531532% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-oil {
+	background: url("svg/sprite.css-7de12af7.svg") 65.76576576576576% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-onedrive {
+	background: url("svg/sprite.css-7de12af7.svg") 66.21621621621621% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-opera {
+	background: url("svg/sprite.css-7de12af7.svg") 66.66666666666667% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-pacifier {
+	background: url("svg/sprite.css-7de12af7.svg") 67.11711711711712% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-pay-date {
+	background: url("svg/sprite.css-7de12af7.svg") 67.56756756756756% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-paypal {
+	background: url("svg/sprite.css-7de12af7.svg") 68.01801801801801% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-piggy-bank {
+	background: url("svg/sprite.css-7de12af7.svg") 68.46846846846847% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-pill {
+	background: url("svg/sprite.css-7de12af7.svg") 68.91891891891892% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-pinterest {
+	background: url("svg/sprite.css-7de12af7.svg") 69.36936936936937% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-plastic-surgery {
+	background: url("svg/sprite.css-7de12af7.svg") 69.81981981981981% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-plugin {
+	background: url("svg/sprite.css-7de12af7.svg") 70.27027027027027% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-poop {
+	background: url("svg/sprite.css-7de12af7.svg") 70.72072072072072% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-pound-circled {
+	background: url("svg/sprite.css-7de12af7.svg") 71.17117117117117% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-pregnancy-no-alcohol {
+	background: url("svg/sprite.css-7de12af7.svg") 71.62162162162163% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-project-revenue {
+	background: url("svg/sprite.css-7de12af7.svg") 72.07207207207207% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-pull-request {
+	background: url("svg/sprite.css-7de12af7.svg") 72.52252252252252% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-pulse {
+	background: url("svg/sprite.css-7de12af7.svg") 72.97297297297297% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-radioactive {
+	background: url("svg/sprite.css-7de12af7.svg") 73.42342342342343% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-reddit {
+	background: url("svg/sprite.css-7de12af7.svg") 73.87387387387388% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-repository {
+	background: url("svg/sprite.css-7de12af7.svg") 74.32432432432432% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-responsive-layout {
+	background: url("svg/sprite.css-7de12af7.svg") 74.77477477477477% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-rh-negative {
+	background: url("svg/sprite.css-7de12af7.svg") 75.22522522522523% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-rh-positive {
+	background: url("svg/sprite.css-7de12af7.svg") 75.67567567567568% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-rod-of-asclepius {
+	background: url("svg/sprite.css-7de12af7.svg") 76.12612612612612% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-safari {
+	background: url("svg/sprite.css-7de12af7.svg") 76.57657657657657% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-sale {
+	background: url("svg/sprite.css-7de12af7.svg") 77.02702702702703% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-sass {
+	background: url("svg/sprite.css-7de12af7.svg") 77.47747747747748% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-security-1 {
+	background: url("svg/sprite.css-7de12af7.svg") 77.92792792792793% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-security-2 {
+	background: url("svg/sprite.css-7de12af7.svg") 78.37837837837837% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-severity {
+	background: url("svg/sprite.css-7de12af7.svg") 78.82882882882883% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-sign-language {
+	background: url("svg/sprite.css-7de12af7.svg") 79.27927927927928% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-skype {
+	background: url("svg/sprite.css-7de12af7.svg") 79.72972972972973% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-slack {
+	background: url("svg/sprite.css-7de12af7.svg") 80.18018018018019% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-snapchat {
+	background: url("svg/sprite.css-7de12af7.svg") 80.63063063063063% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-sneeze {
+	background: url("svg/sprite.css-7de12af7.svg") 81.08108108108108% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-software-architecture {
+	background: url("svg/sprite.css-7de12af7.svg") 81.53153153153153% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-software-installer {
+	background: url("svg/sprite.css-7de12af7.svg") 81.98198198198199% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-soundcloud {
+	background: url("svg/sprite.css-7de12af7.svg") 82.43243243243244% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-source-code {
+	background: url("svg/sprite.css-7de12af7.svg") 82.88288288288288% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-spotify {
+	background: url("svg/sprite.css-7de12af7.svg") 83.33333333333333% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-stackoverflow {
+	background: url("svg/sprite.css-7de12af7.svg") 83.78378378378379% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-steam {
+	background: url("svg/sprite.css-7de12af7.svg") 84.23423423423424% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-stethoscope {
+	background: url("svg/sprite.css-7de12af7.svg") 84.68468468468468% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-strategy {
+	background: url("svg/sprite.css-7de12af7.svg") 85.13513513513513% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-stretcher {
+	background: url("svg/sprite.css-7de12af7.svg") 85.58558558558559% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-stripe {
+	background: url("svg/sprite.css-7de12af7.svg") 86.03603603603604% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-syringe {
+	background: url("svg/sprite.css-7de12af7.svg") 86.48648648648648% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-system-update {
+	background: url("svg/sprite.css-7de12af7.svg") 86.93693693693693% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-teeth {
+	background: url("svg/sprite.css-7de12af7.svg") 87.38738738738739% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-telegram {
+	background: url("svg/sprite.css-7de12af7.svg") 87.83783783783784% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-thermometer {
+	background: url("svg/sprite.css-7de12af7.svg") 88.28828828828829% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-tiktok {
+	background: url("svg/sprite.css-7de12af7.svg") 88.73873873873873% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-tinder {
+	background: url("svg/sprite.css-7de12af7.svg") 89.1891891891892% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-toilet-paper {
+	background: url("svg/sprite.css-7de12af7.svg") 89.63963963963964% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-tooth {
+	background: url("svg/sprite.css-7de12af7.svg") 90.09009009009009% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-tooth-cracked {
+	background: url("svg/sprite.css-7de12af7.svg") 90.54054054054055% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-touch-id {
+	background: url("svg/sprite.css-7de12af7.svg") 90.990990990991% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-twitch {
+	background: url("svg/sprite.css-7de12af7.svg") 91.44144144144144% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-twitter {
+	background: url("svg/sprite.css-7de12af7.svg") 91.89189189189189% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-usb {
+	background: url("svg/sprite.css-7de12af7.svg") 92.34234234234235% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-verified-account {
+	background: url("svg/sprite.css-7de12af7.svg") 92.7927927927928% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-veterinarian {
+	background: url("svg/sprite.css-7de12af7.svg") 93.24324324324324% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-vial {
+	background: url("svg/sprite.css-7de12af7.svg") 93.69369369369369% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-viber {
+	background: url("svg/sprite.css-7de12af7.svg") 94.14414414414415% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-vimeo {
+	background: url("svg/sprite.css-7de12af7.svg") 94.5945945945946% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-virus {
+	background: url("svg/sprite.css-7de12af7.svg") 95.04504504504504% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-virus-protection {
+	background: url("svg/sprite.css-7de12af7.svg") 95.49549549549549% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-virus-stop {
+	background: url("svg/sprite.css-7de12af7.svg") 95.94594594594595% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-visa {
+	background: url("svg/sprite.css-7de12af7.svg") 96.3963963963964% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-visually-impaired {
+	background: url("svg/sprite.css-7de12af7.svg") 96.84684684684684% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-wechat {
+	background: url("svg/sprite.css-7de12af7.svg") 97.29729729729729% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-weight-scale {
+	background: url("svg/sprite.css-7de12af7.svg") 97.74774774774775% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-whatsapp {
+	background: url("svg/sprite.css-7de12af7.svg") 98.1981981981982% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-wire-transfer {
+	background: url("svg/sprite.css-7de12af7.svg") 98.64864864864865% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-workflow {
+	background: url("svg/sprite.css-7de12af7.svg") 99.09909909909909% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-yen-circled {
+	background: url("svg/sprite.css-7de12af7.svg") 99.54954954954955% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+.imx-youtube {
+	background: url("svg/sprite.css-7de12af7.svg") 100% 0 no-repeat;
+	width: 512px;
+	height: 512px;
+}
+</style>
+
+<!--
+====================================================================================================
+-->
+
+	</head>
+	<body>
+		<header>
+			<h1>SVG CSS sprite preview</h1>
+			<p>This preview features the generated SVG file as a conventional CSS sprite. The shapes are displayed as background images of several <code>&lt;i&gt;</code> elements.</p>
+		</header>
+		<section>
+
+<!--
+
+Conventional CSS sprite
+====================================================================================================
+This technique uses CSS classes to display portions of the sprite as background image of
+appropriately sized elements.
+
+-->
+
+			<ul>
+				<li title="accessibility">
+					<div class="icon-box">
+
+						<!-- accessibility -->
+						<i class="imx-accessibility">accessibility</i>
+
+					</div>
+					<h2>accessibility</h2>
+				</li>
+				<li title="aids-ribbon">
+					<div class="icon-box">
+
+						<!-- aids-ribbon -->
+						<i class="imx-aids-ribbon">aids-ribbon</i>
+
+					</div>
+					<h2>aids-ribbon</h2>
+				</li>
+				<li title="amazon">
+					<div class="icon-box">
+
+						<!-- amazon -->
+						<i class="imx-amazon">amazon</i>
+
+					</div>
+					<h2>amazon</h2>
+				</li>
+				<li title="ambulance">
+					<div class="icon-box">
+
+						<!-- ambulance -->
+						<i class="imx-ambulance">ambulance</i>
+
+					</div>
+					<h2>ambulance</h2>
+				</li>
+				<li title="american-express">
+					<div class="icon-box">
+
+						<!-- american-express -->
+						<i class="imx-american-express">american-express</i>
+
+					</div>
+					<h2>american-express</h2>
+				</li>
+				<li title="anxiety">
+					<div class="icon-box">
+
+						<!-- anxiety -->
+						<i class="imx-anxiety">anxiety</i>
+
+					</div>
+					<h2>anxiety</h2>
+				</li>
+				<li title="api">
+					<div class="icon-box">
+
+						<!-- api -->
+						<i class="imx-api">api</i>
+
+					</div>
+					<h2>api</h2>
+				</li>
+				<li title="app-symbol">
+					<div class="icon-box">
+
+						<!-- app-symbol -->
+						<i class="imx-app-symbol">app-symbol</i>
+
+					</div>
+					<h2>app-symbol</h2>
+				</li>
+				<li title="apple">
+					<div class="icon-box">
+
+						<!-- apple -->
+						<i class="imx-apple">apple</i>
+
+					</div>
+					<h2>apple</h2>
+				</li>
+				<li title="apple-app-store">
+					<div class="icon-box">
+
+						<!-- apple-app-store -->
+						<i class="imx-apple-app-store">apple-app-store</i>
+
+					</div>
+					<h2>apple-app-store</h2>
+				</li>
+				<li title="apple-pay">
+					<div class="icon-box">
+
+						<!-- apple-pay -->
+						<i class="imx-apple-pay">apple-pay</i>
+
+					</div>
+					<h2>apple-pay</h2>
+				</li>
+				<li title="atm">
+					<div class="icon-box">
+
+						<!-- atm -->
+						<i class="imx-atm">atm</i>
+
+					</div>
+					<h2>atm</h2>
+				</li>
+				<li title="atm-dollar">
+					<div class="icon-box">
+
+						<!-- atm-dollar -->
+						<i class="imx-atm-dollar">atm-dollar</i>
+
+					</div>
+					<h2>atm-dollar</h2>
+				</li>
+				<li title="atm-euro">
+					<div class="icon-box">
+
+						<!-- atm-euro -->
+						<i class="imx-atm-euro">atm-euro</i>
+
+					</div>
+					<h2>atm-euro</h2>
+				</li>
+				<li title="atm-pound">
+					<div class="icon-box">
+
+						<!-- atm-pound -->
+						<i class="imx-atm-pound">atm-pound</i>
+
+					</div>
+					<h2>atm-pound</h2>
+				</li>
+				<li title="atm-yen">
+					<div class="icon-box">
+
+						<!-- atm-yen -->
+						<i class="imx-atm-yen">atm-yen</i>
+
+					</div>
+					<h2>atm-yen</h2>
+				</li>
+				<li title="auction">
+					<div class="icon-box">
+
+						<!-- auction -->
+						<i class="imx-auction">auction</i>
+
+					</div>
+					<h2>auction</h2>
+				</li>
+				<li title="award">
+					<div class="icon-box">
+
+						<!-- award -->
+						<i class="imx-award">award</i>
+
+					</div>
+					<h2>award</h2>
+				</li>
+				<li title="baby-bottle">
+					<div class="icon-box">
+
+						<!-- baby-bottle -->
+						<i class="imx-baby-bottle">baby-bottle</i>
+
+					</div>
+					<h2>baby-bottle</h2>
+				</li>
+				<li title="bacteria">
+					<div class="icon-box">
+
+						<!-- bacteria -->
+						<i class="imx-bacteria">bacteria</i>
+
+					</div>
+					<h2>bacteria</h2>
+				</li>
+				<li title="bandage">
+					<div class="icon-box">
+
+						<!-- bandage -->
+						<i class="imx-bandage">bandage</i>
+
+					</div>
+					<h2>bandage</h2>
+				</li>
+				<li title="bank-safe">
+					<div class="icon-box">
+
+						<!-- bank-safe -->
+						<i class="imx-bank-safe">bank-safe</i>
+
+					</div>
+					<h2>bank-safe</h2>
+				</li>
+				<li title="barcode">
+					<div class="icon-box">
+
+						<!-- barcode -->
+						<i class="imx-barcode">barcode</i>
+
+					</div>
+					<h2>barcode</h2>
+				</li>
+				<li title="bear-market">
+					<div class="icon-box">
+
+						<!-- bear-market -->
+						<i class="imx-bear-market">bear-market</i>
+
+					</div>
+					<h2>bear-market</h2>
+				</li>
+				<li title="behance">
+					<div class="icon-box">
+
+						<!-- behance -->
+						<i class="imx-behance">behance</i>
+
+					</div>
+					<h2>behance</h2>
+				</li>
+				<li title="bill-paid">
+					<div class="icon-box">
+
+						<!-- bill-paid -->
+						<i class="imx-bill-paid">bill-paid</i>
+
+					</div>
+					<h2>bill-paid</h2>
+				</li>
+				<li title="biohazard">
+					<div class="icon-box">
+
+						<!-- biohazard -->
+						<i class="imx-biohazard">biohazard</i>
+
+					</div>
+					<h2>biohazard</h2>
+				</li>
+				<li title="bitcoin">
+					<div class="icon-box">
+
+						<!-- bitcoin -->
+						<i class="imx-bitcoin">bitcoin</i>
+
+					</div>
+					<h2>bitcoin</h2>
+				</li>
+				<li title="blood">
+					<div class="icon-box">
+
+						<!-- blood -->
+						<i class="imx-blood">blood</i>
+
+					</div>
+					<h2>blood</h2>
+				</li>
+				<li title="blu-ray">
+					<div class="icon-box">
+
+						<!-- blu-ray -->
+						<i class="imx-blu-ray">blu-ray</i>
+
+					</div>
+					<h2>blu-ray</h2>
+				</li>
+				<li title="box">
+					<div class="icon-box">
+
+						<!-- box -->
+						<i class="imx-box">box</i>
+
+					</div>
+					<h2>box</h2>
+				</li>
+				<li title="braille">
+					<div class="icon-box">
+
+						<!-- braille -->
+						<i class="imx-braille">braille</i>
+
+					</div>
+					<h2>braille</h2>
+				</li>
+				<li title="breastfeeding">
+					<div class="icon-box">
+
+						<!-- breastfeeding -->
+						<i class="imx-breastfeeding">breastfeeding</i>
+
+					</div>
+					<h2>breastfeeding</h2>
+				</li>
+				<li title="budget-spending">
+					<div class="icon-box">
+
+						<!-- budget-spending -->
+						<i class="imx-budget-spending">budget-spending</i>
+
+					</div>
+					<h2>budget-spending</h2>
+				</li>
+				<li title="bug">
+					<div class="icon-box">
+
+						<!-- bug -->
+						<i class="imx-bug">bug</i>
+
+					</div>
+					<h2>bug</h2>
+				</li>
+				<li title="bull-market">
+					<div class="icon-box">
+
+						<!-- bull-market -->
+						<i class="imx-bull-market">bull-market</i>
+
+					</div>
+					<h2>bull-market</h2>
+				</li>
+				<li title="business-development">
+					<div class="icon-box">
+
+						<!-- business-development -->
+						<i class="imx-business-development">business-development</i>
+
+					</div>
+					<h2>business-development</h2>
+				</li>
+				<li title="caduceus">
+					<div class="icon-box">
+
+						<!-- caduceus -->
+						<i class="imx-caduceus">caduceus</i>
+
+					</div>
+					<h2>caduceus</h2>
+				</li>
+				<li title="calculator">
+					<div class="icon-box">
+
+						<!-- calculator -->
+						<i class="imx-calculator">calculator</i>
+
+					</div>
+					<h2>calculator</h2>
+				</li>
+				<li title="cancer-ribbon">
+					<div class="icon-box">
+
+						<!-- cancer-ribbon -->
+						<i class="imx-cancer-ribbon">cancer-ribbon</i>
+
+					</div>
+					<h2>cancer-ribbon</h2>
+				</li>
+				<li title="cash-1">
+					<div class="icon-box">
+
+						<!-- cash-1 -->
+						<i class="imx-cash-1">cash-1</i>
+
+					</div>
+					<h2>cash-1</h2>
+				</li>
+				<li title="cash-2">
+					<div class="icon-box">
+
+						<!-- cash-2 -->
+						<i class="imx-cash-2">cash-2</i>
+
+					</div>
+					<h2>cash-2</h2>
+				</li>
+				<li title="cash-only">
+					<div class="icon-box">
+
+						<!-- cash-only -->
+						<i class="imx-cash-only">cash-only</i>
+
+					</div>
+					<h2>cash-only</h2>
+				</li>
+				<li title="certificate">
+					<div class="icon-box">
+
+						<!-- certificate -->
+						<i class="imx-certificate">certificate</i>
+
+					</div>
+					<h2>certificate</h2>
+				</li>
+				<li title="chrome">
+					<div class="icon-box">
+
+						<!-- chrome -->
+						<i class="imx-chrome">chrome</i>
+
+					</div>
+					<h2>chrome</h2>
+				</li>
+				<li title="clinic">
+					<div class="icon-box">
+
+						<!-- clinic -->
+						<i class="imx-clinic">clinic</i>
+
+					</div>
+					<h2>clinic</h2>
+				</li>
+				<li title="code">
+					<div class="icon-box">
+
+						<!-- code -->
+						<i class="imx-code">code</i>
+
+					</div>
+					<h2>code</h2>
+				</li>
+				<li title="code-fork">
+					<div class="icon-box">
+
+						<!-- code-fork -->
+						<i class="imx-code-fork">code-fork</i>
+
+					</div>
+					<h2>code-fork</h2>
+				</li>
+				<li title="code-review">
+					<div class="icon-box">
+
+						<!-- code-review -->
+						<i class="imx-code-review">code-review</i>
+
+					</div>
+					<h2>code-review</h2>
+				</li>
+				<li title="commodities">
+					<div class="icon-box">
+
+						<!-- commodities -->
+						<i class="imx-commodities">commodities</i>
+
+					</div>
+					<h2>commodities</h2>
+				</li>
+				<li title="condom">
+					<div class="icon-box">
+
+						<!-- condom -->
+						<i class="imx-condom">condom</i>
+
+					</div>
+					<h2>condom</h2>
+				</li>
+				<li title="condom-used">
+					<div class="icon-box">
+
+						<!-- condom-used -->
+						<i class="imx-condom-used">condom-used</i>
+
+					</div>
+					<h2>condom-used</h2>
+				</li>
+				<li title="console">
+					<div class="icon-box">
+
+						<!-- console -->
+						<i class="imx-console">console</i>
+
+					</div>
+					<h2>console</h2>
+				</li>
+				<li title="contraception">
+					<div class="icon-box">
+
+						<!-- contraception -->
+						<i class="imx-contraception">contraception</i>
+
+					</div>
+					<h2>contraception</h2>
+				</li>
+				<li title="coronavirus">
+					<div class="icon-box">
+
+						<!-- coronavirus -->
+						<i class="imx-coronavirus">coronavirus</i>
+
+					</div>
+					<h2>coronavirus</h2>
+				</li>
+				<li title="credit-cards">
+					<div class="icon-box">
+
+						<!-- credit-cards -->
+						<i class="imx-credit-cards">credit-cards</i>
+
+					</div>
+					<h2>credit-cards</h2>
+				</li>
+				<li title="credit-control">
+					<div class="icon-box">
+
+						<!-- credit-control -->
+						<i class="imx-credit-control">credit-control</i>
+
+					</div>
+					<h2>credit-control</h2>
+				</li>
+				<li title="crowdfunding">
+					<div class="icon-box">
+
+						<!-- crowdfunding -->
+						<i class="imx-crowdfunding">crowdfunding</i>
+
+					</div>
+					<h2>crowdfunding</h2>
+				</li>
+				<li title="deafness">
+					<div class="icon-box">
+
+						<!-- deafness -->
+						<i class="imx-deafness">deafness</i>
+
+					</div>
+					<h2>deafness</h2>
+				</li>
+				<li title="debt">
+					<div class="icon-box">
+
+						<!-- debt -->
+						<i class="imx-debt">debt</i>
+
+					</div>
+					<h2>debt</h2>
+				</li>
+				<li title="delivery">
+					<div class="icon-box">
+
+						<!-- delivery -->
+						<i class="imx-delivery">delivery</i>
+
+					</div>
+					<h2>delivery</h2>
+				</li>
+				<li title="dental-floss">
+					<div class="icon-box">
+
+						<!-- dental-floss -->
+						<i class="imx-dental-floss">dental-floss</i>
+
+					</div>
+					<h2>dental-floss</h2>
+				</li>
+				<li title="dental-implant">
+					<div class="icon-box">
+
+						<!-- dental-implant -->
+						<i class="imx-dental-implant">dental-implant</i>
+
+					</div>
+					<h2>dental-implant</h2>
+				</li>
+				<li title="development">
+					<div class="icon-box">
+
+						<!-- development -->
+						<i class="imx-development">development</i>
+
+					</div>
+					<h2>development</h2>
+				</li>
+				<li title="diabetes">
+					<div class="icon-box">
+
+						<!-- diabetes -->
+						<i class="imx-diabetes">diabetes</i>
+
+					</div>
+					<h2>diabetes</h2>
+				</li>
+				<li title="diamond">
+					<div class="icon-box">
+
+						<!-- diamond -->
+						<i class="imx-diamond">diamond</i>
+
+					</div>
+					<h2>diamond</h2>
+				</li>
+				<li title="diamond-circled">
+					<div class="icon-box">
+
+						<!-- diamond-circled -->
+						<i class="imx-diamond-circled">diamond-circled</i>
+
+					</div>
+					<h2>diamond-circled</h2>
+				</li>
+				<li title="diners-club">
+					<div class="icon-box">
+
+						<!-- diners-club -->
+						<i class="imx-diners-club">diners-club</i>
+
+					</div>
+					<h2>diners-club</h2>
+				</li>
+				<li title="discord">
+					<div class="icon-box">
+
+						<!-- discord -->
+						<i class="imx-discord">discord</i>
+
+					</div>
+					<h2>discord</h2>
+				</li>
+				<li title="discount">
+					<div class="icon-box">
+
+						<!-- discount -->
+						<i class="imx-discount">discount</i>
+
+					</div>
+					<h2>discount</h2>
+				</li>
+				<li title="dividents">
+					<div class="icon-box">
+
+						<!-- dividents -->
+						<i class="imx-dividents">dividents</i>
+
+					</div>
+					<h2>dividents</h2>
+				</li>
+				<li title="dna">
+					<div class="icon-box">
+
+						<!-- dna -->
+						<i class="imx-dna">dna</i>
+
+					</div>
+					<h2>dna</h2>
+				</li>
+				<li title="doctor">
+					<div class="icon-box">
+
+						<!-- doctor -->
+						<i class="imx-doctor">doctor</i>
+
+					</div>
+					<h2>doctor</h2>
+				</li>
+				<li title="doctors-bag">
+					<div class="icon-box">
+
+						<!-- doctors-bag -->
+						<i class="imx-doctors-bag">doctors-bag</i>
+
+					</div>
+					<h2>doctors-bag</h2>
+				</li>
+				<li title="dollar-circled">
+					<div class="icon-box">
+
+						<!-- dollar-circled -->
+						<i class="imx-dollar-circled">dollar-circled</i>
+
+					</div>
+					<h2>dollar-circled</h2>
+				</li>
+				<li title="dose">
+					<div class="icon-box">
+
+						<!-- dose -->
+						<i class="imx-dose">dose</i>
+
+					</div>
+					<h2>dose</h2>
+				</li>
+				<li title="dribbble">
+					<div class="icon-box">
+
+						<!-- dribbble -->
+						<i class="imx-dribbble">dribbble</i>
+
+					</div>
+					<h2>dribbble</h2>
+				</li>
+				<li title="drop-shipping">
+					<div class="icon-box">
+
+						<!-- drop-shipping -->
+						<i class="imx-drop-shipping">drop-shipping</i>
+
+					</div>
+					<h2>drop-shipping</h2>
+				</li>
+				<li title="dropbox">
+					<div class="icon-box">
+
+						<!-- dropbox -->
+						<i class="imx-dropbox">dropbox</i>
+
+					</div>
+					<h2>dropbox</h2>
+				</li>
+				<li title="ebay">
+					<div class="icon-box">
+
+						<!-- ebay -->
+						<i class="imx-ebay">ebay</i>
+
+					</div>
+					<h2>ebay</h2>
+				</li>
+				<li title="embryo">
+					<div class="icon-box">
+
+						<!-- embryo -->
+						<i class="imx-embryo">embryo</i>
+
+					</div>
+					<h2>embryo</h2>
+				</li>
+				<li title="ethereum">
+					<div class="icon-box">
+
+						<!-- ethereum -->
+						<i class="imx-ethereum">ethereum</i>
+
+					</div>
+					<h2>ethereum</h2>
+				</li>
+				<li title="euro-circled">
+					<div class="icon-box">
+
+						<!-- euro-circled -->
+						<i class="imx-euro-circled">euro-circled</i>
+
+					</div>
+					<h2>euro-circled</h2>
+				</li>
+				<li title="face-id">
+					<div class="icon-box">
+
+						<!-- face-id -->
+						<i class="imx-face-id">face-id</i>
+
+					</div>
+					<h2>face-id</h2>
+				</li>
+				<li title="facebook">
+					<div class="icon-box">
+
+						<!-- facebook -->
+						<i class="imx-facebook">facebook</i>
+
+					</div>
+					<h2>facebook</h2>
+				</li>
+				<li title="facebook-messenger">
+					<div class="icon-box">
+
+						<!-- facebook-messenger -->
+						<i class="imx-facebook-messenger">facebook-messenger</i>
+
+					</div>
+					<h2>facebook-messenger</h2>
+				</li>
+				<li title="fertilization">
+					<div class="icon-box">
+
+						<!-- fertilization -->
+						<i class="imx-fertilization">fertilization</i>
+
+					</div>
+					<h2>fertilization</h2>
+				</li>
+				<li title="file-changes">
+					<div class="icon-box">
+
+						<!-- file-changes -->
+						<i class="imx-file-changes">file-changes</i>
+
+					</div>
+					<h2>file-changes</h2>
+				</li>
+				<li title="file-tree">
+					<div class="icon-box">
+
+						<!-- file-tree -->
+						<i class="imx-file-tree">file-tree</i>
+
+					</div>
+					<h2>file-tree</h2>
+				</li>
+				<li title="financial-insurance">
+					<div class="icon-box">
+
+						<!-- financial-insurance -->
+						<i class="imx-financial-insurance">financial-insurance</i>
+
+					</div>
+					<h2>financial-insurance</h2>
+				</li>
+				<li title="firefox">
+					<div class="icon-box">
+
+						<!-- firefox -->
+						<i class="imx-firefox">firefox</i>
+
+					</div>
+					<h2>firefox</h2>
+				</li>
+				<li title="fitness-watch">
+					<div class="icon-box">
+
+						<!-- fitness-watch -->
+						<i class="imx-fitness-watch">fitness-watch</i>
+
+					</div>
+					<h2>fitness-watch</h2>
+				</li>
+				<li title="foreign-exchange">
+					<div class="icon-box">
+
+						<!-- foreign-exchange -->
+						<i class="imx-foreign-exchange">foreign-exchange</i>
+
+					</div>
+					<h2>foreign-exchange</h2>
+				</li>
+				<li title="gas-mask">
+					<div class="icon-box">
+
+						<!-- gas-mask -->
+						<i class="imx-gas-mask">gas-mask</i>
+
+					</div>
+					<h2>gas-mask</h2>
+				</li>
+				<li title="gift">
+					<div class="icon-box">
+
+						<!-- gift -->
+						<i class="imx-gift">gift</i>
+
+					</div>
+					<h2>gift</h2>
+				</li>
+				<li title="git-branch">
+					<div class="icon-box">
+
+						<!-- git-branch -->
+						<i class="imx-git-branch">git-branch</i>
+
+					</div>
+					<h2>git-branch</h2>
+				</li>
+				<li title="git-commit">
+					<div class="icon-box">
+
+						<!-- git-commit -->
+						<i class="imx-git-commit">git-commit</i>
+
+					</div>
+					<h2>git-commit</h2>
+				</li>
+				<li title="git-compare">
+					<div class="icon-box">
+
+						<!-- git-compare -->
+						<i class="imx-git-compare">git-compare</i>
+
+					</div>
+					<h2>git-compare</h2>
+				</li>
+				<li title="git-issue">
+					<div class="icon-box">
+
+						<!-- git-issue -->
+						<i class="imx-git-issue">git-issue</i>
+
+					</div>
+					<h2>git-issue</h2>
+				</li>
+				<li title="git-merge">
+					<div class="icon-box">
+
+						<!-- git-merge -->
+						<i class="imx-git-merge">git-merge</i>
+
+					</div>
+					<h2>git-merge</h2>
+				</li>
+				<li title="github">
+					<div class="icon-box">
+
+						<!-- github -->
+						<i class="imx-github">github</i>
+
+					</div>
+					<h2>github</h2>
+				</li>
+				<li title="gold">
+					<div class="icon-box">
+
+						<!-- gold -->
+						<i class="imx-gold">gold</i>
+
+					</div>
+					<h2>gold</h2>
+				</li>
+				<li title="google">
+					<div class="icon-box">
+
+						<!-- google -->
+						<i class="imx-google">google</i>
+
+					</div>
+					<h2>google</h2>
+				</li>
+				<li title="google-drive">
+					<div class="icon-box">
+
+						<!-- google-drive -->
+						<i class="imx-google-drive">google-drive</i>
+
+					</div>
+					<h2>google-drive</h2>
+				</li>
+				<li title="google-hangouts">
+					<div class="icon-box">
+
+						<!-- google-hangouts -->
+						<i class="imx-google-hangouts">google-hangouts</i>
+
+					</div>
+					<h2>google-hangouts</h2>
+				</li>
+				<li title="google-maps">
+					<div class="icon-box">
+
+						<!-- google-maps -->
+						<i class="imx-google-maps">google-maps</i>
+
+					</div>
+					<h2>google-maps</h2>
+				</li>
+				<li title="google-pay">
+					<div class="icon-box">
+
+						<!-- google-pay -->
+						<i class="imx-google-pay">google-pay</i>
+
+					</div>
+					<h2>google-pay</h2>
+				</li>
+				<li title="google-play">
+					<div class="icon-box">
+
+						<!-- google-play -->
+						<i class="imx-google-play">google-play</i>
+
+					</div>
+					<h2>google-play</h2>
+				</li>
+				<li title="google-translate">
+					<div class="icon-box">
+
+						<!-- google-translate -->
+						<i class="imx-google-translate">google-translate</i>
+
+					</div>
+					<h2>google-translate</h2>
+				</li>
+				<li title="grid">
+					<div class="icon-box">
+
+						<!-- grid -->
+						<i class="imx-grid">grid</i>
+
+					</div>
+					<h2>grid</h2>
+				</li>
+				<li title="hearing-aid">
+					<div class="icon-box">
+
+						<!-- hearing-aid -->
+						<i class="imx-hearing-aid">hearing-aid</i>
+
+					</div>
+					<h2>hearing-aid</h2>
+				</li>
+				<li title="heart-care">
+					<div class="icon-box">
+
+						<!-- heart-care -->
+						<i class="imx-heart-care">heart-care</i>
+
+					</div>
+					<h2>heart-care</h2>
+				</li>
+				<li title="heart-monitor">
+					<div class="icon-box">
+
+						<!-- heart-monitor -->
+						<i class="imx-heart-monitor">heart-monitor</i>
+
+					</div>
+					<h2>heart-monitor</h2>
+				</li>
+				<li title="hospital">
+					<div class="icon-box">
+
+						<!-- hospital -->
+						<i class="imx-hospital">hospital</i>
+
+					</div>
+					<h2>hospital</h2>
+				</li>
+				<li title="hospital-bed">
+					<div class="icon-box">
+
+						<!-- hospital-bed -->
+						<i class="imx-hospital-bed">hospital-bed</i>
+
+					</div>
+					<h2>hospital-bed</h2>
+				</li>
+				<li title="hospital-sign">
+					<div class="icon-box">
+
+						<!-- hospital-sign -->
+						<i class="imx-hospital-sign">hospital-sign</i>
+
+					</div>
+					<h2>hospital-sign</h2>
+				</li>
+				<li title="idea-generation">
+					<div class="icon-box">
+
+						<!-- idea-generation -->
+						<i class="imx-idea-generation">idea-generation</i>
+
+					</div>
+					<h2>idea-generation</h2>
+				</li>
+				<li title="inspect-code">
+					<div class="icon-box">
+
+						<!-- inspect-code -->
+						<i class="imx-inspect-code">inspect-code</i>
+
+					</div>
+					<h2>inspect-code</h2>
+				</li>
+				<li title="instagram">
+					<div class="icon-box">
+
+						<!-- instagram -->
+						<i class="imx-instagram">instagram</i>
+
+					</div>
+					<h2>instagram</h2>
+				</li>
+				<li title="internet-explorer">
+					<div class="icon-box">
+
+						<!-- internet-explorer -->
+						<i class="imx-internet-explorer">internet-explorer</i>
+
+					</div>
+					<h2>internet-explorer</h2>
+				</li>
+				<li title="invoice">
+					<div class="icon-box">
+
+						<!-- invoice -->
+						<i class="imx-invoice">invoice</i>
+
+					</div>
+					<h2>invoice</h2>
+				</li>
+				<li title="ios">
+					<div class="icon-box">
+
+						<!-- ios -->
+						<i class="imx-ios">ios</i>
+
+					</div>
+					<h2>ios</h2>
+				</li>
+				<li title="jsfiddle">
+					<div class="icon-box">
+
+						<!-- jsfiddle -->
+						<i class="imx-jsfiddle">jsfiddle</i>
+
+					</div>
+					<h2>jsfiddle</h2>
+				</li>
+				<li title="keep-away-from-children">
+					<div class="icon-box">
+
+						<!-- keep-away-from-children -->
+						<i class="imx-keep-away-from-children">keep-away-from-children</i>
+
+					</div>
+					<h2>keep-away-from-children</h2>
+				</li>
+				<li title="legal-document">
+					<div class="icon-box">
+
+						<!-- legal-document -->
+						<i class="imx-legal-document">legal-document</i>
+
+					</div>
+					<h2>legal-document</h2>
+				</li>
+				<li title="linkedin">
+					<div class="icon-box">
+
+						<!-- linkedin -->
+						<i class="imx-linkedin">linkedin</i>
+
+					</div>
+					<h2>linkedin</h2>
+				</li>
+				<li title="loan">
+					<div class="icon-box">
+
+						<!-- loan -->
+						<i class="imx-loan">loan</i>
+
+					</div>
+					<h2>loan</h2>
+				</li>
+				<li title="maestro">
+					<div class="icon-box">
+
+						<!-- maestro -->
+						<i class="imx-maestro">maestro</i>
+
+					</div>
+					<h2>maestro</h2>
+				</li>
+				<li title="mask-1">
+					<div class="icon-box">
+
+						<!-- mask-1 -->
+						<i class="imx-mask-1">mask-1</i>
+
+					</div>
+					<h2>mask-1</h2>
+				</li>
+				<li title="mask-2">
+					<div class="icon-box">
+
+						<!-- mask-2 -->
+						<i class="imx-mask-2">mask-2</i>
+
+					</div>
+					<h2>mask-2</h2>
+				</li>
+				<li title="massage">
+					<div class="icon-box">
+
+						<!-- massage -->
+						<i class="imx-massage">massage</i>
+
+					</div>
+					<h2>massage</h2>
+				</li>
+				<li title="mastercard">
+					<div class="icon-box">
+
+						<!-- mastercard -->
+						<i class="imx-mastercard">mastercard</i>
+
+					</div>
+					<h2>mastercard</h2>
+				</li>
+				<li title="medical-book">
+					<div class="icon-box">
+
+						<!-- medical-book -->
+						<i class="imx-medical-book">medical-book</i>
+
+					</div>
+					<h2>medical-book</h2>
+				</li>
+				<li title="medicine">
+					<div class="icon-box">
+
+						<!-- medicine -->
+						<i class="imx-medicine">medicine</i>
+
+					</div>
+					<h2>medicine</h2>
+				</li>
+				<li title="medium">
+					<div class="icon-box">
+
+						<!-- medium -->
+						<i class="imx-medium">medium</i>
+
+					</div>
+					<h2>medium</h2>
+				</li>
+				<li title="microorganisms">
+					<div class="icon-box">
+
+						<!-- microorganisms -->
+						<i class="imx-microorganisms">microorganisms</i>
+
+					</div>
+					<h2>microorganisms</h2>
+				</li>
+				<li title="microscope">
+					<div class="icon-box">
+
+						<!-- microscope -->
+						<i class="imx-microscope">microscope</i>
+
+					</div>
+					<h2>microscope</h2>
+				</li>
+				<li title="milestone">
+					<div class="icon-box">
+
+						<!-- milestone -->
+						<i class="imx-milestone">milestone</i>
+
+					</div>
+					<h2>milestone</h2>
+				</li>
+				<li title="module">
+					<div class="icon-box">
+
+						<!-- module -->
+						<i class="imx-module">module</i>
+
+					</div>
+					<h2>module</h2>
+				</li>
+				<li title="money-bag">
+					<div class="icon-box">
+
+						<!-- money-bag -->
+						<i class="imx-money-bag">money-bag</i>
+
+					</div>
+					<h2>money-bag</h2>
+				</li>
+				<li title="ms-edge">
+					<div class="icon-box">
+
+						<!-- ms-edge -->
+						<i class="imx-ms-edge">ms-edge</i>
+
+					</div>
+					<h2>ms-edge</h2>
+				</li>
+				<li title="ms-excel">
+					<div class="icon-box">
+
+						<!-- ms-excel -->
+						<i class="imx-ms-excel">ms-excel</i>
+
+					</div>
+					<h2>ms-excel</h2>
+				</li>
+				<li title="ms-outlook">
+					<div class="icon-box">
+
+						<!-- ms-outlook -->
+						<i class="imx-ms-outlook">ms-outlook</i>
+
+					</div>
+					<h2>ms-outlook</h2>
+				</li>
+				<li title="ms-powerpoint">
+					<div class="icon-box">
+
+						<!-- ms-powerpoint -->
+						<i class="imx-ms-powerpoint">ms-powerpoint</i>
+
+					</div>
+					<h2>ms-powerpoint</h2>
+				</li>
+				<li title="ms-word">
+					<div class="icon-box">
+
+						<!-- ms-word -->
+						<i class="imx-ms-word">ms-word</i>
+
+					</div>
+					<h2>ms-word</h2>
+				</li>
+				<li title="nurse">
+					<div class="icon-box">
+
+						<!-- nurse -->
+						<i class="imx-nurse">nurse</i>
+
+					</div>
+					<h2>nurse</h2>
+				</li>
+				<li title="oil">
+					<div class="icon-box">
+
+						<!-- oil -->
+						<i class="imx-oil">oil</i>
+
+					</div>
+					<h2>oil</h2>
+				</li>
+				<li title="onedrive">
+					<div class="icon-box">
+
+						<!-- onedrive -->
+						<i class="imx-onedrive">onedrive</i>
+
+					</div>
+					<h2>onedrive</h2>
+				</li>
+				<li title="opera">
+					<div class="icon-box">
+
+						<!-- opera -->
+						<i class="imx-opera">opera</i>
+
+					</div>
+					<h2>opera</h2>
+				</li>
+				<li title="pacifier">
+					<div class="icon-box">
+
+						<!-- pacifier -->
+						<i class="imx-pacifier">pacifier</i>
+
+					</div>
+					<h2>pacifier</h2>
+				</li>
+				<li title="pay-date">
+					<div class="icon-box">
+
+						<!-- pay-date -->
+						<i class="imx-pay-date">pay-date</i>
+
+					</div>
+					<h2>pay-date</h2>
+				</li>
+				<li title="paypal">
+					<div class="icon-box">
+
+						<!-- paypal -->
+						<i class="imx-paypal">paypal</i>
+
+					</div>
+					<h2>paypal</h2>
+				</li>
+				<li title="piggy-bank">
+					<div class="icon-box">
+
+						<!-- piggy-bank -->
+						<i class="imx-piggy-bank">piggy-bank</i>
+
+					</div>
+					<h2>piggy-bank</h2>
+				</li>
+				<li title="pill">
+					<div class="icon-box">
+
+						<!-- pill -->
+						<i class="imx-pill">pill</i>
+
+					</div>
+					<h2>pill</h2>
+				</li>
+				<li title="pinterest">
+					<div class="icon-box">
+
+						<!-- pinterest -->
+						<i class="imx-pinterest">pinterest</i>
+
+					</div>
+					<h2>pinterest</h2>
+				</li>
+				<li title="plastic-surgery">
+					<div class="icon-box">
+
+						<!-- plastic-surgery -->
+						<i class="imx-plastic-surgery">plastic-surgery</i>
+
+					</div>
+					<h2>plastic-surgery</h2>
+				</li>
+				<li title="plugin">
+					<div class="icon-box">
+
+						<!-- plugin -->
+						<i class="imx-plugin">plugin</i>
+
+					</div>
+					<h2>plugin</h2>
+				</li>
+				<li title="poop">
+					<div class="icon-box">
+
+						<!-- poop -->
+						<i class="imx-poop">poop</i>
+
+					</div>
+					<h2>poop</h2>
+				</li>
+				<li title="pound-circled">
+					<div class="icon-box">
+
+						<!-- pound-circled -->
+						<i class="imx-pound-circled">pound-circled</i>
+
+					</div>
+					<h2>pound-circled</h2>
+				</li>
+				<li title="pregnancy-no-alcohol">
+					<div class="icon-box">
+
+						<!-- pregnancy-no-alcohol -->
+						<i class="imx-pregnancy-no-alcohol">pregnancy-no-alcohol</i>
+
+					</div>
+					<h2>pregnancy-no-alcohol</h2>
+				</li>
+				<li title="project-revenue">
+					<div class="icon-box">
+
+						<!-- project-revenue -->
+						<i class="imx-project-revenue">project-revenue</i>
+
+					</div>
+					<h2>project-revenue</h2>
+				</li>
+				<li title="pull-request">
+					<div class="icon-box">
+
+						<!-- pull-request -->
+						<i class="imx-pull-request">pull-request</i>
+
+					</div>
+					<h2>pull-request</h2>
+				</li>
+				<li title="pulse">
+					<div class="icon-box">
+
+						<!-- pulse -->
+						<i class="imx-pulse">pulse</i>
+
+					</div>
+					<h2>pulse</h2>
+				</li>
+				<li title="radioactive">
+					<div class="icon-box">
+
+						<!-- radioactive -->
+						<i class="imx-radioactive">radioactive</i>
+
+					</div>
+					<h2>radioactive</h2>
+				</li>
+				<li title="reddit">
+					<div class="icon-box">
+
+						<!-- reddit -->
+						<i class="imx-reddit">reddit</i>
+
+					</div>
+					<h2>reddit</h2>
+				</li>
+				<li title="repository">
+					<div class="icon-box">
+
+						<!-- repository -->
+						<i class="imx-repository">repository</i>
+
+					</div>
+					<h2>repository</h2>
+				</li>
+				<li title="responsive-layout">
+					<div class="icon-box">
+
+						<!-- responsive-layout -->
+						<i class="imx-responsive-layout">responsive-layout</i>
+
+					</div>
+					<h2>responsive-layout</h2>
+				</li>
+				<li title="rh-negative">
+					<div class="icon-box">
+
+						<!-- rh-negative -->
+						<i class="imx-rh-negative">rh-negative</i>
+
+					</div>
+					<h2>rh-negative</h2>
+				</li>
+				<li title="rh-positive">
+					<div class="icon-box">
+
+						<!-- rh-positive -->
+						<i class="imx-rh-positive">rh-positive</i>
+
+					</div>
+					<h2>rh-positive</h2>
+				</li>
+				<li title="rod-of-asclepius">
+					<div class="icon-box">
+
+						<!-- rod-of-asclepius -->
+						<i class="imx-rod-of-asclepius">rod-of-asclepius</i>
+
+					</div>
+					<h2>rod-of-asclepius</h2>
+				</li>
+				<li title="safari">
+					<div class="icon-box">
+
+						<!-- safari -->
+						<i class="imx-safari">safari</i>
+
+					</div>
+					<h2>safari</h2>
+				</li>
+				<li title="sale">
+					<div class="icon-box">
+
+						<!-- sale -->
+						<i class="imx-sale">sale</i>
+
+					</div>
+					<h2>sale</h2>
+				</li>
+				<li title="sass">
+					<div class="icon-box">
+
+						<!-- sass -->
+						<i class="imx-sass">sass</i>
+
+					</div>
+					<h2>sass</h2>
+				</li>
+				<li title="security-1">
+					<div class="icon-box">
+
+						<!-- security-1 -->
+						<i class="imx-security-1">security-1</i>
+
+					</div>
+					<h2>security-1</h2>
+				</li>
+				<li title="security-2">
+					<div class="icon-box">
+
+						<!-- security-2 -->
+						<i class="imx-security-2">security-2</i>
+
+					</div>
+					<h2>security-2</h2>
+				</li>
+				<li title="severity">
+					<div class="icon-box">
+
+						<!-- severity -->
+						<i class="imx-severity">severity</i>
+
+					</div>
+					<h2>severity</h2>
+				</li>
+				<li title="sign-language">
+					<div class="icon-box">
+
+						<!-- sign-language -->
+						<i class="imx-sign-language">sign-language</i>
+
+					</div>
+					<h2>sign-language</h2>
+				</li>
+				<li title="skype">
+					<div class="icon-box">
+
+						<!-- skype -->
+						<i class="imx-skype">skype</i>
+
+					</div>
+					<h2>skype</h2>
+				</li>
+				<li title="slack">
+					<div class="icon-box">
+
+						<!-- slack -->
+						<i class="imx-slack">slack</i>
+
+					</div>
+					<h2>slack</h2>
+				</li>
+				<li title="snapchat">
+					<div class="icon-box">
+
+						<!-- snapchat -->
+						<i class="imx-snapchat">snapchat</i>
+
+					</div>
+					<h2>snapchat</h2>
+				</li>
+				<li title="sneeze">
+					<div class="icon-box">
+
+						<!-- sneeze -->
+						<i class="imx-sneeze">sneeze</i>
+
+					</div>
+					<h2>sneeze</h2>
+				</li>
+				<li title="software-architecture">
+					<div class="icon-box">
+
+						<!-- software-architecture -->
+						<i class="imx-software-architecture">software-architecture</i>
+
+					</div>
+					<h2>software-architecture</h2>
+				</li>
+				<li title="software-installer">
+					<div class="icon-box">
+
+						<!-- software-installer -->
+						<i class="imx-software-installer">software-installer</i>
+
+					</div>
+					<h2>software-installer</h2>
+				</li>
+				<li title="soundcloud">
+					<div class="icon-box">
+
+						<!-- soundcloud -->
+						<i class="imx-soundcloud">soundcloud</i>
+
+					</div>
+					<h2>soundcloud</h2>
+				</li>
+				<li title="source-code">
+					<div class="icon-box">
+
+						<!-- source-code -->
+						<i class="imx-source-code">source-code</i>
+
+					</div>
+					<h2>source-code</h2>
+				</li>
+				<li title="spotify">
+					<div class="icon-box">
+
+						<!-- spotify -->
+						<i class="imx-spotify">spotify</i>
+
+					</div>
+					<h2>spotify</h2>
+				</li>
+				<li title="stackoverflow">
+					<div class="icon-box">
+
+						<!-- stackoverflow -->
+						<i class="imx-stackoverflow">stackoverflow</i>
+
+					</div>
+					<h2>stackoverflow</h2>
+				</li>
+				<li title="steam">
+					<div class="icon-box">
+
+						<!-- steam -->
+						<i class="imx-steam">steam</i>
+
+					</div>
+					<h2>steam</h2>
+				</li>
+				<li title="stethoscope">
+					<div class="icon-box">
+
+						<!-- stethoscope -->
+						<i class="imx-stethoscope">stethoscope</i>
+
+					</div>
+					<h2>stethoscope</h2>
+				</li>
+				<li title="strategy">
+					<div class="icon-box">
+
+						<!-- strategy -->
+						<i class="imx-strategy">strategy</i>
+
+					</div>
+					<h2>strategy</h2>
+				</li>
+				<li title="stretcher">
+					<div class="icon-box">
+
+						<!-- stretcher -->
+						<i class="imx-stretcher">stretcher</i>
+
+					</div>
+					<h2>stretcher</h2>
+				</li>
+				<li title="stripe">
+					<div class="icon-box">
+
+						<!-- stripe -->
+						<i class="imx-stripe">stripe</i>
+
+					</div>
+					<h2>stripe</h2>
+				</li>
+				<li title="syringe">
+					<div class="icon-box">
+
+						<!-- syringe -->
+						<i class="imx-syringe">syringe</i>
+
+					</div>
+					<h2>syringe</h2>
+				</li>
+				<li title="system-update">
+					<div class="icon-box">
+
+						<!-- system-update -->
+						<i class="imx-system-update">system-update</i>
+
+					</div>
+					<h2>system-update</h2>
+				</li>
+				<li title="teeth">
+					<div class="icon-box">
+
+						<!-- teeth -->
+						<i class="imx-teeth">teeth</i>
+
+					</div>
+					<h2>teeth</h2>
+				</li>
+				<li title="telegram">
+					<div class="icon-box">
+
+						<!-- telegram -->
+						<i class="imx-telegram">telegram</i>
+
+					</div>
+					<h2>telegram</h2>
+				</li>
+				<li title="thermometer">
+					<div class="icon-box">
+
+						<!-- thermometer -->
+						<i class="imx-thermometer">thermometer</i>
+
+					</div>
+					<h2>thermometer</h2>
+				</li>
+				<li title="tiktok">
+					<div class="icon-box">
+
+						<!-- tiktok -->
+						<i class="imx-tiktok">tiktok</i>
+
+					</div>
+					<h2>tiktok</h2>
+				</li>
+				<li title="tinder">
+					<div class="icon-box">
+
+						<!-- tinder -->
+						<i class="imx-tinder">tinder</i>
+
+					</div>
+					<h2>tinder</h2>
+				</li>
+				<li title="toilet-paper">
+					<div class="icon-box">
+
+						<!-- toilet-paper -->
+						<i class="imx-toilet-paper">toilet-paper</i>
+
+					</div>
+					<h2>toilet-paper</h2>
+				</li>
+				<li title="tooth">
+					<div class="icon-box">
+
+						<!-- tooth -->
+						<i class="imx-tooth">tooth</i>
+
+					</div>
+					<h2>tooth</h2>
+				</li>
+				<li title="tooth-cracked">
+					<div class="icon-box">
+
+						<!-- tooth-cracked -->
+						<i class="imx-tooth-cracked">tooth-cracked</i>
+
+					</div>
+					<h2>tooth-cracked</h2>
+				</li>
+				<li title="touch-id">
+					<div class="icon-box">
+
+						<!-- touch-id -->
+						<i class="imx-touch-id">touch-id</i>
+
+					</div>
+					<h2>touch-id</h2>
+				</li>
+				<li title="twitch">
+					<div class="icon-box">
+
+						<!-- twitch -->
+						<i class="imx-twitch">twitch</i>
+
+					</div>
+					<h2>twitch</h2>
+				</li>
+				<li title="twitter">
+					<div class="icon-box">
+
+						<!-- twitter -->
+						<i class="imx-twitter">twitter</i>
+
+					</div>
+					<h2>twitter</h2>
+				</li>
+				<li title="usb">
+					<div class="icon-box">
+
+						<!-- usb -->
+						<i class="imx-usb">usb</i>
+
+					</div>
+					<h2>usb</h2>
+				</li>
+				<li title="verified-account">
+					<div class="icon-box">
+
+						<!-- verified-account -->
+						<i class="imx-verified-account">verified-account</i>
+
+					</div>
+					<h2>verified-account</h2>
+				</li>
+				<li title="veterinarian">
+					<div class="icon-box">
+
+						<!-- veterinarian -->
+						<i class="imx-veterinarian">veterinarian</i>
+
+					</div>
+					<h2>veterinarian</h2>
+				</li>
+				<li title="vial">
+					<div class="icon-box">
+
+						<!-- vial -->
+						<i class="imx-vial">vial</i>
+
+					</div>
+					<h2>vial</h2>
+				</li>
+				<li title="viber">
+					<div class="icon-box">
+
+						<!-- viber -->
+						<i class="imx-viber">viber</i>
+
+					</div>
+					<h2>viber</h2>
+				</li>
+				<li title="vimeo">
+					<div class="icon-box">
+
+						<!-- vimeo -->
+						<i class="imx-vimeo">vimeo</i>
+
+					</div>
+					<h2>vimeo</h2>
+				</li>
+				<li title="virus">
+					<div class="icon-box">
+
+						<!-- virus -->
+						<i class="imx-virus">virus</i>
+
+					</div>
+					<h2>virus</h2>
+				</li>
+				<li title="virus-protection">
+					<div class="icon-box">
+
+						<!-- virus-protection -->
+						<i class="imx-virus-protection">virus-protection</i>
+
+					</div>
+					<h2>virus-protection</h2>
+				</li>
+				<li title="virus-stop">
+					<div class="icon-box">
+
+						<!-- virus-stop -->
+						<i class="imx-virus-stop">virus-stop</i>
+
+					</div>
+					<h2>virus-stop</h2>
+				</li>
+				<li title="visa">
+					<div class="icon-box">
+
+						<!-- visa -->
+						<i class="imx-visa">visa</i>
+
+					</div>
+					<h2>visa</h2>
+				</li>
+				<li title="visually-impaired">
+					<div class="icon-box">
+
+						<!-- visually-impaired -->
+						<i class="imx-visually-impaired">visually-impaired</i>
+
+					</div>
+					<h2>visually-impaired</h2>
+				</li>
+				<li title="wechat">
+					<div class="icon-box">
+
+						<!-- wechat -->
+						<i class="imx-wechat">wechat</i>
+
+					</div>
+					<h2>wechat</h2>
+				</li>
+				<li title="weight-scale">
+					<div class="icon-box">
+
+						<!-- weight-scale -->
+						<i class="imx-weight-scale">weight-scale</i>
+
+					</div>
+					<h2>weight-scale</h2>
+				</li>
+				<li title="whatsapp">
+					<div class="icon-box">
+
+						<!-- whatsapp -->
+						<i class="imx-whatsapp">whatsapp</i>
+
+					</div>
+					<h2>whatsapp</h2>
+				</li>
+				<li title="wire-transfer">
+					<div class="icon-box">
+
+						<!-- wire-transfer -->
+						<i class="imx-wire-transfer">wire-transfer</i>
+
+					</div>
+					<h2>wire-transfer</h2>
+				</li>
+				<li title="workflow">
+					<div class="icon-box">
+
+						<!-- workflow -->
+						<i class="imx-workflow">workflow</i>
+
+					</div>
+					<h2>workflow</h2>
+				</li>
+				<li title="yen-circled">
+					<div class="icon-box">
+
+						<!-- yen-circled -->
+						<i class="imx-yen-circled">yen-circled</i>
+
+					</div>
+					<h2>yen-circled</h2>
+				</li>
+				<li title="youtube">
+					<div class="icon-box">
+
+						<!-- youtube -->
+						<i class="imx-youtube">youtube</i>
+
+					</div>
+					<h2>youtube</h2>
+				</li>
+			</ul>
+
+<!--
+====================================================================================================
+-->
+
+		</section>
+		<footer>
+			<p>Generated at Wed, 12 Aug 2020 12:22:29 GMT by <a href="https://github.com/jkphl/svg-sprite" target="_blank">svg-sprite</a>.</p>
+		</footer>
+	</body>
+</html>
