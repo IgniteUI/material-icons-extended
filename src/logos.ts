@@ -1,403 +1,403 @@
-import { IMXIcon, IconCategory } from "./common/icon";
-import amazonSvg from '../svgs/logos__amazon.svg';
-import amexSvg from '../svgs/logos__american-express.svg';
-import appleAppStoreSvg from '../svgs/logos__apple-app-store.svg';
-import applePaySvg from '../svgs/logos__apple-pay.svg';
-import appleSvg from '../svgs/logos__apple.svg';
-import bitcoinSvg from '../svgs/logos__bitcoin.svg';
-import bluRaySvg from '../svgs/logos__blu-ray.svg';
-import boxSvg from '../svgs/logos__box.svg';
-import chromeSvg from '../svgs/logos__chrome.svg';
-import dinersClubSvg from '../svgs/logos__diners-club.svg';
-import discordSvg from '../svgs/logos__discord.svg';
-import dropboxSvg from '../svgs/logos__dropbox.svg';
-import ebaySvg from '../svgs/logos__ebay.svg';
-import ethereumSvg from '../svgs/logos__ethereum.svg';
-import firefoxSvg from '../svgs/logos__firefox.svg';
-import googleDriveSvg from '../svgs/logos__google-drive.svg';
-import googleHangoutsSvg from '../svgs/logos__google-hangouts.svg';
-import googleMapsSvg from '../svgs/logos__google-maps.svg';
-import googlePaySvg from '../svgs/logos__google-pay.svg';
-import googlePlaySvg from '../svgs/logos__google-play.svg';
-import googleSvg from '../svgs/logos__google.svg';
-import googleTranslateSvg from '../svgs/logos__google-translate.svg';
-import internetExplorerSvg from '../svgs/logos__internet-explorer.svg';
-import iosSvg from '../svgs/logos__ios.svg';
-import jsFiddleSvg from '../svgs/logos__jsfiddle.svg';
-import maestroSvg from '../svgs/logos__maestro.svg';
-import mastercardSvg from '../svgs/logos__mastercard.svg';
-import msEdgeSvg from '../svgs/logos__ms-edge.svg';
-import msExcelSvg from '../svgs/logos__ms-excel.svg';
-import msOutlookSvg from '../svgs/logos__ms-outlook.svg';
-import msPowerpointSvg from '../svgs/logos__ms-powerpoint.svg';
-import msWordSvg from '../svgs/logos__ms-word.svg';
-import onedriveSvg from '../svgs/logos__onedrive.svg';
-import operaSvg from '../svgs/logos__opera.svg';
-import paypalSvg from '../svgs/logos__paypal.svg';
-import safariSvg from '../svgs/logos__safari.svg';
-import sassSvg from '../svgs/logos__sass.svg';
-import skypeSvg from '../svgs/logos__skype.svg';
-import slackSvg from '../svgs/logos__slack.svg';
-import soundcloudSvg from '../svgs/logos__soundcloud.svg';
-import spotifySvg from '../svgs/logos__spotify.svg';
-import stackoverflowSvg from '../svgs/logos__stackoverflow.svg';
-import steamSvg from '../svgs/logos__steam.svg';
-import stripeSvg from '../svgs/logos__stripe.svg';
-import tinderSvg from '../svgs/logos__tinder.svg';
-import touchIdSvg from '../svgs/logos__touch-id.svg';
-import twitchSvg from '../svgs/logos__twitch.svg';
-import usbSvg from '../svgs/logos__usb.svg';
-import vimeoSvg from '../svgs/logos__vimeo.svg';
-import visaSvg from '../svgs/logos__visa.svg';
+import { IMXIcon } from "./common/icon";
+import amazonSvg from "../svgs/amazon.svg";
+import amexSvg from "../svgs/american-express.svg";
+import appleAppStoreSvg from "../svgs/apple-app-store.svg";
+import applePaySvg from "../svgs/apple-pay.svg";
+import appleSvg from "../svgs/apple.svg";
+import bitcoinSvg from "../svgs/bitcoin.svg";
+import bluRaySvg from "../svgs/blu-ray.svg";
+import boxSvg from "../svgs/box.svg";
+import chromeSvg from "../svgs/chrome.svg";
+import dinersClubSvg from "../svgs/diners-club.svg";
+import discordSvg from "../svgs/discord.svg";
+import dropboxSvg from "../svgs/dropbox.svg";
+import ebaySvg from "../svgs/ebay.svg";
+import ethereumSvg from "../svgs/ethereum.svg";
+import firefoxSvg from "../svgs/firefox.svg";
+import googleDriveSvg from "../svgs/google-drive.svg";
+import googleHangoutsSvg from "../svgs/google-hangouts.svg";
+import googleMapsSvg from "../svgs/google-maps.svg";
+import googlePaySvg from "../svgs/google-pay.svg";
+import googlePlaySvg from "../svgs/google-play.svg";
+import googleSvg from "../svgs/google.svg";
+import googleTranslateSvg from "../svgs/google-translate.svg";
+import internetExplorerSvg from "../svgs/internet-explorer.svg";
+import iosSvg from "../svgs/ios.svg";
+import jsFiddleSvg from "../svgs/jsfiddle.svg";
+import maestroSvg from "../svgs/maestro.svg";
+import mastercardSvg from "../svgs/mastercard.svg";
+import msEdgeSvg from "../svgs/ms-edge.svg";
+import msExcelSvg from "../svgs/ms-excel.svg";
+import msOutlookSvg from "../svgs/ms-outlook.svg";
+import msPowerpointSvg from "../svgs/ms-powerpoint.svg";
+import msWordSvg from "../svgs/ms-word.svg";
+import onedriveSvg from "../svgs/onedrive.svg";
+import operaSvg from "../svgs/opera.svg";
+import paypalSvg from "../svgs/paypal.svg";
+import safariSvg from "../svgs/safari.svg";
+import sassSvg from "../svgs/sass.svg";
+import skypeSvg from "../svgs/skype.svg";
+import slackSvg from "../svgs/slack.svg";
+import soundcloudSvg from "../svgs/soundcloud.svg";
+import spotifySvg from "../svgs/spotify.svg";
+import stackoverflowSvg from "../svgs/stackoverflow.svg";
+import steamSvg from "../svgs/steam.svg";
+import stripeSvg from "../svgs/stripe.svg";
+import tinderSvg from "../svgs/tinder.svg";
+import touchIdSvg from "../svgs/touch-id.svg";
+import twitchSvg from "../svgs/twitch.svg";
+import usbSvg from "../svgs/usb.svg";
+import vimeoSvg from "../svgs/vimeo.svg";
+import visaSvg from "../svgs/visa.svg";
 
 export const amazon: IMXIcon = {
   name: "amazon",
   value: amazonSvg,
-  module: require("../svgs/logos__amazon.svg"),
-  categories: [IconCategory.Logos],
+  module: require("../svgs/amazon.svg"),
+  categories: ["logos"],
 };
 
 export const amex: IMXIcon = {
   name: "american-express",
   value: amexSvg,
-  module: require("../svgs/logos__american-express.svg"),
-  categories: [IconCategory.Logos],
+  module: require("../svgs/american-express.svg"),
+  categories: ["logos"],
 };
 
 export const appleAppStore: IMXIcon = {
   name: "apple-app-store",
   value: appleAppStoreSvg,
-  module: require("../svgs/logos__apple-app-store.svg"),
-  categories: [IconCategory.Logos],
+  module: require("../svgs/apple-app-store.svg"),
+  categories: ["logos"],
 };
 
 export const applePay: IMXIcon = {
   name: "apple-pay",
   value: applePaySvg,
-  module: require("../svgs/logos__apple-pay.svg"),
-  categories: [IconCategory.Logos],
+  module: require("../svgs/apple-pay.svg"),
+  categories: ["logos"],
 };
 
 export const apple: IMXIcon = {
   name: "apple",
   value: appleSvg,
-  module: require("../svgs/logos__apple.svg"),
-  categories: [IconCategory.Logos],
+  module: require("../svgs/apple.svg"),
+  categories: ["logos"],
 };
 
 export const bitcoin: IMXIcon = {
   name: "bitcoin",
   value: bitcoinSvg,
-  module: require("../svgs/logos__bitcoin.svg"),
-  categories: [IconCategory.Logos, IconCategory.Finance],
+  module: require("../svgs/bitcoin.svg"),
+  categories: ["logos", "finance"],
 };
 
 export const bluRay: IMXIcon = {
   name: "blu-ray",
   value: bluRaySvg,
-  module: require("../svgs/logos__blu-ray.svg"),
-  categories: [IconCategory.Logos],
+  module: require("../svgs/blu-ray.svg"),
+  categories: ["logos"],
 };
 
 export const box: IMXIcon = {
   name: "box",
   value: boxSvg,
-  module: require("../svgs/logos__box.svg"),
-  categories: [IconCategory.Logos],
+  module: require("../svgs/box.svg"),
+  categories: ["logos"],
 };
 
 export const chrome: IMXIcon = {
   name: "chrome",
   value: chromeSvg,
-  module: require("../svgs/logos__chrome.svg"),
-  categories: [IconCategory.Logos],
+  module: require("../svgs/chrome.svg"),
+  categories: ["logos"],
 };
 
 export const dinersClub: IMXIcon = {
   name: "diners-club",
   value: dinersClubSvg,
-  module: require("../svgs/logos__diners-club.svg"),
-  categories: [IconCategory.Logos, IconCategory.Finance],
+  module: require("../svgs/diners-club.svg"),
+  categories: ["logos", "finance"],
 };
 
 export const discord: IMXIcon = {
   name: "discord",
   value: discordSvg,
-  module: require("../svgs/logos__discord.svg"),
-  categories: [IconCategory.Logos],
+  module: require("../svgs/discord.svg"),
+  categories: ["logos"],
 };
 
 export const dropbox: IMXIcon = {
   name: "dropbox",
   value: dropboxSvg,
-  module: require("../svgs/logos__dropbox.svg"),
-  categories: [IconCategory.Logos],
+  module: require("../svgs/dropbox.svg"),
+  categories: ["logos"],
 };
 
 export const ebay: IMXIcon = {
   name: "ebay",
   value: ebaySvg,
-  module: require("../svgs/logos__ebay.svg"),
-  categories: [IconCategory.Logos],
+  module: require("../svgs/ebay.svg"),
+  categories: ["logos"],
 };
 
 export const ethereum: IMXIcon = {
   name: "etherium",
   value: ethereumSvg,
-  module: require("../svgs/logos__ethereum.svg"),
-  categories: [IconCategory.Logos],
+  module: require("../svgs/ethereum.svg"),
+  categories: ["logos"],
 };
 
 export const firefox: IMXIcon = {
   name: "firefox",
   value: firefoxSvg,
-  module: require("../svgs/logos__firefox.svg"),
-  categories: [IconCategory.Logos],
+  module: require("../svgs/firefox.svg"),
+  categories: ["logos"],
 };
 
 export const googleDrive: IMXIcon = {
   name: "google-drive",
   value: googleDriveSvg,
-  module: require("../svgs/logos__google-drive.svg"),
-  categories: [IconCategory.Logos],
+  module: require("../svgs/google-drive.svg"),
+  categories: ["logos"],
 };
 
 export const googleHangouts: IMXIcon = {
   name: "google-hangouts",
   value: googleHangoutsSvg,
-  module: require("../svgs/logos__google-hangouts.svg"),
-  categories: [IconCategory.Logos],
+  module: require("../svgs/google-hangouts.svg"),
+  categories: ["logos"],
 };
 
 export const googleMaps: IMXIcon = {
   name: "google-maps",
   value: googleMapsSvg,
-  module: require("../svgs/logos__google-maps.svg"),
-  categories: [IconCategory.Logos],
+  module: require("../svgs/google-maps.svg"),
+  categories: ["logos"],
 };
 
 export const googlePay: IMXIcon = {
   name: "google-pay",
   value: googlePaySvg,
-  module: require("../svgs/logos__google-pay.svg"),
-  categories: [IconCategory.Logos],
+  module: require("../svgs/google-pay.svg"),
+  categories: ["logos"],
 };
 
 export const googlePlay: IMXIcon = {
   name: "google-play",
   value: googlePlaySvg,
-  module: require("../svgs/logos__google-play.svg"),
-  categories: [IconCategory.Logos],
+  module: require("../svgs/google-play.svg"),
+  categories: ["logos"],
 };
 
 export const google: IMXIcon = {
   name: "google",
   value: googleSvg,
-  module: require("../svgs/logos__google.svg"),
-  categories: [IconCategory.Logos],
+  module: require("../svgs/google.svg"),
+  categories: ["logos"],
 };
 
 export const googleTranslate: IMXIcon = {
   name: "google-translate",
   value: googleTranslateSvg,
-  module: require("../svgs/logos__google-translate.svg"),
-  categories: [IconCategory.Logos],
+  module: require("../svgs/google-translate.svg"),
+  categories: ["logos"],
 };
 
 export const internetExplorer: IMXIcon = {
   name: "internet-explorer",
   value: internetExplorerSvg,
-  module: require("../svgs/logos__internet-explorer.svg"),
-  categories: [IconCategory.Logos],
+  module: require("../svgs/internet-explorer.svg"),
+  categories: ["logos"],
 };
 
 export const ios: IMXIcon = {
   name: "ios",
   value: iosSvg,
-  module: require("../svgs/logos__ios.svg"),
-  categories: [IconCategory.Logos],
+  module: require("../svgs/ios.svg"),
+  categories: ["logos"],
 };
 
 export const jsFiddle: IMXIcon = {
   name: "jsfiddle",
   value: jsFiddleSvg,
-  module: require("../svgs/logos__jsfiddle.svg"),
-  categories: [IconCategory.Logos],
+  module: require("../svgs/jsfiddle.svg"),
+  categories: ["logos"],
 };
 
 export const maestro: IMXIcon = {
   name: "maestro",
   value: maestroSvg,
-  module: require("../svgs/logos__maestro.svg"),
-  categories: [IconCategory.Logos, IconCategory.Finance],
+  module: require("../svgs/maestro.svg"),
+  categories: ["logos", "finance"],
 };
 
 export const mastercard: IMXIcon = {
   name: "mastercard",
   value: mastercardSvg,
-  module: require("../svgs/logos__mastercard.svg"),
-  categories: [IconCategory.Logos, IconCategory.Finance],
+  module: require("../svgs/mastercard.svg"),
+  categories: ["logos", "finance"],
 };
 
 export const msEdge: IMXIcon = {
   name: "ms-edge",
   value: msEdgeSvg,
-  module: require("../svgs/logos__ms-edge.svg"),
-  categories: [IconCategory.Logos],
+  module: require("../svgs/ms-edge.svg"),
+  categories: ["logos"],
 };
 
 export const msExcel: IMXIcon = {
   name: "ms-excel",
   value: msExcelSvg,
-  module: require("../svgs/logos__ms-excel.svg"),
-  categories: [IconCategory.Logos],
+  module: require("../svgs/ms-excel.svg"),
+  categories: ["logos"],
 };
 
 export const msPowerpoint: IMXIcon = {
   name: "ms-powerpoint",
   value: msPowerpointSvg,
-  module: require("../svgs/logos__ms-powerpoint.svg"),
-  categories: [IconCategory.Logos],
+  module: require("../svgs/ms-powerpoint.svg"),
+  categories: ["logos"],
 };
 
 export const msOutlook: IMXIcon = {
   name: "ms-outlook",
   value: msOutlookSvg,
-  module: require("../svgs/logos__ms-outlook.svg"),
-  categories: [IconCategory.Logos],
+  module: require("../svgs/ms-outlook.svg"),
+  categories: ["logos"],
 };
 
 export const msWord: IMXIcon = {
   name: "ms-word",
   value: msWordSvg,
-  module: require("../svgs/logos__ms-word.svg"),
-  categories: [IconCategory.Logos],
+  module: require("../svgs/ms-word.svg"),
+  categories: ["logos"],
 };
 
 export const onedrive: IMXIcon = {
   name: "onedrive",
   value: onedriveSvg,
-  module: require("../svgs/logos__onedrive.svg"),
-  categories: [IconCategory.Logos],
+  module: require("../svgs/onedrive.svg"),
+  categories: ["logos"],
 };
 
 export const opera: IMXIcon = {
   name: "opera",
   value: operaSvg,
-  module: require("../svgs/logos__opera.svg"),
-  categories: [IconCategory.Logos],
+  module: require("../svgs/opera.svg"),
+  categories: ["logos"],
 };
 
 export const paypal: IMXIcon = {
   name: "paypal",
   value: paypalSvg,
-  module: require("../svgs/logos__paypal.svg"),
-  categories: [IconCategory.Logos],
+  module: require("../svgs/paypal.svg"),
+  categories: ["logos"],
 };
 
 export const safari: IMXIcon = {
   name: "safari",
   value: safariSvg,
-  module: require("../svgs/logos__safari.svg"),
-  categories: [IconCategory.Logos],
+  module: require("../svgs/safari.svg"),
+  categories: ["logos"],
 };
 
 export const sass: IMXIcon = {
   name: "sass",
   value: sassSvg,
-  module: require("../svgs/logos__sass.svg"),
-  categories: [IconCategory.Logos],
+  module: require("../svgs/sass.svg"),
+  categories: ["logos"],
 };
 
 export const skype: IMXIcon = {
   name: "skype",
   value: skypeSvg,
-  module: require("../svgs/logos__skype.svg"),
-  categories: [IconCategory.Logos],
+  module: require("../svgs/skype.svg"),
+  categories: ["logos"],
 };
 
 export const slack: IMXIcon = {
   name: "slack",
   value: slackSvg,
-  module: require("../svgs/logos__slack.svg"),
-  categories: [IconCategory.Logos],
+  module: require("../svgs/slack.svg"),
+  categories: ["logos"],
 };
 
 export const soundcloud: IMXIcon = {
   name: "soundcloud",
   value: soundcloudSvg,
-  module: require("../svgs/logos__soundcloud.svg"),
-  categories: [IconCategory.Logos],
+  module: require("../svgs/soundcloud.svg"),
+  categories: ["logos"],
 };
 
 export const spotify: IMXIcon = {
   name: "spotify",
   value: spotifySvg,
-  module: require("../svgs/logos__spotify.svg"),
-  categories: [IconCategory.Logos],
+  module: require("../svgs/spotify.svg"),
+  categories: ["logos"],
 };
 
 export const stackoverflow: IMXIcon = {
   name: "stackoverflow",
   value: stackoverflowSvg,
-  module: require("../svgs/logos__stackoverflow.svg"),
-  categories: [IconCategory.Logos],
+  module: require("../svgs/stackoverflow.svg"),
+  categories: ["logos"],
 };
 
 export const steam: IMXIcon = {
   name: "steam",
   value: steamSvg,
-  module: require("../svgs/logos__steam.svg"),
-  categories: [IconCategory.Logos],
+  module: require("../svgs/steam.svg"),
+  categories: ["logos"],
 };
 
 export const stripe: IMXIcon = {
   name: "stripe",
   value: stripeSvg,
-  module: require("../svgs/logos__stripe.svg"),
-  categories: [IconCategory.Logos],
+  module: require("../svgs/stripe.svg"),
+  categories: ["logos"],
 };
 
 export const tinder: IMXIcon = {
   name: "tinder",
   value: tinderSvg,
-  module: require("../svgs/logos__tinder.svg"),
-  categories: [IconCategory.Logos],
+  module: require("../svgs/tinder.svg"),
+  categories: ["logos"],
 };
 
 export const touchId: IMXIcon = {
   name: "touch-id",
   value: touchIdSvg,
-  module: require("../svgs/logos__touch-id.svg"),
-  categories: [IconCategory.Logos],
+  module: require("../svgs/touch-id.svg"),
+  categories: ["logos"],
 };
 
 export const twitch: IMXIcon = {
   name: "twitch",
   value: twitchSvg,
-  module: require("../svgs/logos__twitch.svg"),
-  categories: [IconCategory.Logos],
+  module: require("../svgs/twitch.svg"),
+  categories: ["logos"],
 };
 
 export const usb: IMXIcon = {
   name: "usb",
   value: usbSvg,
-  module: require("../svgs/logos__usb.svg"),
-  categories: [IconCategory.Logos],
+  module: require("../svgs/usb.svg"),
+  categories: ["logos"],
 };
 
 export const vimeo: IMXIcon = {
   name: "vimeo",
   value: vimeoSvg,
-  module: require("../svgs/logos__vimeo.svg"),
-  categories: [IconCategory.Logos],
+  module: require("../svgs/vimeo.svg"),
+  categories: ["logos"],
 };
 
 export const visa: IMXIcon = {
   name: "visa",
   value: visaSvg,
-  module: require("../svgs/logos__visa.svg"),
-  categories: [IconCategory.Logos, IconCategory.Finance],
+  module: require("../svgs/visa.svg"),
+  categories: ["logos", "finance"],
 };
 
 export default [
@@ -452,4 +452,3 @@ export default [
   vimeo,
   visa,
 ];
-

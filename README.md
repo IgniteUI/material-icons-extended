@@ -83,19 +83,56 @@ const App = () => <img src={github.module} alt="github logo" />;
 
 #### With SVG sprites
 
+##### CSS Sprite Map
+
 The package includes an SVG sprite that bundles all icons into a single file. Alongside this sprite, we include CSS, Sass, and Less files that associate each icon in the sprite with a CSS class. To consume the icons in this way, you must include one of the aforementioned style files in your project.
 
 For instance, with Sass, in your main Sass file import:
 
 ```scss
-@import "~@igniteui/material-icons-extended/build/styles/sprite";
+@import "~@igniteui/material-icons-extended/sprites/styles/sprite";
+
+.imx-icon {
+  width: 24px;
+  height: 24px;
+  background-size: auto 100%;
+}
 ```
 
 Then in your HTML file:
 
 ```html
-<i class="imx-social-media__github"></i>
+<i class="imx-icon imx-github"></i>
 ```
+
+We also include a Less and Sass mixin called `igx-icon`. This mixins includes the `background-image` and `background-position`.
+
+##### Symbols
+
+The package also includes an SVG sprite with all icons listed as `<symbol>` elements. This sprite can be imported from `@igniteui/material-icons-extended/sprites/symbol/svg/sprite.symbol.svg`;
+Once you add the image to your application, you can use the encapsulated symbols like this:
+
+In your HTML:
+
+```html
+<svg class="imx-github">
+  <use xlink:href="svg/sprite.symbol.svg#github"></use>
+</svg>
+```
+
+In your CSS:
+
+```css
+.imx-github {
+  width: 24px;
+  height: 24px;
+  fill: royalblue;
+}
+```
+
+#### Standalone SVG images:
+
+All SVG icons can be found in `@igniteui/material-icons-extended/svgs`;
 
 ### Requests
 

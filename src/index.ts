@@ -8,4 +8,4 @@ export { default as health } from './health';
 export { default as logos } from './logos';
 export { default as programming } from './programming';
 export { default as socialMedia } from './socialMedia';
-
+export { IMXIcon, IconCategory, IconCategoryEnum } from './common/icon';

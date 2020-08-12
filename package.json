@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/IgniteUI/material-icons-extended.git"
   },
- "publishConfig": {
+  "publishConfig": {
     "access": "public"
   },
   "keywords": [
@@ -25,7 +25,8 @@
   },
   "homepage": "https://github.com/IgniteUI/material-icons-extended#readme",
   "dependencies": {
-    "@types/node": "^14.0.25"
+    "@types/node": "^14.0.25",
+    "gulp-svgmin": "^3.0.0"
   },
   "devDependencies": {
     "gulp": "^4.0.2",
