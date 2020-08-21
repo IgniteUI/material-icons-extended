@@ -8,7 +8,7 @@ We felt the Material Design Icon set is too limited and we wanted to extend it b
 
 ### Scope
 
-Initially we launch 230 icons distributed in 5 categories:
+This package includes 220+ icons distributed in 5 categories:
 
 - Finance
 - Health
@@ -42,7 +42,7 @@ export class SampleComponent implements OnInit {
 
   ngOnInit(): void {
     // Register a single icon
-    this.iconService.addSvgIcon(github.name, github.value, "imx-icons");
+    this.iconService.addSvgIconFromText(github.name, github.value, "imx-icons");
   }
 }
 ```
@@ -57,7 +57,7 @@ export class SampleComponent implements OnInit {
   //...
   addIcons() {
     for (let icon of [...health, ...programming, github]) {
-      this.iconService.addSvgIcon(icon.name, icon.value, "imx-icons");
+      this.iconService.addSvgIconFromText(icon.name, icon.value, "imx-icons");
     }
   }
 
@@ -75,10 +75,19 @@ In yout component template:
 
 #### In a React App
 
-```javascript
-import { github } from "@igniteui/material-icons-extended";
+First, make sure there's a way to use inline SVGs in your application. One package that does the job is [svg-inline-react](https://github.com/sairion/svg-inline-react).
 
-const App = () => <img src={github.module} alt="github logo" />;
+```sh
+npm install svg-inline-react
+```
+
+```javascript
+import  InlineSVG from 'svg-inline-react';
+import { github } from '@igniteui/material-icons-extended';
+
+const App = () => (
+  <InlineSVG src={github.value} style={{ width: "24px", height: "24px" }} />
+);
 ```
 
 #### With SVG sprites

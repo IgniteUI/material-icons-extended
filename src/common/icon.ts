@@ -17,7 +17,6 @@ export namespace IconCategory {
 export interface IMXIcon {
   name: string;
   value: string;
-  module: NodeModule;
   categories: IconCategory[];
   fontSet?: string;
   keywords?: string[];
