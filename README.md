@@ -8,7 +8,7 @@ We felt the Material Design Icon set is too limited and we wanted to extend it b
 
 ### Scope
 
-Initially we launch 230 icons distributed in 5 categories:
+This package includes 220+ icons distributed in 5 categories:
 
 - Finance
 - Health
