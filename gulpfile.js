@@ -4,7 +4,6 @@ const svgmin = require("gulp-svgmin");
 const rimraf = require("rimraf");
 
 const spritesConfig = {
-  dest: "test",
   shape: {
     id: {
       separator: "__",
