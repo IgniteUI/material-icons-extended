@@ -141,7 +141,7 @@ In your CSS:
 
 #### Standalone SVG images:
 
-All SVG icons can be found in `@igniteui/material-icons-extended/svgs`;
+All SVG icons can be found in `@igniteui/material-icons-extended/src/svgs`;
 
 ### Requests
 
