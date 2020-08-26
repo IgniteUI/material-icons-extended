@@ -4,6 +4,8 @@ export enum IconCategoryEnum {
   'logos',
   'programming',
   'social media',
+  'content',
+  'editor',
 }
 
 export type IconCategory = keyof typeof IconCategoryEnum;
