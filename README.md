@@ -82,8 +82,8 @@ npm install svg-inline-react
 ```
 
 ```javascript
-import  InlineSVG from 'svg-inline-react';
-import { github } from '@igniteui/material-icons-extended';
+import InlineSVG from "svg-inline-react";
+import { github } from "@igniteui/material-icons-extended";
 
 const App = () => (
   <InlineSVG src={github.value} style={{ width: "24px", height: "24px" }} />
