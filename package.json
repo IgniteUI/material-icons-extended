@@ -3,7 +3,8 @@
   "version": "2.0.0",
   "description": "A subset of Material Icons that extend the official Material Design Icons by Google.",
   "scripts": {
-    "build": "gulp build && webpack --mode production"
+    "build": "gulp build && webpack --mode production",
+    "build:dev": "gulp build && webpack --mode development"
   },
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -30,7 +31,6 @@
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-svg-sprite": "^1.5.0",
-    "gulp-svgmin": "^3.0.0",
     "rimraf": "^3.0.2",
     "svg-inline-loader": "^0.8.2",
     "ts-loader": "^8.0.2",

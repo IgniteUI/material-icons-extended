@@ -1,6 +1,5 @@
 const { series, src, dest } = require("gulp");
 const svgSprite = require("gulp-svg-sprite");
-const svgmin = require("gulp-svgmin");
 const rimraf = require("rimraf");
 
 const spritesConfig = {
@@ -17,14 +16,6 @@ const spritesConfig = {
       padding: 0,
       box: "icon",
     },
-    transform: [
-      {
-        svgo: {
-          plugins: [{ removeViewBox: false }, { removeDimensions: true }],
-        },
-      },
-    ],
-    dest: "../svgs",
   },
   svg: {
     xmlDeclaration: false,
@@ -33,7 +24,6 @@ const spritesConfig = {
     css: {
       bust: true,
       prefix: ".imx-%s",
-      example: true,
       dimensions: false,
       layout: "horizontal",
       common: "imx-icon",
@@ -48,7 +38,6 @@ const spritesConfig = {
       dest: "styles",
     },
     symbol: {
-      example: true,
       dimensions: true,
       dest: "symbol",
     },
@@ -59,37 +48,16 @@ function cleanBuild(cb) {
   return rimraf("./build", {}, cb);
 }
 
-function cleanSvgs(cb) {
-  return rimraf("./svgs", {}, cb);
-}
-
 function cleanSprites(cb) {
   return rimraf("./sprites", {}, cb);
 }
 
-const clean = series(cleanSvgs, cleanBuild, cleanSprites);
+const clean = series(cleanBuild, cleanSprites);
 
-function buildSvg() {
+function buildSvgSprites() {
   return src("**/*.svg", { cwd: "src/svgs" })
     .pipe(svgSprite(spritesConfig))
     .pipe(dest("sprites"));
 }
 
-function optimizeSvgs() {
-  return src("svgs/*.svg")
-    .pipe(
-      svgmin({
-        plugins: [
-          {
-            removeViewBox: false,
-          },
-          {
-            removeDimensions: true,
-          },
-        ],
-      })
-    )
-    .pipe(dest("svgs"));
-}
-
-exports.build = series(clean, buildSvg, optimizeSvgs);
+exports.build = series(clean, buildSvgSprites);
