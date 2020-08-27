@@ -1,893 +1,1049 @@
 .imx-icon {
-	background: url("svg/sprite.css-87e67f02.svg") no-repeat;
+	background: url("svg/sprite.css-466ca34b.svg") no-repeat;
 }
 
 .imx-accessibility {
 	background-position: 0 0;
 }
 
+.imx-add-child {
+	background-position: 0.3831417624521073% 0;
+}
+
+.imx-add-filter {
+	background-position: 0.7662835249042146% 0;
+}
+
+.imx-add-row {
+	background-position: 1.1494252873563218% 0;
+}
+
 .imx-aids-ribbon {
-	background-position: 0.45045045045045046% 0;
+	background-position: 1.5325670498084292% 0;
+}
+
+.imx-all {
+	background-position: 1.9157088122605364% 0;
 }
 
 .imx-amazon {
-	background-position: 0.9009009009009009% 0;
+	background-position: 2.2988505747126435% 0;
 }
 
 .imx-ambulance {
-	background-position: 1.3513513513513513% 0;
+	background-position: 2.681992337164751% 0;
 }
 
 .imx-american-express {
-	background-position: 1.8018018018018018% 0;
+	background-position: 3.0651340996168583% 0;
 }
 
 .imx-anxiety {
-	background-position: 2.2522522522522523% 0;
+	background-position: 3.4482758620689653% 0;
 }
 
 .imx-api {
-	background-position: 2.7027027027027026% 0;
+	background-position: 3.8314176245210727% 0;
 }
 
 .imx-app-symbol {
-	background-position: 3.1531531531531534% 0;
+	background-position: 4.21455938697318% 0;
 }
 
 .imx-apple {
-	background-position: 3.6036036036036037% 0;
+	background-position: 4.597701149425287% 0;
 }
 
 .imx-apple-app-store {
-	background-position: 4.054054054054054% 0;
+	background-position: 4.980842911877395% 0;
 }
 
 .imx-apple-pay {
-	background-position: 4.504504504504505% 0;
+	background-position: 5.363984674329502% 0;
 }
 
 .imx-atm {
-	background-position: 4.954954954954955% 0;
+	background-position: 5.747126436781609% 0;
 }
 
 .imx-atm-dollar {
-	background-position: 5.405405405405405% 0;
+	background-position: 6.130268199233717% 0;
 }
 
 .imx-atm-euro {
-	background-position: 5.8558558558558556% 0;
+	background-position: 6.513409961685824% 0;
 }
 
 .imx-atm-pound {
-	background-position: 6.306306306306307% 0;
+	background-position: 6.896551724137931% 0;
 }
 
 .imx-atm-yen {
-	background-position: 6.756756756756757% 0;
+	background-position: 7.2796934865900385% 0;
 }
 
 .imx-auction {
-	background-position: 7.207207207207207% 0;
+	background-position: 7.662835249042145% 0;
 }
 
 .imx-award {
-	background-position: 7.657657657657658% 0;
+	background-position: 8.045977011494253% 0;
 }
 
 .imx-baby-bottle {
-	background-position: 8.108108108108109% 0;
+	background-position: 8.42911877394636% 0;
 }
 
 .imx-bacteria {
-	background-position: 8.558558558558559% 0;
+	background-position: 8.812260536398467% 0;
 }
 
 .imx-bandage {
-	background-position: 9.00900900900901% 0;
+	background-position: 9.195402298850574% 0;
 }
 
 .imx-bank-safe {
-	background-position: 9.45945945945946% 0;
+	background-position: 9.578544061302683% 0;
 }
 
 .imx-barcode {
-	background-position: 9.90990990990991% 0;
+	background-position: 9.96168582375479% 0;
 }
 
 .imx-bear-market {
-	background-position: 10.36036036036036% 0;
+	background-position: 10.344827586206897% 0;
 }
 
 .imx-behance {
-	background-position: 10.81081081081081% 0;
+	background-position: 10.727969348659004% 0;
 }
 
 .imx-bill-paid {
-	background-position: 11.26126126126126% 0;
+	background-position: 11.11111111111111% 0;
 }
 
 .imx-biohazard {
-	background-position: 11.711711711711711% 0;
+	background-position: 11.494252873563218% 0;
 }
 
 .imx-bitcoin {
-	background-position: 12.162162162162161% 0;
+	background-position: 11.877394636015326% 0;
 }
 
 .imx-blood {
-	background-position: 12.612612612612613% 0;
+	background-position: 12.260536398467433% 0;
 }
 
 .imx-blu-ray {
-	background-position: 13.063063063063064% 0;
+	background-position: 12.64367816091954% 0;
 }
 
 .imx-box {
-	background-position: 13.513513513513514% 0;
+	background-position: 13.026819923371647% 0;
 }
 
 .imx-braille {
-	background-position: 13.963963963963964% 0;
+	background-position: 13.409961685823754% 0;
 }
 
 .imx-breastfeeding {
-	background-position: 14.414414414414415% 0;
+	background-position: 13.793103448275861% 0;
 }
 
 .imx-budget-spending {
-	background-position: 14.864864864864865% 0;
+	background-position: 14.17624521072797% 0;
 }
 
 .imx-bug {
-	background-position: 15.315315315315315% 0;
+	background-position: 14.559386973180077% 0;
 }
 
 .imx-bull-market {
-	background-position: 15.765765765765765% 0;
+	background-position: 14.942528735632184% 0;
 }
 
 .imx-business-development {
-	background-position: 16.216216216216218% 0;
+	background-position: 15.32567049808429% 0;
 }
 
 .imx-caduceus {
-	background-position: 16.666666666666668% 0;
+	background-position: 15.708812260536398% 0;
 }
 
 .imx-calculator {
-	background-position: 17.117117117117118% 0;
+	background-position: 16.091954022988507% 0;
 }
 
 .imx-cancer-ribbon {
-	background-position: 17.56756756756757% 0;
+	background-position: 16.47509578544061% 0;
 }
 
 .imx-cash-1 {
-	background-position: 18.01801801801802% 0;
+	background-position: 16.85823754789272% 0;
 }
 
 .imx-cash-2 {
-	background-position: 18.46846846846847% 0;
+	background-position: 17.24137931034483% 0;
 }
 
 .imx-cash-only {
-	background-position: 18.91891891891892% 0;
+	background-position: 17.624521072796934% 0;
 }
 
 .imx-certificate {
-	background-position: 19.36936936936937% 0;
+	background-position: 18.007662835249043% 0;
 }
 
 .imx-chrome {
-	background-position: 19.81981981981982% 0;
+	background-position: 18.39080459770115% 0;
 }
 
 .imx-clinic {
-	background-position: 20.27027027027027% 0;
+	background-position: 18.773946360153257% 0;
 }
 
 .imx-code {
-	background-position: 20.72072072072072% 0;
+	background-position: 19.157088122605366% 0;
 }
 
 .imx-code-fork {
-	background-position: 21.17117117117117% 0;
+	background-position: 19.54022988505747% 0;
 }
 
 .imx-code-review {
-	background-position: 21.62162162162162% 0;
+	background-position: 19.92337164750958% 0;
 }
 
 .imx-commodities {
-	background-position: 22.07207207207207% 0;
+	background-position: 20.306513409961685% 0;
 }
 
 .imx-condom {
-	background-position: 22.52252252252252% 0;
+	background-position: 20.689655172413794% 0;
 }
 
 .imx-condom-used {
-	background-position: 22.972972972972972% 0;
+	background-position: 21.0727969348659% 0;
 }
 
 .imx-console {
-	background-position: 23.423423423423422% 0;
+	background-position: 21.455938697318008% 0;
+}
+
+.imx-contains {
+	background-position: 21.839080459770116% 0;
 }
 
 .imx-contraception {
-	background-position: 23.873873873873872% 0;
+	background-position: 22.22222222222222% 0;
 }
 
 .imx-coronavirus {
-	background-position: 24.324324324324323% 0;
+	background-position: 22.60536398467433% 0;
 }
 
 .imx-credit-cards {
-	background-position: 24.774774774774773% 0;
+	background-position: 22.988505747126435% 0;
 }
 
 .imx-credit-control {
-	background-position: 25.225225225225227% 0;
+	background-position: 23.371647509578544% 0;
 }
 
 .imx-crowdfunding {
-	background-position: 25.675675675675677% 0;
+	background-position: 23.754789272030653% 0;
 }
 
 .imx-deafness {
-	background-position: 26.126126126126128% 0;
+	background-position: 24.137931034482758% 0;
 }
 
 .imx-debt {
-	background-position: 26.576576576576578% 0;
+	background-position: 24.521072796934867% 0;
 }
 
 .imx-delivery {
-	background-position: 27.027027027027028% 0;
+	background-position: 24.904214559386972% 0;
 }
 
 .imx-dental-floss {
-	background-position: 27.47747747747748% 0;
+	background-position: 25.28735632183908% 0;
 }
 
 .imx-dental-implant {
-	background-position: 27.92792792792793% 0;
+	background-position: 25.67049808429119% 0;
 }
 
 .imx-development {
-	background-position: 28.37837837837838% 0;
+	background-position: 26.053639846743295% 0;
 }
 
 .imx-diabetes {
-	background-position: 28.82882882882883% 0;
+	background-position: 26.436781609195403% 0;
 }
 
 .imx-diamond {
-	background-position: 29.27927927927928% 0;
+	background-position: 26.81992337164751% 0;
 }
 
 .imx-diamond-circled {
-	background-position: 29.72972972972973% 0;
+	background-position: 27.203065134099617% 0;
 }
 
 .imx-diners-club {
-	background-position: 30.18018018018018% 0;
+	background-position: 27.586206896551722% 0;
 }
 
 .imx-discord {
-	background-position: 30.63063063063063% 0;
+	background-position: 27.96934865900383% 0;
 }
 
 .imx-discount {
-	background-position: 31.08108108108108% 0;
+	background-position: 28.35249042145594% 0;
 }
 
 .imx-dividents {
-	background-position: 31.53153153153153% 0;
+	background-position: 28.735632183908045% 0;
 }
 
 .imx-dna {
-	background-position: 31.98198198198198% 0;
+	background-position: 29.118773946360154% 0;
 }
 
 .imx-doctor {
-	background-position: 32.432432432432435% 0;
+	background-position: 29.50191570881226% 0;
 }
 
 .imx-doctors-bag {
-	background-position: 32.88288288288288% 0;
+	background-position: 29.885057471264368% 0;
+}
+
+.imx-does-not-contain {
+	background-position: 30.268199233716476% 0;
 }
 
 .imx-dollar-circled {
-	background-position: 33.333333333333336% 0;
+	background-position: 30.65134099616858% 0;
 }
 
 .imx-dose {
-	background-position: 33.78378378378378% 0;
+	background-position: 31.03448275862069% 0;
 }
 
 .imx-dribbble {
-	background-position: 34.234234234234236% 0;
+	background-position: 31.417624521072796% 0;
 }
 
 .imx-drop-shipping {
-	background-position: 34.68468468468468% 0;
+	background-position: 31.800766283524904% 0;
 }
 
 .imx-dropbox {
-	background-position: 35.13513513513514% 0;
+	background-position: 32.18390804597701% 0;
 }
 
 .imx-ebay {
-	background-position: 35.585585585585584% 0;
+	background-position: 32.56704980842912% 0;
 }
 
 .imx-embryo {
-	background-position: 36.03603603603604% 0;
+	background-position: 32.95019157088122% 0;
+}
+
+.imx-end-expression {
+	background-position: 33.333333333333336% 0;
+}
+
+.imx-ends-with {
+	background-position: 33.71647509578544% 0;
+}
+
+.imx-equals {
+	background-position: 34.099616858237546% 0;
 }
 
 .imx-ethereum {
-	background-position: 36.486486486486484% 0;
+	background-position: 34.48275862068966% 0;
 }
 
 .imx-euro-circled {
-	background-position: 36.93693693693694% 0;
+	background-position: 34.86590038314176% 0;
 }
 
 .imx-face-id {
-	background-position: 37.387387387387385% 0;
+	background-position: 35.24904214559387% 0;
 }
 
 .imx-facebook {
-	background-position: 37.83783783783784% 0;
+	background-position: 35.632183908045974% 0;
 }
 
 .imx-facebook-messenger {
-	background-position: 38.288288288288285% 0;
+	background-position: 36.015325670498086% 0;
 }
 
 .imx-fertilization {
-	background-position: 38.73873873873874% 0;
+	background-position: 36.39846743295019% 0;
 }
 
 .imx-file-changes {
-	background-position: 39.189189189189186% 0;
+	background-position: 36.7816091954023% 0;
 }
 
 .imx-file-tree {
-	background-position: 39.63963963963964% 0;
+	background-position: 37.16475095785441% 0;
 }
 
 .imx-financial-insurance {
-	background-position: 40.090090090090094% 0;
+	background-position: 37.547892720306514% 0;
 }
 
 .imx-firefox {
-	background-position: 40.54054054054054% 0;
+	background-position: 37.93103448275862% 0;
 }
 
 .imx-fitness-watch {
-	background-position: 40.990990990990994% 0;
+	background-position: 38.31417624521073% 0;
 }
 
 .imx-foreign-exchange {
-	background-position: 41.44144144144144% 0;
+	background-position: 38.69731800766284% 0;
 }
 
 .imx-gas-mask {
-	background-position: 41.891891891891895% 0;
+	background-position: 39.08045977011494% 0;
 }
 
 .imx-gift {
-	background-position: 42.34234234234234% 0;
+	background-position: 39.46360153256705% 0;
 }
 
 .imx-git-branch {
-	background-position: 42.792792792792795% 0;
+	background-position: 39.84674329501916% 0;
 }
 
 .imx-git-commit {
-	background-position: 43.24324324324324% 0;
+	background-position: 40.229885057471265% 0;
 }
 
 .imx-git-compare {
-	background-position: 43.693693693693696% 0;
+	background-position: 40.61302681992337% 0;
 }
 
 .imx-git-issue {
-	background-position: 44.14414414414414% 0;
+	background-position: 40.99616858237548% 0;
 }
 
 .imx-git-merge {
-	background-position: 44.5945945945946% 0;
+	background-position: 41.37931034482759% 0;
 }
 
 .imx-github {
-	background-position: 45.04504504504504% 0;
+	background-position: 41.76245210727969% 0;
 }
 
 .imx-gold {
-	background-position: 45.4954954954955% 0;
+	background-position: 42.1455938697318% 0;
 }
 
 .imx-google {
-	background-position: 45.945945945945944% 0;
+	background-position: 42.52873563218391% 0;
 }
 
 .imx-google-drive {
-	background-position: 46.3963963963964% 0;
+	background-position: 42.911877394636015% 0;
 }
 
 .imx-google-hangouts {
-	background-position: 46.846846846846844% 0;
+	background-position: 43.29501915708812% 0;
 }
 
 .imx-google-maps {
-	background-position: 47.2972972972973% 0;
+	background-position: 43.67816091954023% 0;
 }
 
 .imx-google-pay {
-	background-position: 47.747747747747745% 0;
+	background-position: 44.06130268199234% 0;
 }
 
 .imx-google-play {
-	background-position: 48.1981981981982% 0;
+	background-position: 44.44444444444444% 0;
 }
 
 .imx-google-translate {
-	background-position: 48.648648648648646% 0;
+	background-position: 44.827586206896555% 0;
+}
+
+.imx-greater-than {
+	background-position: 45.21072796934866% 0;
+}
+
+.imx-greater-than-or-equal {
+	background-position: 45.593869731800766% 0;
 }
 
 .imx-grid {
-	background-position: 49.0990990990991% 0;
+	background-position: 45.97701149425287% 0;
 }
 
 .imx-hearing-aid {
-	background-position: 49.549549549549546% 0;
+	background-position: 46.36015325670498% 0;
 }
 
 .imx-heart-care {
-	background-position: 50% 0;
+	background-position: 46.74329501915709% 0;
 }
 
 .imx-heart-monitor {
-	background-position: 50.450450450450454% 0;
+	background-position: 47.12643678160919% 0;
 }
 
 .imx-hospital {
-	background-position: 50.9009009009009% 0;
+	background-position: 47.509578544061306% 0;
 }
 
 .imx-hospital-bed {
-	background-position: 51.351351351351354% 0;
+	background-position: 47.89272030651341% 0;
 }
 
 .imx-hospital-sign {
-	background-position: 51.8018018018018% 0;
+	background-position: 48.275862068965516% 0;
 }
 
 .imx-idea-generation {
-	background-position: 52.252252252252255% 0;
+	background-position: 48.65900383141762% 0;
 }
 
 .imx-inspect-code {
-	background-position: 52.7027027027027% 0;
+	background-position: 49.04214559386973% 0;
 }
 
 .imx-instagram {
-	background-position: 53.153153153153156% 0;
+	background-position: 49.42528735632184% 0;
 }
 
 .imx-internet-explorer {
-	background-position: 53.6036036036036% 0;
+	background-position: 49.808429118773944% 0;
 }
 
 .imx-invoice {
-	background-position: 54.054054054054056% 0;
+	background-position: 50.191570881226056% 0;
 }
 
 .imx-ios {
-	background-position: 54.5045045045045% 0;
+	background-position: 50.57471264367816% 0;
+}
+
+.imx-is-after {
+	background-position: 50.95785440613027% 0;
+}
+
+.imx-is-before {
+	background-position: 51.34099616858238% 0;
+}
+
+.imx-is-empty {
+	background-position: 51.724137931034484% 0;
+}
+
+.imx-is-false {
+	background-position: 52.10727969348659% 0;
+}
+
+.imx-is-not-null {
+	background-position: 52.490421455938694% 0;
+}
+
+.imx-is-null {
+	background-position: 52.87356321839081% 0;
+}
+
+.imx-is-true {
+	background-position: 53.25670498084291% 0;
 }
 
 .imx-jsfiddle {
-	background-position: 54.95495495495496% 0;
+	background-position: 53.63984674329502% 0;
+}
+
+.imx-jump-down {
+	background-position: 54.02298850574713% 0;
+}
+
+.imx-jump-up {
+	background-position: 54.406130268199234% 0;
 }
 
 .imx-keep-away-from-children {
-	background-position: 55.4054054054054% 0;
+	background-position: 54.78927203065134% 0;
+}
+
+.imx-last-month {
+	background-position: 55.172413793103445% 0;
+}
+
+.imx-last-year {
+	background-position: 55.55555555555556% 0;
 }
 
 .imx-legal-document {
-	background-position: 55.85585585585586% 0;
+	background-position: 55.93869731800766% 0;
+}
+
+.imx-less-than {
+	background-position: 56.32183908045977% 0;
+}
+
+.imx-less-than-or-equal {
+	background-position: 56.70498084291188% 0;
 }
 
 .imx-linkedin {
-	background-position: 56.306306306306304% 0;
+	background-position: 57.088122605363985% 0;
 }
 
 .imx-loan {
-	background-position: 56.75675675675676% 0;
+	background-position: 57.47126436781609% 0;
 }
 
 .imx-maestro {
-	background-position: 57.207207207207205% 0;
+	background-position: 57.8544061302682% 0;
 }
 
 .imx-mask-1 {
-	background-position: 57.65765765765766% 0;
+	background-position: 58.23754789272031% 0;
 }
 
 .imx-mask-2 {
-	background-position: 58.108108108108105% 0;
+	background-position: 58.62068965517241% 0;
 }
 
 .imx-massage {
-	background-position: 58.55855855855856% 0;
+	background-position: 59.00383141762452% 0;
 }
 
 .imx-mastercard {
-	background-position: 59.009009009009006% 0;
+	background-position: 59.38697318007663% 0;
 }
 
 .imx-medical-book {
-	background-position: 59.45945945945946% 0;
+	background-position: 59.770114942528735% 0;
 }
 
 .imx-medicine {
-	background-position: 59.909909909909906% 0;
+	background-position: 60.15325670498084% 0;
 }
 
 .imx-medium {
-	background-position: 60.36036036036036% 0;
+	background-position: 60.53639846743295% 0;
 }
 
 .imx-microorganisms {
-	background-position: 60.810810810810814% 0;
+	background-position: 60.91954022988506% 0;
 }
 
 .imx-microscope {
-	background-position: 61.26126126126126% 0;
+	background-position: 61.30268199233716% 0;
 }
 
 .imx-milestone {
-	background-position: 61.711711711711715% 0;
+	background-position: 61.68582375478927% 0;
 }
 
 .imx-module {
-	background-position: 62.16216216216216% 0;
+	background-position: 62.06896551724138% 0;
 }
 
 .imx-money-bag {
-	background-position: 62.612612612612615% 0;
+	background-position: 62.452107279693486% 0;
 }
 
 .imx-ms-edge {
-	background-position: 63.06306306306306% 0;
+	background-position: 62.83524904214559% 0;
 }
 
 .imx-ms-excel {
-	background-position: 63.513513513513516% 0;
+	background-position: 63.2183908045977% 0;
 }
 
 .imx-ms-outlook {
-	background-position: 63.96396396396396% 0;
+	background-position: 63.60153256704981% 0;
 }
 
 .imx-ms-powerpoint {
-	background-position: 64.41441441441441% 0;
+	background-position: 63.984674329501914% 0;
 }
 
 .imx-ms-word {
-	background-position: 64.86486486486487% 0;
+	background-position: 64.36781609195403% 0;
+}
+
+.imx-next-month {
+	background-position: 64.75095785440612% 0;
+}
+
+.imx-next-year {
+	background-position: 65.13409961685824% 0;
+}
+
+.imx-not-empty {
+	background-position: 65.51724137931035% 0;
+}
+
+.imx-not-equal {
+	background-position: 65.90038314176245% 0;
 }
 
 .imx-nurse {
-	background-position: 65.31531531531532% 0;
+	background-position: 66.28352490421456% 0;
 }
 
 .imx-oil {
-	background-position: 65.76576576576576% 0;
-}
-
-.imx-onedrive {
-	background-position: 66.21621621621621% 0;
-}
-
-.imx-opera {
 	background-position: 66.66666666666667% 0;
 }
 
+.imx-onedrive {
+	background-position: 67.04980842911877% 0;
+}
+
+.imx-opera {
+	background-position: 67.43295019157088% 0;
+}
+
 .imx-pacifier {
-	background-position: 67.11711711711712% 0;
+	background-position: 67.816091954023% 0;
 }
 
 .imx-pay-date {
-	background-position: 67.56756756756756% 0;
+	background-position: 68.19923371647509% 0;
 }
 
 .imx-paypal {
-	background-position: 68.01801801801801% 0;
+	background-position: 68.5823754789272% 0;
 }
 
 .imx-piggy-bank {
-	background-position: 68.46846846846847% 0;
+	background-position: 68.96551724137932% 0;
 }
 
 .imx-pill {
-	background-position: 68.91891891891892% 0;
+	background-position: 69.34865900383141% 0;
+}
+
+.imx-pin-left {
+	background-position: 69.73180076628353% 0;
+}
+
+.imx-pin-right {
+	background-position: 70.11494252873563% 0;
 }
 
 .imx-pinterest {
-	background-position: 69.36936936936937% 0;
+	background-position: 70.49808429118774% 0;
 }
 
 .imx-plastic-surgery {
-	background-position: 69.81981981981981% 0;
+	background-position: 70.88122605363985% 0;
 }
 
 .imx-plugin {
-	background-position: 70.27027027027027% 0;
+	background-position: 71.26436781609195% 0;
 }
 
 .imx-poop {
-	background-position: 70.72072072072072% 0;
+	background-position: 71.64750957854406% 0;
 }
 
 .imx-pound-circled {
-	background-position: 71.17117117117117% 0;
+	background-position: 72.03065134099617% 0;
 }
 
 .imx-pregnancy-no-alcohol {
-	background-position: 71.62162162162163% 0;
+	background-position: 72.41379310344827% 0;
 }
 
 .imx-project-revenue {
-	background-position: 72.07207207207207% 0;
+	background-position: 72.79693486590038% 0;
 }
 
 .imx-pull-request {
-	background-position: 72.52252252252252% 0;
+	background-position: 73.1800766283525% 0;
 }
 
 .imx-pulse {
-	background-position: 72.97297297297297% 0;
+	background-position: 73.5632183908046% 0;
 }
 
 .imx-radioactive {
-	background-position: 73.42342342342343% 0;
+	background-position: 73.9463601532567% 0;
 }
 
 .imx-reddit {
-	background-position: 73.87387387387388% 0;
+	background-position: 74.32950191570882% 0;
 }
 
 .imx-repository {
-	background-position: 74.32432432432432% 0;
+	background-position: 74.71264367816092% 0;
 }
 
 .imx-responsive-layout {
-	background-position: 74.77477477477477% 0;
+	background-position: 75.09578544061303% 0;
 }
 
 .imx-rh-negative {
-	background-position: 75.22522522522523% 0;
+	background-position: 75.47892720306514% 0;
 }
 
 .imx-rh-positive {
-	background-position: 75.67567567567568% 0;
+	background-position: 75.86206896551724% 0;
 }
 
 .imx-rod-of-asclepius {
-	background-position: 76.12612612612612% 0;
+	background-position: 76.24521072796935% 0;
 }
 
 .imx-safari {
-	background-position: 76.57657657657657% 0;
+	background-position: 76.62835249042146% 0;
 }
 
 .imx-sale {
-	background-position: 77.02702702702703% 0;
+	background-position: 77.01149425287356% 0;
 }
 
 .imx-sass {
-	background-position: 77.47747747747748% 0;
+	background-position: 77.39463601532567% 0;
 }
 
 .imx-security-1 {
-	background-position: 77.92792792792793% 0;
+	background-position: 77.77777777777777% 0;
 }
 
 .imx-security-2 {
-	background-position: 78.37837837837837% 0;
+	background-position: 78.16091954022988% 0;
 }
 
 .imx-severity {
-	background-position: 78.82882882882883% 0;
+	background-position: 78.544061302682% 0;
 }
 
 .imx-sign-language {
-	background-position: 79.27927927927928% 0;
+	background-position: 78.9272030651341% 0;
 }
 
 .imx-skype {
-	background-position: 79.72972972972973% 0;
+	background-position: 79.3103448275862% 0;
 }
 
 .imx-slack {
-	background-position: 80.18018018018019% 0;
+	background-position: 79.69348659003832% 0;
 }
 
 .imx-snapchat {
-	background-position: 80.63063063063063% 0;
+	background-position: 80.07662835249042% 0;
 }
 
 .imx-sneeze {
-	background-position: 81.08108108108108% 0;
+	background-position: 80.45977011494253% 0;
 }
 
 .imx-software-architecture {
-	background-position: 81.53153153153153% 0;
+	background-position: 80.84291187739464% 0;
 }
 
 .imx-software-installer {
-	background-position: 81.98198198198199% 0;
+	background-position: 81.22605363984674% 0;
 }
 
 .imx-soundcloud {
-	background-position: 82.43243243243244% 0;
+	background-position: 81.60919540229885% 0;
 }
 
 .imx-source-code {
-	background-position: 82.88288288288288% 0;
+	background-position: 81.99233716475096% 0;
 }
 
 .imx-spotify {
-	background-position: 83.33333333333333% 0;
+	background-position: 82.37547892720306% 0;
 }
 
 .imx-stackoverflow {
-	background-position: 83.78378378378379% 0;
+	background-position: 82.75862068965517% 0;
+}
+
+.imx-start-expression {
+	background-position: 83.14176245210729% 0;
+}
+
+.imx-starts-with {
+	background-position: 83.52490421455938% 0;
 }
 
 .imx-steam {
-	background-position: 84.23423423423424% 0;
+	background-position: 83.9080459770115% 0;
 }
 
 .imx-stethoscope {
-	background-position: 84.68468468468468% 0;
+	background-position: 84.2911877394636% 0;
 }
 
 .imx-strategy {
-	background-position: 85.13513513513513% 0;
+	background-position: 84.67432950191571% 0;
 }
 
 .imx-stretcher {
-	background-position: 85.58558558558559% 0;
+	background-position: 85.05747126436782% 0;
 }
 
 .imx-stripe {
-	background-position: 86.03603603603604% 0;
+	background-position: 85.44061302681992% 0;
 }
 
 .imx-syringe {
-	background-position: 86.48648648648648% 0;
+	background-position: 85.82375478927203% 0;
 }
 
 .imx-system-update {
-	background-position: 86.93693693693693% 0;
+	background-position: 86.20689655172414% 0;
 }
 
 .imx-teeth {
-	background-position: 87.38738738738739% 0;
+	background-position: 86.59003831417624% 0;
 }
 
 .imx-telegram {
-	background-position: 87.83783783783784% 0;
+	background-position: 86.97318007662835% 0;
 }
 
 .imx-thermometer {
-	background-position: 88.28828828828829% 0;
+	background-position: 87.35632183908046% 0;
+}
+
+.imx-this-month {
+	background-position: 87.73946360153256% 0;
+}
+
+.imx-this-year {
+	background-position: 88.12260536398468% 0;
 }
 
 .imx-tiktok {
-	background-position: 88.73873873873873% 0;
+	background-position: 88.50574712643679% 0;
 }
 
 .imx-tinder {
-	background-position: 89.1891891891892% 0;
+	background-position: 88.88888888888889% 0;
+}
+
+.imx-today {
+	background-position: 89.272030651341% 0;
 }
 
 .imx-toilet-paper {
-	background-position: 89.63963963963964% 0;
+	background-position: 89.65517241379311% 0;
 }
 
 .imx-tooth {
-	background-position: 90.09009009009009% 0;
+	background-position: 90.03831417624521% 0;
 }
 
 .imx-tooth-cracked {
-	background-position: 90.54054054054055% 0;
+	background-position: 90.42145593869732% 0;
 }
 
 .imx-touch-id {
-	background-position: 90.990990990991% 0;
+	background-position: 90.80459770114942% 0;
 }
 
 .imx-twitch {
-	background-position: 91.44144144144144% 0;
+	background-position: 91.18773946360153% 0;
 }
 
 .imx-twitter {
-	background-position: 91.89189189189189% 0;
+	background-position: 91.57088122605364% 0;
+}
+
+.imx-ungroup {
+	background-position: 91.95402298850574% 0;
+}
+
+.imx-unpin-left {
+	background-position: 92.33716475095785% 0;
+}
+
+.imx-unpin-right {
+	background-position: 92.72030651340997% 0;
 }
 
 .imx-usb {
-	background-position: 92.34234234234235% 0;
+	background-position: 93.10344827586206% 0;
 }
 
 .imx-verified-account {
-	background-position: 92.7927927927928% 0;
+	background-position: 93.48659003831418% 0;
 }
 
 .imx-veterinarian {
-	background-position: 93.24324324324324% 0;
+	background-position: 93.86973180076629% 0;
 }
 
 .imx-vial {
-	background-position: 93.69369369369369% 0;
+	background-position: 94.25287356321839% 0;
 }
 
 .imx-viber {
-	background-position: 94.14414414414415% 0;
+	background-position: 94.6360153256705% 0;
 }
 
 .imx-vimeo {
-	background-position: 94.5945945945946% 0;
+	background-position: 95.01915708812261% 0;
 }
 
 .imx-virus {
-	background-position: 95.04504504504504% 0;
+	background-position: 95.40229885057471% 0;
 }
 
 .imx-virus-protection {
-	background-position: 95.49549549549549% 0;
+	background-position: 95.78544061302682% 0;
 }
 
 .imx-virus-stop {
-	background-position: 95.94594594594595% 0;
+	background-position: 96.16858237547893% 0;
 }
 
 .imx-visa {
-	background-position: 96.3963963963964% 0;
+	background-position: 96.55172413793103% 0;
 }
 
 .imx-visually-impaired {
-	background-position: 96.84684684684684% 0;
+	background-position: 96.93486590038314% 0;
 }
 
 .imx-wechat {
-	background-position: 97.29729729729729% 0;
+	background-position: 97.31800766283524% 0;
 }
 
 .imx-weight-scale {
-	background-position: 97.74774774774775% 0;
+	background-position: 97.70114942528735% 0;
 }
 
 .imx-whatsapp {
-	background-position: 98.1981981981982% 0;
+	background-position: 98.08429118773947% 0;
 }
 
 .imx-wire-transfer {
-	background-position: 98.64864864864865% 0;
+	background-position: 98.46743295019157% 0;
 }
 
 .imx-workflow {
-	background-position: 99.09909909909909% 0;
+	background-position: 98.85057471264368% 0;
 }
 
 .imx-yen-circled {
-	background-position: 99.54954954954955% 0;
+	background-position: 99.23371647509579% 0;
+}
+
+.imx-yesterday {
+	background-position: 99.61685823754789% 0;
 }
 
 .imx-youtube {
