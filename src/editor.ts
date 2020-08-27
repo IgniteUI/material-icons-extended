@@ -1,5 +1,4 @@
 import { IMXIcon } from "./common/icon";
-import { unpinLeft, unpinRight } from "./content";
 
 export const all: IMXIcon = {
   name: "all",
