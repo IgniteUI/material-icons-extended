@@ -108,7 +108,7 @@ export const youtube: IMXIcon = {
   categories: ["social media"],
 };
 
-export default [
+export const socialMedia = [
   behance,
   dribbble,
   facebookMessenger,
