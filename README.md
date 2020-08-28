@@ -1,4 +1,5 @@
-## Material Icons Extended by Infragistics
+## Material Icons Extended by Infragistics  
+[![npm version](https://badge.fury.io/js/%40igniteui%2Fmaterial-icons-extended.svg)](https://badge.fury.io/js/%40igniteui%2Fmaterial-icons-extended)
 
 This is an unofficial subset of icons that extends the official [Material Design Icon set](https://github.com/google/material-design-icons) provided by Google.
 
