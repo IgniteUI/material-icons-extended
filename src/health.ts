@@ -432,7 +432,7 @@ export const weightScale: IMXIcon = {
   categories: ["health"],
 };
 
-export default [
+export const health = [
   accessibility,
   aidsRibbon,
   ambulance,

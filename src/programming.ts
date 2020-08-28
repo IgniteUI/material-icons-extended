@@ -145,7 +145,7 @@ export const severity: IMXIcon = {
 };
 
 export const softwareArchitecture: IMXIcon = {
-  name: "softuare-architecture",
+  name: "software-architecture",
   value: require("./svgs/software-architecture.svg"),
   categories: ["programming"],
 };
@@ -180,7 +180,7 @@ export const workflow: IMXIcon = {
   categories: ["programming"],
 };
 
-export default [
+export const programming = [
   api,
   appSymbol,
   bug,

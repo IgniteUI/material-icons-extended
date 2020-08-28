@@ -180,7 +180,7 @@ export const yesterday: IMXIcon = {
   categories: ["editor"],
 };
 
-export default [
+export const editor = [
   contains,
   doesNotContain,
   endExpression,
