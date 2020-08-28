@@ -9,8 +9,10 @@ We felt the Material Design Icon set is too limited and we wanted to extend it b
 
 ### Scope
 
-This package includes 220+ icons distributed in 5 categories:
+This package includes 260+ icons distributed in 7 categories:
 
+- Content
+- Editor
 - Finance
 - Health
 - Logos
