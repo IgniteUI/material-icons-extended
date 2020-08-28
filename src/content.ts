@@ -54,7 +54,7 @@ export const unpinRight: IMXIcon = {
   categories: ["content"],
 };
 
-export default [
+export const content = [
   addChild,
   addRow,
   jumpDown,

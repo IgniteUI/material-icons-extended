@@ -300,7 +300,7 @@ export const visa: IMXIcon = {
   categories: ["logos", "finance"],
 };
 
-export default [
+export const logos = [
   amazon,
   amex,
   apple,

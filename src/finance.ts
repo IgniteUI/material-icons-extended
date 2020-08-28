@@ -318,7 +318,7 @@ export const yenCircled: IMXIcon = {
   categories: ["finance"],
 };
 
-export default [
+export const finance = [
   atm,
   atmDollar,
   atmEuro,
