@@ -5,7 +5,7 @@ const version = "2.3.0";
 export default function (): Rule {
   return (tree: Tree, context: SchematicContext) => {
     context.logger.info(
-      `Applying migration for Ignite Material Icons Extended to version ${version}`
+      `Applying migration for IgniteUI Material Icons Extended to version ${version}`
     );
     return tree;
   };
