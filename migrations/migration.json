@@ -1,10 +1,10 @@
 {
-    "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
-    "schematics": {
-        "migration-01": {
-            "version": "2.3.0",
-            "description": "Updates IgniteUI Material Icons Extended from v2.2.0 to v2.3.0",
-            "factory": "./update-2_3_0"
-        }
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "migration-01": {
+      "version": "2.0.0-beta",
+      "description": "Updates IgniteUI Material Icons Extended to the latest version.",
+      "factory": "./base-migration"
     }
+  }
 }
