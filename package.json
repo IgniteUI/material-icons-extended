@@ -28,7 +28,9 @@
   "ng-update": {
     "migrations": "./migrations/migration.json"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@angular-devkit/schematics": "^10.1.0"
+  },
   "devDependencies": {
     "@types/node": "^14.6.2",
     "gulp": "^4.0.2",
