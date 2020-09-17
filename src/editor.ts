@@ -180,6 +180,12 @@ export const yesterday: IMXIcon = {
   categories: ["editor"],
 };
 
+export const tomorrow: IMXIcon = {
+  name: "tomorrow",
+  value: require("./svgs/tomorrow.svg"),
+  categories: ["editor"],
+};
+
 export const editor = [
   contains,
   doesNotContain,
@@ -212,4 +218,5 @@ export const editor = [
   today,
   ungroup,
   yesterday,
+  tomorrow,
 ];
