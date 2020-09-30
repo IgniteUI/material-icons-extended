@@ -6,6 +6,18 @@ export const all: IMXIcon = {
   categories: ["editor"],
 };
 
+export const caseSensitive: IMXIcon = {
+  name: "case-sensitive",
+  value: require("./svgs/case-sensitive.svg"),
+  categories: ["editor"],
+};
+
+export const check: IMXIcon = {
+  name: "check",
+  value: require("./svgs/check.svg"),
+  categories: ["editor"],
+};
+
 export const contains: IMXIcon = {
   name: "contains",
   value: require("./svgs/contains.svg"),
@@ -181,6 +193,9 @@ export const yesterday: IMXIcon = {
 };
 
 export const editor = [
+  all,
+  caseSensitive,
+  check,
   contains,
   doesNotContain,
   endExpression,
@@ -194,6 +209,7 @@ export const editor = [
   isFalse,
   isNotNull,
   isNull,
+  isTrue,
   lastMonth,
   lastYear,
   lessThan,
