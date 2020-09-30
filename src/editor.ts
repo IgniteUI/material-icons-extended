@@ -1,8 +1,14 @@
 import { IMXIcon } from "./common/icon";
 
-export const all: IMXIcon = {
-  name: "all",
-  value: require("./svgs/all.svg"),
+export const caseSensitive: IMXIcon = {
+  name: "case-sensitive",
+  value: require("./svgs/case-sensitive.svg"),
+  categories: ["editor"],
+};
+
+export const check: IMXIcon = {
+  name: "check",
+  value: require("./svgs/check.svg"),
   categories: ["editor"],
 };
 
@@ -138,6 +144,12 @@ export const notEqual: IMXIcon = {
   categories: ["editor"],
 };
 
+export const selectAll: IMXIcon = {
+  name: "select-all",
+  value: require("./svgs/all.svg"),
+  categories: ["editor"],
+};
+
 export const startExpression: IMXIcon = {
   name: "start-expression",
   value: require("./svgs/start-expression.svg"),
@@ -187,6 +199,8 @@ export const tomorrow: IMXIcon = {
 };
 
 export const editor = [
+  caseSensitive,
+  check,
   contains,
   doesNotContain,
   endExpression,
@@ -200,6 +214,7 @@ export const editor = [
   isFalse,
   isNotNull,
   isNull,
+  isTrue,
   lastMonth,
   lastYear,
   lessThan,
@@ -211,6 +226,7 @@ export const editor = [
   endsWith,
   equals,
   isEmpty,
+  selectAll,
   startExpression,
   startsWith,
   thisMonth,
