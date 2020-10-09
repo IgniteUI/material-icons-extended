@@ -21,7 +21,7 @@ This package includes 260+ icons distributed in 7 categories:
 
 We will be adding more icons and we will try to make the icon set available to as many platforms as possible. Right now we only provide SVG files/sprites so you can use them as you see fit. In addition to the SVG files, we've exported the icons as JavaScript objects so you can import and use them in your Angular/React/Vue app.
 
-The initial target for this set is to work with our [Ignite UI for Angular](https://www.infragistics.com/products/ignite-ui-angular) UI framework by utilizing the `igx-icon` component and the Ignite UI for Angular Icon Service.
+The initial target for this set is to work with our [Ignite UI for Angular](https://www.infragistics.com/products/ignite-ui-angular?utm_source=GitHub%2C%20npm&utm_medium=readme&utm_campaign=backlink) UI framework by utilizing the `igx-icon` component and the Ignite UI for Angular Icon Service.
 
 ### Installation
 
