@@ -42,6 +42,12 @@ export const equals: IMXIcon = {
   categories: ["editor"],
 };
 
+export const exactMatch: IMXIcon = {
+  name: "exact-match",
+  value: require("./svgs/exact-match-1.svg"),
+  categories: ["editor"],
+};
+
 export const greaterThan: IMXIcon = {
   name: "greater-than",
   value: require("./svgs/greater-than.svg"),
@@ -206,6 +212,7 @@ export const editor = [
   endExpression,
   endsWith,
   equals,
+  exactMatch,
   greaterThan,
   greaterThanOrEqual,
   isAfter,
