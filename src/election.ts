@@ -84,7 +84,7 @@ export const usaTx: IMXIcon = {
     categories: ["election"],
 };
 
-export const editor = [
+export const elections = [
     aggregation,
     electoralVotes,
     popularVotes,

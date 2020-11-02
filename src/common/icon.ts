@@ -1,6 +1,7 @@
 export enum IconCategoryEnum {
   "content",
   "editor",
+  "election",
   "finance",
   "health",
   "logos",
