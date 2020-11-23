@@ -42,6 +42,12 @@ export const equals: IMXIcon = {
   categories: ["editor"],
 };
 
+export const exactMatch: IMXIcon = {
+  name: "exact-match",
+  value: require("./svgs/exact-match.svg"),
+  categories: ["editor"],
+};
+
 export const greaterThan: IMXIcon = {
   name: "greater-than",
   value: require("./svgs/greater-than.svg"),
@@ -117,6 +123,12 @@ export const lessThan: IMXIcon = {
 export const lessThanOrEqual: IMXIcon = {
   name: "less-than-or-equal",
   value: require("./svgs/less-than-or-equal.svg"),
+  categories: ["editor"],
+};
+
+export const match: IMXIcon = {
+  name: "match",
+  value: require("./svgs/match.svg"),
   categories: ["editor"],
 };
 
@@ -206,6 +218,7 @@ export const editor = [
   endExpression,
   endsWith,
   equals,
+  exactMatch,
   greaterThan,
   greaterThanOrEqual,
   isAfter,
@@ -219,6 +232,7 @@ export const editor = [
   lastYear,
   lessThan,
   lessThanOrEqual,
+  match,
   nextMonth,
   nextYear,
   notEmpty,
