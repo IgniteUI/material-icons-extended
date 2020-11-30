@@ -30,6 +30,12 @@ export const apple: IMXIcon = {
   categories: ["logos"],
 };
 
+export const battlenet: IMXIcon = {
+  name: "battlenet",
+  value: require("./svgs/battlenet.svg"),
+  categories: ["logos"],
+};
+
 export const bitcoin: IMXIcon = {
   name: "bitcoin",
   value: require("./svgs/bitcoin.svg"),
