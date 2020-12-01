@@ -312,6 +312,7 @@ export const logos = [
   apple,
   appleAppStore,
   applePay,
+  battlenet,
   bitcoin,
   bluRay,
   box,
