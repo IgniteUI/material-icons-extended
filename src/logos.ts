@@ -168,6 +168,12 @@ export const mastercard: IMXIcon = {
   categories: ["logos", "finance"],
 };
 
+export const microsoft: IMXIcon = {
+  name: "microsoft",
+  value: require("./svgs/microsoft.svg"),
+  categories: ["logos"],
+};
+
 export const msEdge: IMXIcon = {
   name: "ms-edge",
   value: require("./svgs/ms-edge.svg"),
@@ -180,9 +186,21 @@ export const msExcel: IMXIcon = {
   categories: ["logos"],
 };
 
+export const msOffice: IMXIcon = {
+  name: "ms-office",
+  value: require("./svgs/ms-office.svg"),
+  categories: ["logos"],
+};
+
 export const msPowerpoint: IMXIcon = {
   name: "ms-powerpoint",
   value: require("./svgs/ms-powerpoint.svg"),
+  categories: ["logos"],
+};
+
+export const msTeams: IMXIcon = {
+  name: "ms-teams",
+  value: require("./svgs/ms-teams.svg"),
   categories: ["logos"],
 };
 
@@ -306,6 +324,12 @@ export const visa: IMXIcon = {
   categories: ["logos", "finance"],
 };
 
+export const vsCode: IMXIcon = {
+  name: "vs-code",
+  value: require("./svgs/vs-code.svg"),
+  categories: ["logos"],
+};
+
 export const logos = [
   amazon,
   amex,
@@ -335,10 +359,13 @@ export const logos = [
   jsFiddle,
   maestro,
   mastercard,
+  microsoft,
   msEdge,
   msExcel,
+  msOffice,
   msOutlook,
   msPowerpoint,
+  msTeams,
   msWord,
   onedrive,
   opera,
@@ -358,4 +385,5 @@ export const logos = [
   usb,
   vimeo,
   visa,
+  vsCode,
 ];
