@@ -1,13 +1,13 @@
 {
   "name": "@igniteui/material-icons-extended",
-  "version": "2.6.0",
+  "version": "2.7.0",
   "description": "A subset of Material Icons that extend the official Material Design Icons by Google.",
   "scripts": {
     "build": "gulp build && webpack --mode production",
     "build:dev": "gulp build && webpack --mode development"
   },
   "main": "build/index.js",
-  "types": "build/index.d.ts",
+  "types": "build/src/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/IgniteUI/material-icons-extended.git"
