@@ -130,14 +130,14 @@ export const usaCa: IMXIcon = {
     name: "usa-ca",
     value: require("./svgs/usa-ca.svg"),
     categories: ["election"],
-    keywords: ["USA", "state", "California"],
+    keywords: ["USA", "state", "California", "ca"],
 };
 
 export const usaFl: IMXIcon = {
     name: "usa-fl",
     value: require("./svgs/usa-fl.svg"),
     categories: ["election"],
-    keywords: ["USA", "state", "Florida"],
+    keywords: ["USA", "state", "Florida", "fl"],
 };
 
 export const usaLower48States: IMXIcon = {
@@ -151,7 +151,7 @@ export const usaNy: IMXIcon = {
     name: "usa-ny",
     value: require("./svgs/usa-ny.svg"),
     categories: ["election"],
-    keywords: ["USA", "state", "New York"],
+    keywords: ["USA", "state", "New York", "ny"],
 };
 
 export const usaPartyDemocratic: IMXIcon = {
@@ -186,7 +186,7 @@ export const usaTx: IMXIcon = {
     name: "usa-tx",
     value: require("./svgs/usa-tx.svg"),
     categories: ["election"],
-    keywords: ["USA", "state", "Texas"],
+    keywords: ["USA", "state", "Texas", "tx"],
 };
 
 export const vote: IMXIcon = {
