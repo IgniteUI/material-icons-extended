@@ -364,6 +364,9 @@
 "project-revenue":
     title: "Project revenue icon"
     description: "Some description"
+"sale":
+    title: "Sale icon"
+    description: "Some description"
 "ale":
     title: "Sale icon"
     description: "Some description"
@@ -559,6 +562,9 @@
 "syringe":
     title: "Syringe icon"
     description: "Some description"
+"thermometer":
+    title: "Thermometer icon"
+    description: "Some description"
 "teeth":
     title: "Teeth icon"
     description: "Some description"
@@ -736,6 +742,9 @@
 "steam":
     title: "Steam icon"
     description: "Some description"
+"stripe":
+    title: "Stripe icon"
+    description: "Some description"
 "tinder":
     title: "Tinder icon"
     description: "Some description"
@@ -744,6 +753,9 @@
     description: "Some description"
 "twitch":
     title: "Twitch icon"
+    description: "Some description"
+"vimeo":
+    title: "Vimeo icon"
     description: "Some description"
 "usb":
     title: "usb icon"
