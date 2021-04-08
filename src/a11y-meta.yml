@@ -10,3 +10,894 @@
 "add-row":
     title: "Add row icon"
     description: "Some description"
+"jump-down":
+    title: "Jump down icon"
+    description: "Some description"
+"jump-up":
+    title: "Jump up icon"
+    description: "Some description"
+"pin-left":
+    title: "Pin left icon"
+    description: "Some description"
+"pin-right":
+    title: "Pin right icon"
+    description: "Some description"
+"unpin-left":
+    title: "Unpin left icon"
+    description: "Some description"
+"unpin-right":
+    title: "Unpin right icon"
+    description: "Some description"
+"case-sensitive":
+    title: "Case sensitive icon"
+    description: "Some description"
+"check":
+    title: "Check icon"
+    description: "Some description"
+"contains":
+    title: "Contains icon"
+    description: "Some description"
+"does-not-contain":
+    title: "Does not contain icon"
+    description: "Some description"
+"end-expression":
+    title: "End expression icon"
+    description: "Some description"
+"ends-with":
+    title: "Ends with icon"
+    description: "Some description"
+"equals":
+    title: "Equals icon"
+    description: "Some description"
+"exact-match":
+    title: "Exact match icon"
+    description: "Some description"
+"greater-than":
+    title: "Greater than icon"
+    description: "Some description"
+"greater-than-or-equal":
+    title: "Greater than or equal icon"
+    description: "Some description"
+"is-after":
+    title: "Is after icon"
+    description: "Some description"
+"is-before":
+    title: "Is before icon"
+    description: "Some description"
+"is-empty":
+    title: "Is empty icon"
+    description: "Some description"
+"is-false":
+    title: "Is false icon"
+    description: "Some description"
+"is-not-null":
+    title: "Is not null icon"
+    description: "Some description"
+"is-null":
+    title: "Is null icon"
+    description: "Some description"
+"is-true":
+    title: "is true icon"
+    description: "Some description"
+"last-month":
+    title: "Last month icon"
+    description: "Some description"
+"last-year":
+    title: "Last year icon"
+    description: "Some description"
+"less-than":
+    title: "Less than icon"
+    description: "Some description"
+"less-than-or-equal":
+    title: "Less than or equal icon"
+    description: "Some description"
+"match":
+    title: "Match icon"
+    description: "Some description"
+"next-month":
+    title: "Next month icon"
+    description: "Some description"
+"next-year":
+    title: "Next year icon"
+    description: "Some description"
+"not-empty":
+    title: "Not empty icon"
+    description: "Some description"
+"not-equal":
+    title: "Not equal icon"
+    description: "Some description"
+"select-all":
+    title: "Select all icon"
+    description: "Some description"
+"start-expression":
+    title: "Start expression icon"
+    description: "Some description"
+"starts-with":
+    title: "Starts with icon"
+    description: "Some description"
+"this-month":
+    title: "This month icon"
+    description: "Some description"
+"this-year":
+    title: "This year icon"
+    description: "Some description"
+"today":
+    title: "Today icon"
+    description: "Some description"
+"ungroup":
+    title: "Ungroup icon"
+    description: "Some description"
+"yesterday":
+    title: "Yesterday icon"
+    description: "Some description"
+"tomorrow":
+    title: "Tomorrow icon"
+    description: "Some description"
+"aggregation":
+    title: "Aggregation icon"
+    description: "Some description"
+"candidate-results":
+    title: "Candidate results icon"
+    description: "Some description"
+"debate":
+    title: "Debate icon"
+    description: "Some description"
+"electoral-votes":
+    title: "Electoral votes icon"
+    description: "Some description"
+"eu-parliament":
+    title: "EU parliament icon"
+    description: "Some description"
+"female-candidate":
+    title: "Female candidate icon"
+    description: "Some description"
+"horn":
+    title: "Horn icon"
+    description: "Some description"
+"male-candidate":
+    title: "Male candidate icon"
+    description: "Some description"
+"parliament-1":
+    title: "Parliament 1 icon"
+    description: "Some description"
+"parliament-2":
+    title: "Parliament 2 icon"
+    description: "Some description"
+"popular-votes":
+    title: "Popular votes icon"
+    description: "Some description"
+"protester-signs":
+    title: "Protester signs icon"
+    description: "Some description"
+"results-by-candidates":
+    title: "Results by candidates icon"
+    description: "Some description"
+"results-piechart":
+    title: "Results piechart icon"
+    description: "Some description"
+"scales-balanced":
+    title: "Scales balanced icon"
+    description: "Some description"
+"scales-unbalanced":
+    title: "Scales unbalanced icon"
+    description: "Some description"
+"stats":
+    title: "Stats icon"
+    description: "Some description"
+"timeline":
+    title: "Timeline icon"
+    description: "Some description"
+"usa-ca":
+    title: "USA ca icon"
+    description: "Some description"
+"usa-fl":
+    title: "USA fl icon"
+    description: "Some description"
+"usa-lower-48-states":
+    title: "USA lower 48 states icon"
+    description: "Some description"
+"usa-ny":
+    title: "USA ny icon"
+    description: "Some description"
+"usa-party-democratic":
+    title: "USA party democratic icon"
+    description: "Some description"
+"usa-party-green":
+    title: "USA party green icon"
+    description: "Some description"
+"usa-party-libertarian":
+    title: "USA party libertarian icon"
+    description: "Some description"
+"usa-party-republican":
+    title: "USA party republican icon"
+    description: "Some description"
+"usa-tx":
+    title: "USA tx icon"
+    description: "Some description"
+"vote":
+    title: "Vote icon"
+    description: "Some description"
+"white-house-1":
+    title: "White house 1 icon"
+    description: "Some description"
+"white-house-2":
+    title: "White house 2 icon"
+    description: "Some description"
+"atm-dollar":
+    title: "Atm dollar icon"
+    description: "Some description"
+"atm-euro":
+    title: "Atm euro icon"
+    description: "Some description"
+"atm-pound":
+    title: "Atm pound icon"
+    description: "Some description"
+"atm":
+    title: "Atm icon"
+    description: "Some description"
+"atm-yen":
+    title: "Atm-yen icon"
+    description: "Some description"
+"auction":
+    title: "Auction icon"
+    description: "Some description"
+"award":
+    title: "Award icon"
+    description: "Some description"
+"bank-safe":
+    title: "Bank safe icon"
+    description: "Some description"
+"barcode":
+    title: "Barcode icon"
+    description: "Some description"
+"bear-market":
+    title: "Bear market icon"
+    description: "Some description"
+"bill-paid":
+    title: "Bill paid icon"
+    description: "Some description"
+"budget-spending":
+    title: "Budget spending icon"
+    description: "Some description"
+"bull-market":
+    title: "Bull market icon"
+    description: "Some description"
+"business-development":
+    title: "Business development icon"
+    description: "Some description"
+"calculator":
+    title: "Calculator icon"
+    description: "Some description"
+"cash":
+    title: "cash icon"
+    description: "Some description"
+"cash-alt":
+    title: "Cash alt icon"
+    description: "Some description"
+"cash-only":
+    title: "Cash only icon"
+    description: "Some description"
+"certificate":
+    title: "Certificate icon"
+    description: "Some description"
+"commodities":
+    title: "Commodities icon"
+    description: "Some description"
+"credit-cards":
+    title: "Credit cards icon"
+    description: "Some description"
+"credit-control":
+    title: "Credit control icon"
+    description: "Some description"
+"crowdfunding":
+    title: "Crowd funding icon"
+    description: "Some description"
+"debt":
+    title: "Debt icon"
+    description: "Some description"
+"delivery":
+    title: "Delivery icon"
+    description: "Some description"
+"diamond-circled":
+    title: "Diamond circled icon"
+    description: "Some description"
+"":
+    title: " icon"
+    description: "Some description"
+"diamond":
+    title: "Diamond icon"
+    description: "Some description"
+"Discount":
+    title: "discount icon"
+    description: "Some description"
+"dividents":
+    title: "Dividents icon"
+    description: "Some description"
+"dollar-circled":
+    title: "Dollar circled icon"
+    description: "Some description"
+"drop-shipping":
+    title: "Drop shipping icon"
+    description: "Some description"
+"euro-circled":
+    title: "Euro-circled icon"
+    description: "Some description"
+"face-id":
+    title: "Face id icon"
+    description: "Some description"
+"financial-insurance":
+    title: "Financial insurance icon"
+    description: "Some description"
+"foreign-exchange":
+    title: "Foreign exchange icon"
+    description: "Some description"
+"gift":
+    title: "Gift icon"
+    description: "Some description"
+"gold":
+    title: "Gold icon"
+    description: "Some description"
+"idea-generation":
+    title: "Idea generation icon"
+    description: "Some description"
+"invoice":
+    title: "Invoice icon"
+    description: "Some description"
+"legal-document":
+    title: "Legal document icon"
+    description: "Some description"
+"loan":
+    title: "Loan icon"
+    description: "Some description"
+"money-bag":
+    title: "Money bag icon"
+    description: "Some description"
+"oil":
+    title: "Oil icon"
+    description: "Some description"
+"pay-date":
+    title: "Pay date icon"
+    description: "Some description"
+"piggy-bank":
+    title: "Piggy bank icon"
+    description: "Some description"
+"pound-circled":
+    title: "Pound circled icon"
+    description: "Some description"
+"project-revenue":
+    title: "Project revenue icon"
+    description: "Some description"
+"ale":
+    title: "Sale icon"
+    description: "Some description"
+"security":
+    title: "Security icon"
+    description: "Some description"
+"security-alt":
+    title: "Security alt icon"
+    description: "Some description"
+"strategy":
+    title: "strategy icon"
+    description: "Some description"
+"wire-transfer":
+    title: "Wire transfer icon"
+    description: "Some description"
+"yen-circled":
+    title: "Yen circled icon"
+    description: "Some description"
+"aids-ribbon":
+    title: "Aids ribbon icon"
+    description: "Some description"
+"ambulance":
+    title: "Ambulance icon"
+    description: "Some description"
+"anxiety":
+    title: "Anxiety icon"
+    description: "Some description"
+"baby-bottle":
+    title: "Baby bottle icon"
+    description: "Some description"
+"bacteria":
+    title: "Bacteria icon"
+    description: "Some description"
+"bandage":
+    title: "Bandage icon"
+    description: "Some description"
+"biohazard":
+    title: "Biohazard icon"
+    description: "Some description"
+"blood":
+    title: "Blood icon"
+    description: "Some description"
+"braille":
+    title: "Braille icon"
+    description: "Some description"
+"breastfeeding":
+    title: "Breast feeding icon"
+    description: "Some description"
+"caduceus":
+    title: "Caduceus icon"
+    description: "Some description"
+"cancer-ribbon":
+    title: "Cancer ribbon icon"
+    description: "Some description"
+"clinic":
+    title: "Clinic icon"
+    description: "Some description"
+"condom":
+    title: "Condom icon"
+    description: "Some description"
+"condom-used":
+    title: "Condom used icon"
+    description: "Some description"
+"contraception":
+    title: "Contraception icon"
+    description: "Some description"
+"coronavirus":
+    title: "Coronavirus icon"
+    description: "Some description"
+"deafness":
+    title: "Deafness icon"
+    description: "Some description"
+"dental-floss":
+    title: "Dental floss icon"
+    description: "Some description"
+"dental-implant":
+    title: "Dental implant icon"
+    description: "Some description"
+"diabetes":
+    title: "Diabetes icon"
+    description: "Some description"
+"dna":
+    title: "Dna icon"
+    description: "Some description"
+"doctors-bag":
+    title: "Doctors bag icon"
+    description: "Some description"
+"doctor":
+    title: "Doctor icon"
+    description: "Some description"
+"dose":
+    title: "Dose icon"
+    description: "Some description"
+"embryo":
+    title: "Embryo icon"
+    description: "Some description"
+"fertilization":
+    title: "Fertilization icon"
+    description: "Some description"
+"fitness-watch":
+    title: "Fitness-watch icon"
+    description: "Some description"
+"gas-mask":
+    title: "Gas mask icon"
+    description: "Some description"
+"hearing-aid":
+    title: "Hearing aid icon"
+    description: "Some description"
+"heart-care":
+    title: "Heart care icon"
+    description: "Some description"
+"heart-monitor":
+    title: "Heart monitor icon"
+    description: "Some description"
+"hospital-bed":
+    title: "Hospital-bed icon"
+    description: "Some description"
+"hospital-sign":
+    title: "Hospital sign icon"
+    description: "Some description"
+"hospital":
+    title: "hospital icon"
+    description: "Some description"
+"keep-away-from-children":
+    title: "Keep away from children icon"
+    description: "Some description"
+"mask":
+    title: "Mask icon"
+    description: "Some description"
+"mask-alt":
+    title: "Mask alt icon"
+    description: "Some description"
+"massage":
+    title: "Massage icon"
+    description: "Some description"
+"medical-book":
+    title: "Medical book icon"
+    description: "Some description"
+"medicine":
+    title: "Medicine icon"
+    description: "Some description"
+"microorganisms":
+    title: "Microorganisms icon"
+    description: "Some description"
+"microscope":
+    title: "Microscope icon"
+    description: "Some description"
+"nurse":
+    title: "Nurse icon"
+    description: "Some description"
+"pacifier":
+    title: "Pacifier icon"
+    description: "Some description"
+"pill":
+    title: "Pill icon"
+    description: "Some description"
+"plastic-surgery":
+    title: "Plastic surgery icon"
+    description: "Some description"
+"poop":
+    title: "poop icon"
+    description: "Some description"
+"pregnancy-no-alcohol":
+    title: "Pregnancy no alcohol icon"
+    description: "Some description"
+"pulse":
+    title: "Pulse icon"
+    description: "Some description"
+"radioactive":
+    title: "Radioactive icon"
+    description: "Some description"
+"rh-negative":
+    title: "Rh negative icon"
+    description: "Some description"
+"rh-positive":
+    title: "Rh positive icon"
+    description: "Some description"
+"rod-of-ascelepius":
+    title: "Rod of ascelepius icon"
+    description: "Some description"
+"sign-language":
+    title: "Sign language icon"
+    description: "Some description"
+"sneeze":
+    title: "Sneeze icon"
+    description: "Some description"
+"stethoscope":
+    title: "Stethoscope icon"
+    description: "Some description"
+"strecher":
+    title: "Strecher icon"
+    description: "Some description"
+"syringe":
+    title: "Syringe icon"
+    description: "Some description"
+"teeth":
+    title: "Teeth icon"
+    description: "Some description"
+"hermometer":
+    title: "Thermometer icon"
+    description: "Some description"
+"toilet-paper":
+    title: "Toilet paper icon"
+    description: "Some description"
+"tooth-cracked":
+    title: "Tooth cracked icon"
+    description: "Some description"
+"tooth":
+    title: "Tooth icon"
+    description: "Some description"
+"veterinarian":
+    title: "Veterinarian icon"
+    description: "Some description"
+"vial":
+    title: "Vial icon"
+    description: "Some description"
+"virus-protection":
+    title: "Virus protection icon"
+    description: "Some description"
+"virus-stop":
+    title: "Virus stop icon"
+    description: "Some description"
+"virus":
+    title: "virus icon"
+    description: "Some description"
+"visually-impaired":
+    title: "Visually impaired icon"
+    description: "Some description"
+"weight-scale":
+    title: "Weight scale icon"
+    description: "Some description"
+"amazon":
+    title: "Amazon icon"
+    description: "Some description"
+"american-express":
+    title: "American express icon"
+    description: "Some description"
+"apple-app-store":
+    title: "Apple app store icon"
+    description: "Some description"
+"apple-pay":
+    title: "Apple pay icon"
+    description: "Some description"
+"apple":
+    title: "Apple icon"
+    description: "Some description"
+"battlenet":
+    title: "Battlenet icon"
+    description: "Some description"
+"bitcoin":
+    title: "Bitcoin icon"
+    description: "Some description"
+"blu-ray":
+    title: "Blu ray icon"
+    description: "Some description"
+"box":
+    title: "Box icon"
+    description: "Some description"
+"chrome":
+    title: "Chrome icon"
+    description: "Some description"
+"diners-club":
+    title: "Diners club icon"
+    description: "Some description"
+"discord":
+    title: "Discord icon"
+    description: "Some description"
+"dropbox":
+    title: "Dropbox icon"
+    description: "Some description"
+"ebay":
+    title: "Ebay icon"
+    description: "Some description"
+"etherium":
+    title: "Etherium icon"
+    description: "Some description"
+"firefox":
+    title: "Firefox icon"
+    description: "Some description"
+"google-drive":
+    title: "Google drive icon"
+    description: "Some description"
+"google-hangouts":
+    title: "Google hangouts icon"
+    description: "Some description"
+"google-maps":
+    title: "Google maps icon"
+    description: "Some description"
+"google-pay":
+    title: "Google pay icon"
+    description: "Some description"
+"google-play":
+    title: "Google play icon"
+    description: "Some description"
+"google":
+    title: "Google icon"
+    description: "Some description"
+"google-translate":
+    title: "Google translate icon"
+    description: "Some description"
+"internet-explorer":
+    title: "Internet explorer icon"
+    description: "Some description"
+"ios":
+    title: "ios icon"
+    description: "Some description"
+"jsfiddle":
+    title: "jsfiddle icon"
+    description: "Some description"
+"maestro":
+    title: "Maestro icon"
+    description: "Some description"
+"mastercard":
+    title: "Mastercard icon"
+    description: "Some description"
+"microsoft":
+    title: "Microsoft icon"
+    description: "Some description"
+"ms-edge":
+    title: "Microsoft edge icon"
+    description: "Some description"
+"ms-excel":
+    title: "Microsoft excel icon"
+    description: "Some description"
+"ms-office":
+    title: "Microsoft office icon"
+    description: "Some description"
+"ms-powerpoint":
+    title: "Microsoft powerpoint icon"
+    description: "Some description"
+"ms-teams":
+    title: "Microsoft teams icon"
+    description: "Some description"
+"ms-outlook":
+    title: "Microsoft outlook icon"
+    description: "Some description"
+"ms-word":
+    title: "Microsoft word icon"
+    description: "Some description"
+"onedrive":
+    title: "onedrive icon"
+    description: "Some description"
+"opera":
+    title: "Opera icon"
+    description: "Some description"
+"paypal":
+    title: "Paypal icon"
+    description: "Some description"
+"safari":
+    title: "Safari icon"
+    description: "Some description"
+"sass":
+    title: "sass icon"
+    description: "Some description"
+"skype":
+    title: "skype icon"
+    description: "Some description"
+"slack":
+    title: "Slack icon"
+    description: "Some description"
+"soundcloud":
+    title: "Soundcloud icon"
+    description: "Some description"
+"spotify":
+    title: "Spotify icon"
+    description: "Some description"
+"stackoverflow":
+    title: "Stack overflow icon"
+    description: "Some description"
+"steam":
+    title: "Steam icon"
+    description: "Some description"
+"tinder":
+    title: "Tinder icon"
+    description: "Some description"
+"touch-id":
+    title: "Touch id icon"
+    description: "Some description"
+"twitch":
+    title: "Twitch icon"
+    description: "Some description"
+"usb":
+    title: "usb icon"
+    description: "Some description"
+"visa":
+    title: "Visa icon"
+    description: "Some description"
+"vs-code":
+    title: "Visual studio code icon"
+    description: "Some description"
+"api":
+    title: "api icon"
+    description: "Some description"
+"app-symbol":
+    title: "App symbol icon"
+    description: "Some description"
+"bug":
+    title: "Bug icon"
+    description: "Some description"
+"code-fork":
+    title: "Code fork icon"
+    description: "Some description"
+"code-review":
+    title: "Code review icon"
+    description: "Some description"
+"code":
+    title: "Code icon"
+    description: "Some description"
+"terminal":
+    title: "Terminal icon"
+    description: "Some description"
+"development":
+    title: "Development icon"
+    description: "Some description"
+"file-changes":
+    title: "File changes icon"
+    description: "Some description"
+"File-tree":
+    title: "file tree icon"
+    description: "Some description"
+"git-branch":
+    title: "Git branch icon"
+    description: "Some description"
+"git-commit":
+    title: "Git commit icon"
+    description: "Some description"
+"git-compare":
+    title: "Git compare icon"
+    description: "Some description"
+"git-issue":
+    title: "Git issue icon"
+    description: "Some description"
+"git-merge":
+    title: "Git merge icon"
+    description: "Some description"
+"grid":
+    title: "grid icon"
+    description: "Some description"
+"inspect-code":
+    title: "Inspect code icon"
+    description: "Some description"
+"milestone":
+    title: "Milestone icon"
+    description: "Some description"
+"code-value":
+    title: "Code value icon"
+    description: "Some description"
+"plugin":
+    title: "Plugin icon"
+    description: "Some description"
+"pull-request":
+    title: "Pull request icon"
+    description: "Some description"
+"repository":
+    title: "Repository icon"
+    description: "Some description"
+"responsive-layout":
+    title: "Responsive layout icon"
+    description: "Some description"
+"severity":
+    title: "Severity icon"
+    description: "Some description"
+"software-architecture":
+    title: "Software architecture icon"
+    description: "Some description"
+"software-installer":
+    title: "Software installer icon"
+    description: "Some description"
+"source-code":
+    title: "Source code icon"
+    description: "Some description"
+"system-update":
+    title: "System update icon"
+    description: "Some description"
+"verified-account":
+    title: "Verified account icon"
+    description: "Some description"
+"workflow":
+    title: "Workflow icon"
+    description: "Some description"
+"behance":
+    title: "Behance icon"
+    description: "Some description"
+"dribbble":
+    title: "Dribbble icon"
+    description: "Some description"
+"facebook-messenger":
+    title: "Facebook messenger icon"
+    description: "Some description"
+"facebook":
+    title: "Facebook icon"
+    description: "Some description"
+"github":
+    title: "GitHub icon"
+    description: "Some description"
+"instagram":
+    title: "Instagram icon"
+    description: "Some description"
+"linkedin":
+    title: "Linkedin icon"
+    description: "Some description"
+"medium":
+    title: "Medium icon"
+    description: "Some description"
+"pinterest":
+    title: "Pinterest icon"
+    description: "Some description"
+"reddit":
+    title: "Reddit icon"
+    description: "Some description"
+"snapchat":
+    title: "Snapchat icon"
+    description: "Some description"
+"telegram":
+    title: "Telegram icon"
+    description: "Some description"
+"tiktok":
+    title: "TikTok icon"
+    description: "Some description"
+"twitter":
+    title: "Twitter icon"
+    description: "Some description"
+"viber":
+    title: "Viber icon"
+    description: "Some description"
+"wechat":
+    title: "Wechat icon"
+    description: "Some description"
+"whatsapp":
+    title: "WhatsApp icon"
+    description: "Some description"
+"youtube":
+    title: "YouTube icon"
+    description: "Some description"
