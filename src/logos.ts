@@ -85,7 +85,7 @@ export const ebay: IMXIcon = {
 };
 
 export const ethereum: IMXIcon = {
-  name: "etherium",
+  name: "ethereum",
   value: require("./svgs/ethereum.svg"),
   categories: ["logos"],
 };
