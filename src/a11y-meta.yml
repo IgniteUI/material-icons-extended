@@ -1,909 +1,906 @@
 "accessibility":
-    title: "Accessibility icon"
-    description: "Some description"
+    title: "Accessibility Icon"
+    description: "A picture showing a person in a wheelchair."
 "add-child":
-    title: "Add child icon"
-    description: "Some description"
+    title: "Add Item Icon"
+    description: "A picture showing an item with a plus sign being added to container."
 "add-filter":
-    title: "Add filter icon"
-    description: "Some description"
+    title: "Add Filter Icon"
+    description: "A picture showing tree lines and a plus sign."
 "add-row":
-    title: "Add row icon"
-    description: "Some description"
+    title: "Add Row Icon"
+    description: "A picture showing a rectangle with a plus sign."
 "aggregation":
-    title: "Aggregation icon"
-    description: "Some description"
+    title: "Aggregation Icon"
+    description: "A picture showing tree lines converging into a triangle pointing right."
 "aids-ribbon":
-    title: "Aids ribbon icon"
-    description: "Some description"
+    title: "Aids Ribbon Icon"
+    description: "A picture showing a ribbon."
 "all":
-    title: "Select all icon"
-    description: "Some description"
+    title: "Select All Icon"
+    description: "A picture showing tree lines and a check mark."
 "amazon":
-    title: "Amazon icon"
-    description: "Some description"
+    title: "Amazon Icon"
+    description: "A picture showing the Amazon logo."
 "ambulance":
-    title: "Ambulance icon"
-    description: "Some description"
+    title: "Ambulance Icon"
+    description: "A picture showing an ambulance."
 "american-express":
-    title: "American express icon"
-    description: "Some description"
+    title: "American Express Icon"
+    description: "A picture showing the American Express logo."
 "anxiety":
-    title: "Anxiety icon"
-    description: "Some description"
+    title: "Anxiety Icon"
+    description: "A picture showing a stylized human head with a cloud and lighting inside."
 "api":
-    title: "API icon"
-    description: "Some description"
+    title: "API Icon"
+    description: "A picture showing a rectangle with the letters A, P, and I written inside."
 "app-symbol":
-    title: "App symbol icon"
-    description: "Some description"
+    title: "App Symbol Icon"
+    description: "A picture showing the word app written inside."
 "apple":
-    title: "Apple icon"
-    description: "Some description"
+    title: "Apple Icon"
+    description: "A picture showing the Apple logo."
 "apple-app-store":
-    title: "Apple app store icon"
-    description: "Some description"
+    title: "Apple App Store icon"
+    description: "A picture showing the Apple AppStore logo."
 "apple-pay":
-    title: "Apple pay icon"
-    description: "Some description"
+    title: "Apple Pay Icon"
+    description: "A picture showing the Apple Pay logo inside."
 "atm":
-    title: "Atm icon"
-    description: "Some description"
+    title: "ATM Icon"
+    description: "A picture showing an empty screen and a keypad."
 "atm-dollar":
-    title: "Atm dollar icon"
-    description: "Some description"
+    title: "ATM Dollar Icon"
+    description: "A picture showing a screen with the Dollar sign and a keypad."
 "atm-euro":
-    title: "Atm euro icon"
-    description: "Some description"
+    title: "ATM Euro Icon"
+    description: "A picture showing a screen with the Euro symbol and a keypad."
 "atm-pound":
-    title: "Atm pound icon"
-    description: "Some description"
+    title: "ATM Pound Icon"
+    description: "A picture showing a screen with the British Pound symbol and a keypad."
 "atm-yen":
-    title: "Atm-yen icon"
-    description: "Some description"
+    title: "ATM Yen Icon"
+    description: "A picture showing a screen with the Japanese Yen symbol and a keypad."
 "auction":
-    title: "Auction icon"
-    description: "Some description"
+    title: "Auction Icon"
+    description: "A picture showing a gavel inside a circle."
 "award":
-    title: "Award icon"
-    description: "Some description"
+    title: "Award Icon"
+    description: "A picture depicting a medal with the number 1 written inside."
 "baby-bottle":
-    title: "Baby bottle icon"
-    description: "Some description"
+    title: "Baby Bottle Icon"
+    description: "A picture depicting a baby bottle."
 "bacteria":
-    title: "Bacteria icon"
-    description: "Some description"
+    title: "Bacteria Icon"
+    description: "A picture depicting a bacteria."
 "bandage":
-    title: "Bandage icon"
-    description: "Some description"
+    title: "Bandage Icon"
+    description: "A picture depicting a bandage."
 "bank-safe":
-    title: "Bank safe icon"
-    description: "Some description"
+    title: "Bank Safe Icon"
+    description: "A picture depicting a locked safe."
 "barcode":
-    title: "Barcode icon"
-    description: "Some description"
+    title: "Barcode Icon"
+    description: "A picture showing 6 vertically aligned rectangles, varying in width."
 "battlenet":
-    title: "Battlenet icon"
-    description: "Some description"
+    title: "Battle.net Icon"
+    description: "A picture showing the Battle.net logo."
 "bear-market":
-    title: "Bear market icon"
-    description: "Some description"
+    title: "Bear Market Icon"
+    description: "A picture depicting a bear."
 "behance":
-    title: "Behance icon"
-    description: "Some description"
+    title: "Behance Icon"
+    description: "A picture showing the Behance logo."
 "bill-paid":
-    title: "Bill paid icon"
-    description: "Some description"
+    title: "Bill Paid Icon"
+    description: "A picture depicting a paper bill with a check mark at the end."
 "biohazard":
-    title: "Biohazard icon"
-    description: "Some description"
+    title: "Biohazard Icon"
+    description: "A picture showing the biohazard symbol."
 "bitcoin":
-    title: "Bitcoin icon"
-    description: "Some description"
+    title: "Bitcoin Icon"
+    description: "A picture showing the Bitcoin logo."
 "blood":
-    title: "Blood icon"
-    description: "Some description"
+    title: "Blood Icon"
+    description: "A picture showing two drops of liquid."
 "blu-ray":
-    title: "Blu ray icon"
-    description: "Some description"
+    title: "Blu-Ray Icon"
+    description: "A picture showing the Blu-Ray logo."
 "box":
-    title: "Box icon"
-    description: "Some description"
+    title: "Box Icon"
+    description: "A picture showing the Box logo."
 "braille":
-    title: "Braille icon"
-    description: "Some description"
+    title: "Braille Icon"
+    description: "A picture showing 6 dots."
 "breastfeeding":
-    title: "Breast feeding icon"
-    description: "Some description"
+    title: "Breast-feeding Icon"
+    description: "A picture depicting a woman breastfeeding her child."
 "budget-spending":
-    title: "Budget spending icon"
-    description: "Some description"
+    title: "Budget-Spending Icon"
+    description: "A picture showing an encircled dollar sign with arrows at the top, bottom, left, and right sides of it."
 "bug":
-    title: "Bug icon"
-    description: "Some description"
+    title: "Bug Icon"
+    description: "A picture showing an insect."
 "bull-market":
-    title: "Bull market icon"
-    description: "Some description"
+    title: "Bull Market Icon"
+    description: "A picture depicting bull head."
 "business-development":
-    title: "Business development icon"
-    description: "Some description"
+    title: "Business Development Icon"
+    description: "A picture depicting a globe inside a mechanical gear."
 "caduceus":
-    title: "Caduceus icon"
-    description: "Some description"
+    title: "Caduceus Icon"
+    description: "A picture depicting two snakes twisted around a poll."
 "calculator":
-    title: "Calculator icon"
-    description: "Some description"
+    title: "Calculator Icon"
+    description: "A picture depicting an electronic calculator."
 "cancer-ribbon":
-    title: "Cancer ribbon icon"
-    description: "Some description"
+    title: "Cancer Ribbon Icon"
+    description: "A picture depicting a ribbon."
 "candidate-results":
-    title: "Candidate results icon"
-    description: "Some description"
+    title: "Candidate Results Icon"
+    description: "A picture depicting two people standing next to progress indicators."
 "case-sensitive":
-    title: "Case sensitive icon"
-    description: "Some description"
+    title: "Case Sensitive Icon"
+    description: "A picture showing the letter A written in both upper and lower case."
 "cash-1":
-    title: "cash icon"
-    description: "Some description"
+    title: "Cash Icon"
+    description: "A picture depicting a stack of cash."
 "cash-2":
-    title: "Cash alt icon"
-    description: "Some description"
+    title: "Cash Icon"
+    description: "A picture depicting a stack of cash."
 "cash-only":
-    title: "Cash only icon"
-    description: "Some description"
+    title: "Cash-Only Icon"
+    description: "A picture depicting a crossed-out credit card."
 "certificate":
-    title: "Certificate icon"
-    description: "Some description"
+    title: "Certificate Icon"
+    description: "A picture depicting a badge of honor."
 "check":
-    title: "Check icon"
-    description: "Some description"
+    title: "Check Icon"
+    description: "A picture depicting a check mark."
 "chrome":
-    title: "Chrome icon"
-    description: "Some description"
+    title: "Chrome Icon"
+    description: "A picture showing the Chrome browser logo."
 "clinic":
-    title: "Clinic icon"
-    description: "Some description"
+    title: "Clinic Icon"
+    description: "A picture showing a house with the cross symbol in the center."
 "code":
-    title: "Code icon"
-    description: "Some description"
+    title: "Code Icon"
+    description: "A picture showing encircled angle brackets."
 "code-fork":
-    title: "Code fork icon"
-    description: "Some description"
+    title: "Code Fork Icon"
+    description: "A picture depicting a line diverging into two separate lines."
 "code-review":
-    title: "Code review icon"
-    description: "Some description"
+    title: "Code Review Icon"
+    description: "A picture showing encircled angle brackets with a dot between them."
 "commodities":
-    title: "Commodities icon"
-    description: "Some description"
+    title: "Commodities Icon"
+    description: "A picture depicting an oil barrel and 3 gold ingots."
 "condom":
-    title: "Condom icon"
-    description: "Some description"
+    title: "Condom Icon"
+    description: "A picture depicting an empty, open condom."
 "condom-used":
-    title: "Condom used icon"
-    description: "Some description"
+    title: "Condom Used Icon"
+    description: "A picture depicting a condom with a sperm inside."
 "console":
-    title: "Terminal icon"
-    description: "Some description"
+    title: "Terminal Icon"
+    description: "A picture depicting a computer terminal."
 "contains":
-    title: "Contains icon"
-    description: "Some description"
+    title: "Contains Icon"
+    description: "A picture showing the lowercase letter A in a square box."
 "contraception":
-    title: "Contraception icon"
-    description: "Some description"
+    title: "Contraception Icon"
+    description: "A picture depicting a pill."
 "coronavirus":
-    title: "Coronavirus icon"
-    description: "Some description"
+    title: "Corona Virus Icon"
+    description: "A picture depicting a virus cell."
 "credit-cards":
-    title: "Credit cards icon"
-    description: "Some description"
+    title: "Credit Cards Icon"
+    description: "A picture depicting a credit card."
 "credit-control":
-    title: "Credit control icon"
-    description: "Some description"
+    title: "Credit Control Icon"
+    description: "A picture depicting a credit card with an eye in the middle."
 "crowdfunding":
-    title: "Crowd funding icon"
-    description: "Some description"
+    title: "Crowd-Funding Icon"
+    description: "A picture depicting the dollar sign encircled."
 "deafness":
-    title: "Deafness icon"
-    description: "Some description"
+    title: "Deafness Icon"
+    description: "A picture depicting a crossed-out human ear."
 "debate":
-    title: "Debate icon"
-    description: "Some description"
+    title: "Debate Icon"
+    description: "A picture depicting boxing gloves hitting each other."
 "debt":
-    title: "Debt icon"
-    description: "Some description"
+    title: "Debt Icon"
+    description: "A picture depicting a scale weight with the dollar symbol printed on it."
 "delivery":
-    title: "Delivery icon"
-    description: "Some description"
+    title: "Delivery Icon"
+    description: "A picture depicting a truck."
 "dental-floss":
-    title: "Dental floss icon"
-    description: "Some description"
+    title: "Dental Floss Icon"
+    description: "A picture  depicting a dental floss container."
 "dental-implant":
-    title: "Dental implant icon"
-    description: "Some description"
+    title: "Dental Implant Icon"
+    description: "A picture depicting a tooth crown on a spiral."
 "development":
-    title: "Development icon"
-    description: "Some description"
+    title: "Development Icon"
+    description: "A picture depicting puzzle pieces."
 "diabetes":
-    title: "Diabetes icon"
-    description: "Some description"
+    title: "Diabetes Icon"
+    description: "A picture depicting an index finger with a blood drop at the tip."
 "diamond":
-    title: "Diamond icon"
-    description: "Some description"
+    title: "Diamond Icon"
+    description: "A picture depicting a diamond."
 "diamond-circled":
-    title: "Diamond circled icon"
-    description: "Some description"
+    title: "Diamond Circled Icon"
+    description: "A picture depicting an encircled diamond."
 "diners-club":
-    title: "Diners club icon"
-    description: "Some description"
+    title: "Diners Club Icon"
+    description: "A picture showing the Diners Club International logo."
 "discord":
-    title: "Discord icon"
-    description: "Some description"
+    title: "Discord Icon"
+    description: "A picture showing the Discord application logo."
 "discount":
-    title: "discount icon"
-    description: "Some description"
+    title: "Discount Icon"
+    description: "A picture showing a percent sign enclosed in a star-shaped object."
 "dividents":
-    title: "Dividents icon"
-    description: "Some description"
+    title: "Dividents Icon"
+    description: "A picture showing a percent sign encircled in rotating arrows."
 "dna":
-    title: "Dna icon"
-    description: "Some description"
+    title: "DNA Icon"
+    description: "A picture depicting a spiral."
 "doctor":
-    title: "Doctor icon"
-    description: "Some description"
+    title: "Doctor Icon"
+    description: "A picture depicting a person with stethoscope around their neck."
 "doctors-bag":
-    title: "Doctors bag icon"
-    description: "Some description"
+    title: "Doctors Bag Icon"
+    description: "A picture depicting a bag with a cross in the middle."
 "does-not-contain":
-    title: "Does not contain icon"
-    description: "Some description"
+    title: "Does-Not-Contain Icon"
+    description: "A picture showing the lowercase letter A in a crossed-out square box."
 "dollar-circled":
-    title: "Dollar circled icon"
-    description: "Some description"
+    title: "Dollar Circled Icon"
+    description: "A picture showing an encircled dollar symbol."
 "dose":
-    title: "Dose icon"
-    description: "Some description"
+    title: "Dose Icon"
+    description: "A picture showing a medicine dropper."
 "dribbble":
-    title: "Dribbble icon"
-    description: "Some description"
+    title: "Dribbble Icon"
+    description: "A picture showing the Dribble website logo."
 "drop-shipping":
-    title: "Drop shipping icon"
-    description: "Some description"
+    title: "Drop Shipping Icon"
+    description: "A picture depicting an open parachute attached to a box."
 "dropbox":
-    title: "Dropbox icon"
-    description: "Some description"
+    title: "Dropbox Icon"
+    description: "A picture showing the Dropbox application logo."
 "ebay":
-    title: "Ebay icon"
-    description: "Some description"
+    title: "Ebay Icon"
+    description: "A picture showing the ebay website logo."
 "electoral-votes":
-    title: "Electoral votes icon"
-    description: "Some description"
+    title: "Electoral Votes Icon"
+    description: "A picture depicting a person standing in front of a tribune."
 "embryo":
-    title: "Embryo icon"
-    description: "Some description"
+    title: "Embryo Icon"
+    description: "A picture depicting a baby in its mother's womb."
 "end-expression":
-    title: "End expression icon"
-    description: "Some description"
+    title: "End Expression Icon"
+    description: "A picture showing three dots followed by a right-pointed chevron."
 "ends-with":
-    title: "Ends with icon"
-    description: "Some description"
+    title: "Ends With Icon"
+    description: "A picture showing three dots followed by lowercase a."
 "equals":
-    title: "Equals icon"
-    description: "Some description"
+    title: "Equals Icon"
+    description: "A picture showing the equals sign."
 "ethereum":
-    title: "Etherium icon"
-    description: "Some description"
+    title: "Ethereum Icon"
+    description: "A picture showing the Ethereum logo."
 "eu-parliament":
-    title: "EU parliament icon"
-    description: "Some description"
+    title: "EU Parliament Icon"
+    description: "A picture depicting the European Parliament building."
 "euro-circled":
-    title: "Euro-circled icon"
-    description: "Some description"
+    title: "Euro-Circled Icon"
+    description: "A picture showing an encircled euro symbol."
 "exact-match":
-    title: "Exact match icon"
-    description: "Some description"
+    title: "Exact Match Icon"
+    description: "A picture depicting an arrow hitting bulls-eye."
 "face-id":
-    title: "Face id icon"
-    description: "Some description"
+    title: "Face ID Icon"
+    description: "A picture showing the Apple Face ID icon."
 "facebook":
-    title: "Facebook icon"
-    description: "Some description"
+    title: "Facebook Icon"
+    description: "A picture showing the Facebook logo."
 "facebook-messenger":
-    title: "Facebook messenger icon"
-    description: "Some description"
+    title: "Facebook Messenger Icon"
+    description: "A picture showing the Facebook Messenger logo."
 "female-candidate":
-    title: "Female candidate icon"
-    description: "Some description"
+    title: "Female Candidate Icon"
+    description: "A picture showing a woman standing behind a tribune."
 "fertilization":
-    title: "Fertilization icon"
-    description: "Some description"
+    title: "Fertilization Icon"
+    description: "A picture showing a sperm racing towards an egg."
 "file-changes":
-    title: "File changes icon"
-    description: "Some description"
+    title: "File Changes Icon"
+    description: "A picture depicting a paper document with plus and minus signs drawn inside."
 "file-tree":
-    title: "File tree icon"
-    description: "Some description"
+    title: "File Tree Icon"
+    description: "A picture showing a vertical line diverging into two separate lines."
 "financial-insurance":
-    title: "Financial insurance icon"
-    description: "Some description"
+    title: "Financial Insurance Icon"
+    description: "A picture showing the dollar sign under an umbrella."
 "firefox":
-    title: "Firefox icon"
-    description: "Some description"
+    title: "Firefox Icon"
+    description: "A picture showing the Firefox browser logo."
 "fitness-watch":
-    title: "Fitness-watch icon"
-    description: "Some description"
+    title: "Fitness-Watch Icon"
+    description: "A picture depicting a digital watch with the heart symbol in the middle."
 "foreign-exchange":
-    title: "Foreign exchange icon"
-    description: "Some description"
+    title: "Foreign Exchange Icon"
+    description: "A picture showing the euro and dollar symbols encircled in rotating arrows."
 "gas-mask":
-    title: "Gas mask icon"
-    description: "Some description"
+    title: "Gas Mask Icon"
+    description: "A picture depicting a gas mask."
 "gift":
-    title: "Gift icon"
-    description: "Some description"
+    title: "Gift Icon"
+    description: "A picture depicting a wrapped box."
 "git-branch":
-    title: "Git branch icon"
-    description: "Some description"
+    title: "Git Branch Icon"
+    description: "A picture showing a vertical line diverging into two separate lines."
 "git-commit":
-    title: "Git commit icon"
-    description: "Some description"
+    title: "Git Commit Icon"
+    description: "A picture showing a line with a big circle in the middle."
 "git-compare":
-    title: "Git compare icon"
-    description: "Some description"
+    title: "Git Compare Icon"
+    description: "A picture showing mirroring arrows attached to l-shaped lines."
 "git-issue":
-    title: "Git issue icon"
-    description: "Some description"
+    title: "Git Issue Icon"
+    description: "A picture showing an encircled exclamation mark symbol."
 "git-merge":
-    title: "Git merge icon"
-    description: "Some description"
+    title: "Git Merge Icon"
+    description: "A picture showing two perpendicular lines."
 "github":
-    title: "GitHub icon"
-    description: "Some description"
+    title: "GitHub Icon"
+    description: "A picture showing the GitHub website logo."
 "gold":
-    title: "Gold icon"
-    description: "Some description"
+    title: "Gold Icon"
+    description: "A picture depicting a stack of gold ingots."
 "google":
-    title: "Google icon"
-    description: "Some description"
+    title: "Google Icon"
+    description: "A picture showing the Google logo."
 "google-drive":
-    title: "Google drive icon"
-    description: "Some description"
+    title: "Google Drive Icon"
+    description: "A picture showing the Google Drive logo."
 "google-hangouts":
-    title: "Google hangouts icon"
-    description: "Some description"
+    title: "Google Hangouts Icon"
+    description: "A picture showing the Google Hangouts logo."
 "google-maps":
-    title: "Google maps icon"
-    description: "Some description"
+    title: "Google Maps Icon"
+    description: "A picture showing the Google Maps logo."
 "google-pay":
-    title: "Google pay icon"
-    description: "Some description"
+    title: "Google Pay Icon"
+    description: "A picture showing the Google Pay logo."
 "google-play":
-    title: "Google play icon"
-    description: "Some description"
+    title: "Google Play Icon"
+    description: "A picture showing the Google Play logo."
 "google-translate":
-    title: "Google translate icon"
-    description: "Some description"
+    title: "Google Translate Icon"
+    description: "A picture showing the Google Translate logo."
 "greater-than":
-    title: "Greater than icon"
-    description: "Some description"
+    title: "Greater Than Icon"
+    description: "A picture showing the greater-than symbol."
 "greater-than-or-equal":
-    title: "Greater than or equal icon"
-    description: "Some description"
+    title: "Greater Than or Equal Icon"
+    description: "A picture showing the grater-than or equal symbol."
 "grid":
-    title: "grid icon"
-    description: "Some description"
+    title: "Grid Icon"
+    description: "A picture depicting a square grid."
 "hearing-aid":
-    title: "Hearing aid icon"
-    description: "Some description"
+    title: "Hearing Aid Icon"
+    description: "A picture depicting an earphone inserted into a human ear."
 "heart-care":
-    title: "Heart care icon"
-    description: "Some description"
+    title: "Heart Care Icon"
+    description: "A picture showing the heart symbol with a check mark drawn inside it."
 "heart-monitor":
-    title: "Heart monitor icon"
-    description: "Some description"
-"hermometer":
-    title: "Thermometer icon"
-    description: "Some description"
+    title: "Heart Monitor Icon"
+    description: "A picture showing the heart symbol with a cardiogram drawn inside it."
 "horn":
-    title: "Horn icon"
-    description: "Some description"
+    title: "Horn Icon"
+    description: "A picture depicting a loudspeaker."
 "hospital":
-    title: "hospital icon"
-    description: "Some description"
+    title: "Hospital Icon"
+    description: "A picture depicting a house with the capital letter H in the middle."
 "hospital-bed":
-    title: "Hospital-bed icon"
-    description: "Some description"
+    title: "Hospital-Bed Icon"
+    description: "A picture depicting a bed with the capital letter H next to it."
 "hospital-sign":
-    title: "Hospital sign icon"
-    description: "Some description"
+    title: "Hospital Sign Icon"
+    description: "A picture showing the capital letter H in a square."
 "idea-generation":
-    title: "Idea generation icon"
-    description: "Some description"
+    title: "Idea Generation Icon"
+    description: "A picture showing a light bulb encircled in rotating arrows."
 "inspect-code":
-    title: "Inspect code icon"
-    description: "Some description"
+    title: "Inspect Code Icon"
+    description: "A picture depicting a magnifying glass with angled brackets inside it."
 "instagram":
-    title: "Instagram icon"
-    description: "Some description"
+    title: "Instagram Icon"
+    description: "A picture showing the Instagram application logo."
 "internet-explorer":
-    title: "Internet explorer icon"
-    description: "Some description"
+    title: "Internet Explorer Icon"
+    description: "A picture showing the Internet Explorer browser logo."
 "invoice":
-    title: "Invoice icon"
-    description: "Some description"
+    title: "Invoice Icon"
+    description: "A picture depicting a paper sheet."
 "ios":
-    title: "ios icon"
-    description: "Some description"
+    title: "iOS Icon"
+    description: "A picture showing the iOS logo."
 "is-after":
-    title: "Is after icon"
-    description: "Some description"
+    title: "Is After Icon"
+    description: "A picture showing a square bracket drawn after a vertical line."
 "is-before":
-    title: "Is before icon"
-    description: "Some description"
+    title: "Is Before Icon"
+    description: "A picture showing a square bracket drawn before a vertical line."
 "is-empty":
-    title: "Is empty icon"
-    description: "Some description"
+    title: "Is Empty Icon"
+    description: "A picture showing a dotted square."
 "is-false":
-    title: "Is false icon"
-    description: "Some description"
+    title: "Is False Icon"
+    description: "A picture showing an encircled X symbol."
 "is-not-null":
-    title: "Is not null icon"
-    description: "Some description"
+    title: "Is Not Null Icon"
+    description: "A picture showing a crossed-out circle."
 "is-null":
-    title: "Is null icon"
-    description: "Some description"
+    title: "Is Null Icon"
+    description: "A picture showing an empty circle."
 "is-true":
-    title: "is true icon"
-    description: "Some description"
+    title: "is True Icon"
+    description: "A picture showing an encircled check mark symbol."
 "jsfiddle":
-    title: "jsfiddle icon"
-    description: "Some description"
+    title: "JSFiddle Icon"
+    description: "A picture showing the JSFiddle website logo."
 "jump-down":
-    title: "Jump down icon"
-    description: "Some description"
+    title: "Jump Down Icon"
+    description: "A picture showing a bent arrow pointing down towards a line."
 "jump-up":
-    title: "Jump up icon"
-    description: "Some description"
+    title: "Jump Up Icon"
+    description: "A picture showing a bent arrow pointing up towards a line."
 "keep-away-from-children":
-    title: "Keep away from children icon"
-    description: "Some description"
+    title: "Keep Away From Children Icon"
+    description: "A picture depicting a crossed-out baby head."
 "last-month":
-    title: "Last month icon"
-    description: "Some description"
+    title: "Last Month Icon"
+    description: "A picture depicting a calendar with a back-arrow at the end."
 "last-year":
-    title: "Last year icon"
-    description: "Some description"
+    title: "Last Year Icon"
+    description: "A picture depicting a calendar with an back-arrow in the middle."
 "legal-document":
-    title: "Legal document icon"
-    description: "Some description"
+    title: "Legal Document Icon"
+    description: "A picture depicting a sheet of paper with a badge of honor in the middle."
 "less-than":
-    title: "Less than icon"
-    description: "Some description"
+    title: "Less Than Icon"
+    description: "A picture showing the less-than symbol."
 "less-than-or-equal":
-    title: "Less than or equal icon"
-    description: "Some description"
+    title: "Less Than or Equal Icon"
+    description: "A picture showing the lass-than or equal symbol."
 "linkedin":
-    title: "Linkedin icon"
-    description: "Some description"
+    title: "LinkedIn Icon"
+    description: "A picture showing the LinkedIn logo."
 "loan":
-    title: "Loan icon"
-    description: "Some description"
+    title: "Loan Icon"
+    description: "A picture depicting a hand with the dollar symbol above it."
 "maestro":
-    title: "Maestro icon"
-    description: "Some description"
+    title: "Maestro Icon"
+    description: "A picture showing the Maestro logo."
 "male-candidate":
-    title: "Male candidate icon"
-    description: "Some description"
+    title: "Male Candidate Icon"
+    description: "A picture showing a man behind a tribune."
 "mask-1":
-    title: "Mask icon"
-    description: "Some description"
+    title: "Mask Icon"
+    description: "A picture depicting a face mask."
 "mask-2":
-    title: "Mask alt icon"
-    description: "Some description"
+    title: "Mask Icon"
+    description: "A picture depicting a face mask."
 "massage":
-    title: "Massage icon"
-    description: "Some description"
+    title: "Massage Icon"
+    description: "A picture depicting a person giving another person a massage."
 "mastercard":
-    title: "Mastercard icon"
-    description: "Some description"
+    title: "Mastercard Icon"
+    description: "A picture showing the MasterCard logo."
 "match":
-    title: "Match icon"
-    description: "Some description"
+    title: "Match Icon"
+    description: "A picture depicting two puzzle pieces fitting together."
 "medical-book":
-    title: "Medical book icon"
-    description: "Some description"
+    title: "Medical Book Icon"
+    description: "A picture depicting a book with the medical cross at the corner of its cover."
 "medicine":
-    title: "Medicine icon"
-    description: "Some description"
+    title: "Medicine Icon"
+    description: "A picture depicting a bottle with the medical cross in the middle."
 "medium":
-    title: "Medium icon"
-    description: "Some description"
+    title: "Medium Icon"
+    description: "A picture showing the Medium website logo in the middle."
 "microorganisms":
-    title: "Microorganisms icon"
-    description: "Some description"
+    title: "Microorganisms Icon"
+    description: "A picture depicting a single-cell organism."
 "microscope":
-    title: "Microscope icon"
-    description: "Some description"
+    title: "Microscope Icon"
+    description: "A picture depicting a microscope."
 "microsoft":
-    title: "Microsoft icon"
-    description: "Some description"
+    title: "Microsoft Icon"
+    description: "A picture showing the Microsoft logo."
 "milestone":
-    title: "Milestone icon"
-    description: "Some description"
+    title: "Milestone Icon"
+    description: "A picture depicting a road sign."
 "module":
-    title: "Code value icon"
-    description: "Some description"
+    title: "Code Value Icon"
+    description: "A picture depicting a part."
 "money-bag":
-    title: "Money bag icon"
-    description: "Some description"
+    title: "Money Bag Icon"
+    description: "A picture depicting a bag of coins."
 "ms-edge":
-    title: "Microsoft edge icon"
-    description: "Some description"
+    title: "Microsoft Edge Icon"
+    description: "A picture showing the Microsoft Edge browser logo."
 "ms-excel":
-    title: "Microsoft excel icon"
-    description: "Some description"
+    title: "Microsoft Excel Icon"
+    description: "A picture showing the Microsoft Excel logo."
 "ms-office":
-    title: "Microsoft office icon"
-    description: "Some description"
+    title: "Microsoft Office Icon"
+    description: "A picture showing the Microsoft Office logo."
 "ms-outlook":
-    title: "Microsoft outlook icon"
-    description: "Some description"
+    title: "Microsoft Outlook Icon"
+    description: "A picture showing the Microsoft Outlook logo."
 "ms-powerpoint":
-    title: "Microsoft powerpoint icon"
-    description: "Some description"
+    title: "Microsoft Powerpoint Icon"
+    description: "A picture showing the Microsoft Powerpoint logo."
 "ms-teams":
-    title: "Microsoft teams icon"
-    description: "Some description"
+    title: "Microsoft Teams Icon"
+    description: "A picture showing the Microsoft Teams logo."
 "ms-word":
-    title: "Microsoft word icon"
-    description: "Some description"
+    title: "Microsoft Word Icon"
+    description: "A picture showing the Microsoft Word logo."
 "next-month":
-    title: "Next month icon"
-    description: "Some description"
+    title: "Next Month icon"
+    description: "A picture depicting a calendar with a forward-arrow at the end."
 "next-year":
-    title: "Next year icon"
-    description: "Some description"
+    title: "Next Year icon"
+    description: "A picture depicting a calendar with a forward-arrow in the middle."
 "not-empty":
-    title: "Not empty icon"
-    description: "Some description"
+    title: "Not Empty Icon"
+    description: "A picture showing a crossed-out dotted square."
 "not-equal":
-    title: "Not equal icon"
-    description: "Some description"
+    title: "Not Equal Icon"
+    description: "A picture showing a crossed-out equals symbol."
 "nurse":
-    title: "Nurse icon"
-    description: "Some description"
+    title: "Nurse Icon"
+    description: "A picture depicting a female nurse."
 "oil":
-    title: "Oil icon"
-    description: "Some description"
+    title: "Oil Icon"
+    description: "A picture depicting an oil barrel."
 "onedrive":
-    title: "onedrive icon"
-    description: "Some description"
+    title: "OneDrive Icon"
+    description: "A picture showing the Microsoft OneDrive logo."
 "opera":
-    title: "Opera icon"
-    description: "Some description"
+    title: "Opera Icon"
+    description: "A picture showing the Opera browser logo."
 "pacifier":
-    title: "Pacifier icon"
-    description: "Some description"
+    title: "Pacifier Icon"
+    description: "A picture depicting a baby pacifier."
 "parliament-1":
-    title: "Parliament 1 icon"
-    description: "Some description"
+    title: "Parliament Icon"
+    description: "A picture depicting a parliament building."
 "parliament-2":
-    title: "Parliament 2 icon"
-    description: "Some description"
+    title: "Parliament Icon"
+    description: "A picture depicting a parliament building."
 "pay-date":
-    title: "Pay date icon"
-    description: "Some description"
+    title: "Paydate Icon"
+    description: "A picture depicting a credit card in front of a calendar."
 "paypal":
-    title: "Paypal icon"
-    description: "Some description"
+    title: "Paypal Icon"
+    description: "A picture showing the PayPal application logo."
 "piggy-bank":
-    title: "Piggy bank icon"
-    description: "Some description"
+    title: "Piggy Bank Icon"
+    description: "A picture depicting a piggy bank."
 "pill":
-    title: "Pill icon"
-    description: "Some description"
+    title: "Pill Icon"
+    description: "A picture depicting a pill."
 "pin-left":
-    title: "Pin left icon"
-    description: "Some description"
+    title: "Pin Left Icon"
+    description: "A picture depicting a pin pointed to the left."
 "pin-right":
-    title: "Pin right icon"
-    description: "Some description"
+    title: "Pin Right Icon"
+    description: "A picture depicting a pin pointed to the right."
 "pinterest":
-    title: "Pinterest icon"
-    description: "Some description"
+    title: "Pinterest Icon"
+    description: "A picture showing the Pinterest logo."
 "plastic-surgery":
-    title: "Plastic surgery icon"
-    description: "Some description"
+    title: "Plastic Surgery Icon"
+    description: "A picture depicting a marker-marked human torso."
 "plugin":
-    title: "Plugin icon"
-    description: "Some description"
+    title: "Plugin Icon"
+    description: "A picture depicting an electrical plug."
 "poop":
-    title: "poop icon"
-    description: "Some description"
+    title: "Poop Icon"
+    description: "A picture depicting feces."
 "popular-votes":
-    title: "Popular votes icon"
-    description: "Some description"
+    title: "Popular Votes Icon"
+    description: "A picture depicting a hand about to drop a ballot into a voting box."
 "pound-circled":
-    title: "Pound circled icon"
-    description: "Some description"
+    title: "Pound Circled Icon"
+    description: "A picture showing an encircled British pound symbol."
 "pregnancy-no-alcohol":
-    title: "Pregnancy no alcohol icon"
-    description: "Some description"
+    title: "Pregnancy No Alcohol Icon"
+    description: "A picture showing a crossed-out woman drinking wine."
 "project-revenue":
-    title: "Project revenue icon"
-    description: "Some description"
+    title: "Project Revenue Icon"
+    description: "A picture showing the dollar symbol inside a mechanical gear encircled by rotating arrows."
 "protester-signs":
-    title: "Protester signs icon"
-    description: "Some description"
+    title: "Protester Signs Icon"
+    description: "A picture showing two signs."
 "pull-request":
-    title: "Pull request icon"
-    description: "Some description"
+    title: "Pull Request Icon"
+    description: "A picture showing an l-shaped arrow pointing towards a vertical line to the left."
 "pulse":
-    title: "Pulse icon"
-    description: "Some description"
+    title: "Pulse Icon"
+    description: "A picture depicting a cardiogram."
 "radioactive":
-    title: "Radioactive icon"
-    description: "Some description"
+    title: "Radioactive Icon"
+    description: "A picture showing the radioactive symbol."
 "reddit":
-    title: "Reddit icon"
-    description: "Some description"
+    title: "Reddit Icon"
+    description: "A picture showing the Reddit website logo."
 "repository":
-    title: "Repository icon"
-    description: "Some description"
+    title: "Repository Icon"
+    description: "A picture depicting a file drawer."
 "responsive-layout":
-    title: "Responsive layout icon"
-    description: "Some description"
+    title: "Responsive Layout Icon"
+    description: "A picture depicting a mobile phone in front of a laptop computer."
 "results-by-candidates":
-    title: "Results by candidates icon"
-    description: "Some description"
+    title: "Results by Candidates Icon"
+    description: "A picture depicting a pie chart."
 "results-piechart":
-    title: "Results piechart icon"
-    description: "Some description"
+    title: "Results Pie Chart Icon"
+    description: "A picture depicting a pie chart."
 "rh-negative":
-    title: "Rh negative icon"
-    description: "Some description"
+    title: "RH Negative Icon"
+    description: "A picture depicting a blood drop with the minus sign in the middle."
 "rh-positive":
-    title: "Rh positive icon"
-    description: "Some description"
+    title: "RH Positive Icon"
+    description: "A picture depicting a blood drop with the plus sign in the middle."
 "rod-of-asclepius":
-    title: "Rod of ascelepius icon"
-    description: "Some description"
+    title: "Rod of Ascelepius Icon"
+    description: "A picture depicting a snake twisted around a poll."
 "safari":
-    title: "Safari icon"
-    description: "Some description"
+    title: "Safari Icon"
+    description: "A picture showing the Safari browser logo."
 "sale":
-    title: "Sale icon"
-    description: "Some description"
+    title: "Sale Icon"
+    description: "A picture showing the word sale encircled."
 "sass":
-    title: "sass icon"
-    description: "Some description"
+    title: "Sass Icon"
+    description: "A picture showing the Sass language logo."
 "scales-balanced":
-    title: "Scales balanced icon"
-    description: "Some description"
+    title: "Scales Balanced Icon"
+    description: "A picture showing perfectly balanced weight scales."
 "scales-unbalanced":
-    title: "Scales unbalanced icon"
-    description: "Some description"
+    title: "Scales Unbalanced Icon"
+    description: "A picture showing unbalanced weight scales."
 "security-1":
-    title: "Security icon"
-    description: "Some description"
+    title: "Security Icon"
+    description: "A picture depicting a shield-protected briefcase."
 "security-2":
-    title: "Security alt icon"
-    description: "Some description"
+    title: "Security Icon"
+    description: "A picture depicting a shield-protected briefcase."
 "severity":
-    title: "Severity icon"
-    description: "Some description"
+    title: "Severity Icon"
+    description: "A picture depicting a gouge."
 "sign-language":
-    title: "Sign language icon"
-    description: "Some description"
+    title: "Sign Language Icon"
+    description: "A picture depicting two human hands gesticulating."
 "skype":
-    title: "skype icon"
-    description: "Some description"
+    title: "Skype Icon"
+    description: "A picture showing the Microsoft Skype logo."
 "slack":
-    title: "Slack icon"
-    description: "Some description"
+    title: "Slack Icon"
+    description: "A picture showing the Slack application logo."
 "snapchat":
-    title: "Snapchat icon"
-    description: "Some description"
+    title: "Snapchat Icon"
+    description: "A picture showing the Snapchat application logo."
 "sneeze":
-    title: "Sneeze icon"
-    description: "Some description"
+    title: "Sneeze Icon"
+    description: "A picture depicting a person sneezing."
 "software-architecture":
-    title: "Software architecture icon"
-    description: "Some description"
+    title: "Software Architecture Icon"
+    description: "A picture depicting a scaffold."
 "software-installer":
-    title: "Software installer icon"
-    description: "Some description"
+    title: "Software Installer Icon"
+    description: "A picture showing an arrow pointing down at a computer hard drive."
 "soundcloud":
-    title: "Soundcloud icon"
-    description: "Some description"
+    title: "Soundcloud Icon"
+    description: "A picture showing the Soundcloud application icon."
 "source-code":
-    title: "Source code icon"
-    description: "Some description"
+    title: "Source Code Icon"
+    description: "A picture showing encircled angle brackets."
 "spotify":
-    title: "Spotify icon"
-    description: "Some description"
+    title: "Spotify Icon"
+    description: "A picture showing the Spotify application logo."
 "stackoverflow":
-    title: "Stack overflow icon"
-    description: "Some description"
+    title: "Stackoverflow Icon"
+    description: "A picture showing the Stackoverflow logo."
 "start-expression":
-    title: "Start expression icon"
-    description: "Some description"
+    title: "Start Expression Icon"
+    description: "A picture showing a left chevron followed by three dots."
 "starts-with":
-    title: "Starts with icon"
-    description: "Some description"
+    title: "Starts With Icon"
+    description: "A picture showing the uppercase letter A followed by three dots."
 "stats":
-    title: "Stats icon"
-    description: "Some description"
+    title: "Stats Icon"
+    description: "A picture showing a bar chart on a computer screen."
 "steam":
-    title: "Steam icon"
-    description: "Some description"
+    title: "Steam Icon"
+    description: "A picture showing the Steam application logo."
 "stethoscope":
-    title: "Stethoscope icon"
-    description: "Some description"
+    title: "Stethoscope Icon"
+    description: "A picture depicting a stethoscope."
 "strategy":
-    title: "strategy icon"
-    description: "Some description"
+    title: "Strategy Icon"
+    description: "A picture depicting a chess rook."
 "strecher":
-    title: "Strecher icon"
-    description: "Some description"
+    title: "Stretcher Icon"
+    description: "A picture depicting a stretcher."
 "stripe":
-    title: "Stripe icon"
-    description: "Some description"
+    title: "Stripe Icon"
+    description: "A picture showing the Stripe application logo."
 "syringe":
-    title: "Syringe icon"
-    description: "Some description"
+    title: "Syringe Icon"
+    description: "A picture depicting a syringe."
 "system-update":
-    title: "System update icon"
-    description: "Some description"
+    title: "System Update Icon"
+    description: "A picture depicting a computer screen with a reload symbol in the middle."
 "teeth":
-    title: "Teeth icon"
-    description: "Some description"
+    title: "Teeth Icon"
+    description: "A picture depicting human teeth."
 "telegram":
-    title: "Telegram icon"
-    description: "Some description"
+    title: "Telegram Icon"
+    description: "A picture showing the Telegram application icon."
 "thermometer":
-    title: "Thermometer icon"
-    description: "Some description"
+    title: "Thermometer Icon"
+    description: "A picture depicting a thermometer."
 "this-month":
-    title: "This month icon"
-    description: "Some description"
+    title: "This Month Icon"
+    description: "A picture depicting a calendar with an encircled check mark at the end."
 "this-year":
-    title: "This year icon"
-    description: "Some description"
+    title: "This Year Icon"
+    description: "A picture depicting a stacked calendar with a check mark in the middle."
 "tiktok":
-    title: "TikTok icon"
-    description: "Some description"
+    title: "TikTok Icon"
+    description: "A picture showing the TikTok application logo."
 "timeline":
-    title: "Timeline icon"
-    description: "Some description"
+    title: "Timeline Icon"
+    description: "A picture showing a horizontal line with perpendicular lines across its axis."
 "tinder":
-    title: "Tinder icon"
-    description: "Some description"
+    title: "Tinder Icon"
+    description: "A picture showing the Tinder application icon."
 "today":
-    title: "Today icon"
-    description: "Some description"
+    title: "Today Icon"
+    description: "A picture depicting a calendar with a check mark in the middle."
 "toilet-paper":
-    title: "Toilet paper icon"
-    description: "Some description"
+    title: "Toilet Paper Icon"
+    description: "A picture depicting a roll of toilet paper."
 "tomorrow":
-    title: "Tomorrow icon"
-    description: "Some description"
+    title: "Tomorrow Icon"
+    description: "A picture depicting a calendar with a right-pointed arrow in the middle."
 "tooth":
-    title: "Tooth icon"
-    description: "Some description"
+    title: "Tooth Icon"
+    description: "A picture depicting a human tooth."
 "tooth-cracked":
-    title: "Tooth cracked icon"
-    description: "Some description"
+    title: "Tooth Cracked Icon"
+    description: "A picture depicting a chipped human tooth."
 "touch-id":
-    title: "Touch id icon"
-    description: "Some description"
+    title: "TouchID Icon"
+    description: "A picture showing the Apple TouchID logo."
 "twitch":
-    title: "Twitch icon"
-    description: "Some description"
+    title: "Twitch Icon"
+    description: "A picture showing the Twitch application logo."
 "twitter":
-    title: "Twitter icon"
-    description: "Some description"
+    title: "Twitter Icon"
+    description: "A picture showing the Twitter application logo."
 "ungroup":
-    title: "Ungroup icon"
-    description: "Some description"
+    title: "Ungroup Icon"
+    description: "A picture depicting a broken box with four squares inside it."
 "unpin-left":
-    title: "Unpin left icon"
-    description: "Some description"
+    title: "Unpin Left Icon"
+    description: "A picture depicting a crossed-out left-pointed pin."
 "unpin-right":
-    title: "Unpin right icon"
-    description: "Some description"
+    title: "Unpin Right Icon"
+    description: "A picture depicting a crossed-out right-pointed pin."
 "usa-ca":
-    title: "USA ca icon"
-    description: "Some description"
+    title: "USA California Icon"
+    description: "A picture depicting the shape of the state of California."
 "usa-fl":
-    title: "USA fl icon"
-    description: "Some description"
+    title: "USA Florida Icon"
+    description: "A picture depicting the shape of the state of Florida."
 "usa-lower-48-states":
-    title: "USA lower 48 states icon"
-    description: "Some description"
+    title: "USA lower 48 States Icon"
+    description: "A picture depicting the shape of the lower 48 states of the USA."
 "usa-ny":
-    title: "USA ny icon"
-    description: "Some description"
+    title: "USA NY icon"
+    description: "A picture depicting the shape of the state of New York."
 "usa-party-democratic":
-    title: "USA party democratic icon"
-    description: "Some description"
+    title: "USA Party Democratic Icon"
+    description: "A picture showing the Democratic Party symbol of a donkey."
 "usa-party-green":
-    title: "USA party green icon"
-    description: "Some description"
+    title: "USA Party Green Icon"
+    description: "A picture showing the Green Party symbol."
 "usa-party-libertarian":
-    title: "USA party libertarian icon"
-    description: "Some description"
+    title: "USA Party Libertarian Icon"
+    description: "A picture showing the Libertarian Party symbol of a hedgehog."
 "usa-party-republican":
-    title: "USA party republican icon"
-    description: "Some description"
+    title: "USA Party Republican Icon"
+    description: "A picture showing the Republican Party symbol of an elephant."
 "usa-tx":
-    title: "USA tx icon"
-    description: "Some description"
+    title: "USA TX icon"
+    description: "A picture depicting the shape of the state of Texas."
 "usb":
-    title: "usb icon"
-    description: "Some description"
+    title: "USB Icon"
+    description: "A picture showing the USB standard logo."
 "verified-account":
-    title: "Verified account icon"
-    description: "Some description"
+    title: "Verified Account Icon"
+    description: "A picture showing a badge with a check mark in the middle."
 "veterinarian":
-    title: "Veterinarian icon"
-    description: "Some description"
+    title: "Veterinarian Icon"
+    description: "A picture depicting a paw footprint with a medical cross inside."
 "vial":
-    title: "Vial icon"
-    description: "Some description"
+    title: "Vial Icon"
+    description: "A picture depicting a vial."
 "viber":
-    title: "Viber icon"
-    description: "Some description"
+    title: "Viber Icon"
+    description: "A picture showing the Viber application logo."
 "vimeo":
-    title: "Vimeo icon"
-    description: "Some description"
+    title: "Vimeo Icon"
+    description: "A picture showign the Vimeo website logo."
 "virus":
-    title: "virus icon"
-    description: "Some description"
+    title: "Virus Icon"
+    description: "A picture depicting a corona-shaped virus."
 "virus-protection":
-    title: "Virus protection icon"
-    description: "Some description"
+    title: "Virus Protection Icon"
+    description: "A picture depicting a shield with a virus on it."
 "virus-stop":
-    title: "Virus stop icon"
-    description: "Some description"
+    title: "Virus Stop Icon"
+    description: "A picture depicting a crossed-out virus symbol."
 "visa":
-    title: "Visa icon"
-    description: "Some description"
+    title: "Visa Icon"
+    description: "A picture showing the Visa credit card logo."
 "visually-impaired":
-    title: "Visually impaired icon"
-    description: "Some description"
+    title: "Visually Impaired Icon"
+    description: "A picture depicting a crossed-out human eye."
 "vote":
-    title: "Vote icon"
-    description: "Some description"
+    title: "Vote Icon"
+    description: "A picture depicting a voting box with an arrow pointed towards a slid."
 "vs-code":
-    title: "Visual studio code icon"
-    description: "Some description"
+    title: "VSCode Icon"
+    description: "A picture showing the Microsoft VSCode logo."
 "wechat":
-    title: "Wechat icon"
-    description: "Some description"
+    title: "WeChat Icon"
+    description: "A picture showing the WeChat icon."
 "weight-scale":
-    title: "Weight scale icon"
-    description: "Some description"
+    title: "Weight Scale Icon"
+    description: "A picture depicting a weight scale."
 "whatsapp":
-    title: "WhatsApp icon"
-    description: "Some description"
+    title: "WhatsApp Icon"
+    description: "A picture showing the WhatsApp application icon."
 "white-house-1":
-    title: "White house 1 icon"
-    description: "Some description"
+    title: "White House Icon"
+    description: "A picture depicting the famous White House presidential building."
 "white-house-2":
-    title: "White house 2 icon"
-    description: "Some description"
+    title: "White House Icon"
+    description: "A picture depicting the famous White House presidential building."
 "wire-transfer":
-    title: "Wire transfer icon"
-    description: "Some description"
+    title: "Wire Transfer Icon"
+    description: "A picture showing the euro and dollar symbols moving in different directions."
 "workflow":
-    title: "Workflow icon"
-    description: "Some description"
+    title: "Workflow Icon"
+    description: "A picture depicting a line diverging into three separate lines."
 "yen-circled":
-    title: "Yen circled icon"
-    description: "Some description"
+    title: "Yen Circled Icon"
+    description: "A picture of an encircled Japanese Yen symbol."
 "yesterday":
-    title: "Yesterday icon"
-    description: "Some description"
+    title: "Yesterday Icon"
+    description: "A picture depicting a calendar with a back arrow in the middle."
 "youtube":
-    title: "YouTube icon"
-    description: "Some description"
+    title: "YouTube Icon"
+    description: "A picture showing the YouTube website logo."
