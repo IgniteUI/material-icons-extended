@@ -1,4 +1,5 @@
 export enum IconCategoryEnum {
+  "construction",
   "content",
   "editor",
   "finance",
