@@ -117,7 +117,7 @@
     description: "A picture depicting a woman breastfeeding her child."
 "brick-wall":
     title: "Brick Wall Icon"
-    description: "A picture depicting a wall with bricks."
+    description: "A picture depicting a wall made of bricks."
 "brush":
     title: "Brush Icon"
     description: "A picture showing a painting brush."
@@ -207,7 +207,7 @@
     description: "A picture depicting a construction cone."
 "construction-project":
     title: "Construction Project Icon"
-    description: "A picture depicting a construction project."
+    description: "A picture depicting a construction project or an architectural plan, a blueprint."
 "construction-trolley":
     title: "Construction Trolley Icon"
     description: "A picture depicting a construction trolley."
@@ -636,7 +636,7 @@
     description: "A picture depicting an oil barrel."
 "oil-platform":
     title: "Oil Platform Icon"
-    description: "A picture depicting an oil platform."
+    description: "A picture depicting an oil platform/offshore drilling rig at seas."
 "onedrive":
     title: "OneDrive Icon"
     description: "A picture showing the Microsoft OneDrive logo."
@@ -720,7 +720,7 @@
     description: "A picture depicting a cardiogram."
 "radiator":
     title: "Radiator Icon"
-    description: "A picture showing a radiator in a house."
+    description: "A picture showing a radiator used for heating."
 "radioactive":
     title: "Radioactive Icon"
     description: "A picture showing the radioactive symbol."
@@ -735,7 +735,7 @@
     description: "A picture depicting a mobile phone in front of a laptop computer."
 "restricted-area":
     title: "Restricted Area Icon"
-    description: "A picture depicting a restricted area."
+    description: "A picture depicting a restricted area blocked by a barrier or a fence."
 "results-by-candidates":
     title: "Results by Candidates Icon"
     description: "A picture depicting a pie chart."
@@ -756,7 +756,7 @@
     description: "A picture depicting a snake twisted around a poll."
 "rulers":
     title: "Rulers Icon"
-    description: "A picture depicting a different measuring tools."
+    description: "A picture depicting different measuring tools."
 "safari":
     title: "Safari Icon"
     description: "A picture showing the Safari browser logo."
@@ -879,7 +879,7 @@
     description: "A picture depicting a table saw blade."
 "tap-water":
     title: "Tap Water Icon"
-    description: "A picture depicting a tap water."
+    description: "A picture depicting tap water."
 "tapeline":
     title: "Tapeline Icon"
     description: "A picture depicting a measuring tape."
