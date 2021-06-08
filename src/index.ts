@@ -1,4 +1,5 @@
 import { content } from "./content";
+import { construction } from "./construction";
 import { editor } from "./editor";
 import { elections } from "./election";
 import { finance } from "./finance";
@@ -21,6 +22,7 @@ export { IMXIcon, IconCategory, IconCategoryEnum } from "./common/icon";
 
 export const all: IMXIcon[] = [
   ...content,
+  ...construction,
   ...editor,
   ...elections,
   ...finance,
