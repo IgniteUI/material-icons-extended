@@ -16,6 +16,8 @@ const spritesConfig = {
       padding: 0,
       box: "icon",
     },
+    meta: "./src/a11y-meta.yml",
+    dest: '../src/svgs/'
   },
   svg: {
     xmlDeclaration: false,
