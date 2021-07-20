@@ -5,17 +5,17 @@ node_js:
 script:
 - npm run build
 
-before_deploy:
-- npm version "${TRAVIS_TAG}" --no-git-tag-version --save --allow-same-version
-- if [[ "${TRAVIS_TAG}" == *"beta"* ]]; then export NPM_TAG="next"; else export NPM_TAG="latest"; fi
+# before_deploy:
+# - npm version "${TRAVIS_TAG}" --no-git-tag-version --save --allow-same-version
+# - if [[ "${TRAVIS_TAG}" == *"beta"* ]]; then export NPM_TAG="next"; else export NPM_TAG="latest"; fi
 
-deploy:
-  provider: npm
-  tag: "${NPM_TAG}"
-  skip_cleanup: true
-  email: igniteui@infragistics.com
-  api_key:
-    secure: FvEG46kTH5WKcOQ0u6fB5qMWdo2NfmPFMuHFwXWaexG6ZERXqAa6O78y9XxiBmafRX2G/wVBdttmfp2h1eSOg7yH/ijzVFydAGd+KIQDoSO4PGF4IAEpy5ifxH15DyLKSc0WzffVM/dTRYsf058SPgicKz8lfkxrVXmBWj+QxGOstzD85tmWIUYaTeso1nZL/hDRGnQsLHCNPH8+Kbmdx0QevwWd2AzKe+zHwzv47IFYnfCxUN8aGjpkEb9bB5reHU7/m13imRXTH4ZDFFXhVZ5Kvfi2p+12T+ZAZ/OSwg24RE7isQOekSYWovC05QzCziVPrDYd9s1uB4FHjwwWg3F5gdkukEIvA8bDkjnZ+I0puCOkeN5cdsgfJoMz/8In7fHLASRP/D5TM6cC8PREli0bl21xs8AajQFvpzRztftLMjNUlgxE0PSw620lpiLvokSJvb8rf9LGUftfhhi1J6/ul56blTiseJ1Y91YEfl+7O2KXBu8SY0dvghtfF01rwsMuHSQSDOCw2W20vznquvu8nEeJBtb0vo9t1yt8NVfdVJtJHxetL1pIanofSc0XSBFILNNvPbC8oBZi+nX4toy5OdEH1B5yH/L1KrcANmb2yaVGxNLa9N7yvqz/p4EMOwadRWH/IrAry8JRsGmouNlVY3Ryxi4kuuiH8bDDCQA=
-  on:
-    tags: true
-    repo: IgniteUI/material-icons-extended
+# deploy:
+#   provider: npm
+#   tag: "${NPM_TAG}"
+#   skip_cleanup: true
+#   email: igniteui@infragistics.com
+#   api_key:
+#     secure: FvEG46kTH5WKcOQ0u6fB5qMWdo2NfmPFMuHFwXWaexG6ZERXqAa6O78y9XxiBmafRX2G/wVBdttmfp2h1eSOg7yH/ijzVFydAGd+KIQDoSO4PGF4IAEpy5ifxH15DyLKSc0WzffVM/dTRYsf058SPgicKz8lfkxrVXmBWj+QxGOstzD85tmWIUYaTeso1nZL/hDRGnQsLHCNPH8+Kbmdx0QevwWd2AzKe+zHwzv47IFYnfCxUN8aGjpkEb9bB5reHU7/m13imRXTH4ZDFFXhVZ5Kvfi2p+12T+ZAZ/OSwg24RE7isQOekSYWovC05QzCziVPrDYd9s1uB4FHjwwWg3F5gdkukEIvA8bDkjnZ+I0puCOkeN5cdsgfJoMz/8In7fHLASRP/D5TM6cC8PREli0bl21xs8AajQFvpzRztftLMjNUlgxE0PSw620lpiLvokSJvb8rf9LGUftfhhi1J6/ul56blTiseJ1Y91YEfl+7O2KXBu8SY0dvghtfF01rwsMuHSQSDOCw2W20vznquvu8nEeJBtb0vo9t1yt8NVfdVJtJHxetL1pIanofSc0XSBFILNNvPbC8oBZi+nX4toy5OdEH1B5yH/L1KrcANmb2yaVGxNLa9N7yvqz/p4EMOwadRWH/IrAry8JRsGmouNlVY3Ryxi4kuuiH8bDDCQA=
+#   on:
+#     tags: true
+#     repo: IgniteUI/material-icons-extended
