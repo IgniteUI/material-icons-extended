@@ -1,4 +1,4 @@
-name: npm deploy
+name: Npm.js deploy
 
 on:
   release:
