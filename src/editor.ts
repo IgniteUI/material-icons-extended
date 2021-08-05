@@ -1,246 +1,281 @@
 import { IMXIcon } from "./common/icon";
+import caseSensitiveIcon from "./svgs/case-sensitive.svg";
+import checkIcon from "./svgs/check.svg";
+import containsIcon from "./svgs/contains.svg";
+import doesNotContainIcon from "./svgs/does-not-contain.svg";
+import endExpressionIcon from "./svgs/end-expression.svg";
+import endsWithIcon from "./svgs/ends-with.svg";
+import equalsIcon from "./svgs/equals.svg";
+import exactMatchIcon from "./svgs/exact-match.svg";
+import greaterThanIcon from "./svgs/greater-than.svg";
+import greaterThanOrEqualIcon from "./svgs/greater-than-or-equal.svg";
+import isAfterIcon from "./svgs/is-after.svg";
+import isBeforeIcon from "./svgs/is-before.svg";
+import isEmptyIcon from "./svgs/is-empty.svg";
+import isFalseIcon from "./svgs/is-false.svg";
+import isNotNullIcon from "./svgs/is-not-null.svg";
+import isNullIcon from "./svgs/is-null.svg";
+import isTrueIcon from "./svgs/is-true.svg";
+import lastMonthIcon from "./svgs/last-month.svg";
+import lastYearIcon from "./svgs/last-year.svg";
+import lessThanIcon from "./svgs/less-than.svg";
+import lessThanOrEqualIcon from "./svgs/less-than-or-equal.svg";
+import matchIcon from "./svgs/match.svg";
+import nextMonthIcon from "./svgs/next-month.svg";
+import nextYearIcon from "./svgs/next-year.svg";
+import notEmptyIcon from "./svgs/not-empty.svg";
+import notEqualIcon from "./svgs/not-equal.svg";
+import selectAllIcon from "./svgs/all.svg";
+import startExpressionIcon from "./svgs/start-expression.svg";
+import startsWithIcon from "./svgs/starts-with.svg";
+import thisMonthIcon from "./svgs/this-month.svg";
+import thisYearIcon from "./svgs/this-year.svg";
+import todayIcon from "./svgs/today.svg";
+import ungroupIcon from "./svgs/ungroup.svg";
+import yesterdayIcon from "./svgs/yesterday.svg";
+import tomorrowIcon from "./svgs/tomorrow.svg"; 
 
 export const caseSensitive: IMXIcon = {
   name: "case-sensitive",
-  value: require("./svgs/case-sensitive.svg"),
+  value: caseSensitiveIcon,
   categories: ["editor"],
   keywords: ["case", "sensitive", "character", "text", "mode", "sentence", "style", "change", "compare", "filter"],
 };
 
 export const check: IMXIcon = {
   name: "check",
-  value: require("./svgs/check.svg"),
+  value: checkIcon,
   categories: ["editor"],
   keywords: ["check", "checked", "mark", "tick", "ok", "success"],
 };
 
 export const contains: IMXIcon = {
   name: "contains",
-  value: require("./svgs/contains.svg"),
+  value: containsIcon,
   categories: ["editor"],
   keywords: ["contains", "letter", "contain", "compare", "filter"],
 };
 
 export const doesNotContain: IMXIcon = {
   name: "does-not-contain",
-  value: require("./svgs/does-not-contain.svg"),
+  value: doesNotContainIcon,
   categories: ["editor"],
   keywords: ["contains", "character", "contain", "compare", "filter"],
 };
 
 export const endExpression: IMXIcon = {
   name: "end-expression",
-  value: require("./svgs/end-expression.svg"),
+  value: endExpressionIcon,
   categories: ["editor"],
   keywords: ["end", "expression", "arrow", "right"],
 };
 
 export const endsWith: IMXIcon = {
   name: "ends-with",
-  value: require("./svgs/ends-with.svg"),
+  value: endsWithIcon,
   categories: ["editor"],
   keywords: ["end", "character", "compare", "filter"],
 };
 
 export const equals: IMXIcon = {
   name: "equals",
-  value: require("./svgs/equals.svg"),
+  value: equalsIcon,
   categories: ["editor"],
   keywords: ["equal", "equals", "compare", "filter", "equality", "calculation", "math"],
 };
 
 export const exactMatch: IMXIcon = {
   name: "exact-match",
-  value: require("./svgs/exact-match.svg"),
+  value: exactMatchIcon,
   categories: ["editor"],
   keywords: ["exact", "match", "arrow", "target", "goal", "aim", "business", "dart", "bullseye"],
 };
 
 export const greaterThan: IMXIcon = {
   name: "greater-than",
-  value: require("./svgs/greater-than.svg"),
+  value: greaterThanIcon,
   categories: ["editor"],
   keywords: ["greater", "more", "compare", "next", "forward", "chevron", "math", "inequalty", "arrow"],
 };
 
 export const greaterThanOrEqual: IMXIcon = {
   name: "greater-than-or-equal",
-  value: require("./svgs/greater-than-or-equal.svg"),
+  value: greaterThanOrEqualIcon,
   categories: ["editor"],
   keywords: ["greater", "more", "equal", "equals", "compare", "math"],
 };
 
 export const isAfter: IMXIcon = {
   name: "is-after",
-  value: require("./svgs/is-after.svg"),
+  value: isAfterIcon,
   categories: ["editor"],
   keywords: ["after", "comparison", "before", "convert", "decode", "render", "scan"],
 };
 
 export const isBefore: IMXIcon = {
   name: "is-before",
-  value: require("./svgs/is-before.svg"),
+  value: isBeforeIcon,
   categories: ["editor"],
   keywords: ["after", "comparison", "before", "convert", "decode", "render", "scan"],
 };
 
 export const isEmpty: IMXIcon = {
   name: "is-empty",
-  value: require("./svgs/is-empty.svg"),
+  value: isEmptyIcon,
   categories: ["editor"],
   keywords: ["empty", "box", "nothing"],
 };
 
 export const isFalse: IMXIcon = {
   name: "is-false",
-  value: require("./svgs/is-false.svg"),
+  value: isFalseIcon,
   categories: ["editor"],
   keywords: ["false", "true", "choice", "options", "yes", "no", "check", "tick", "cross"],
 };
 
 export const isNotNull: IMXIcon = {
   name: "is-not-null",
-  value: require("./svgs/is-not-null.svg"),
+  value: isNotNullIcon,
   categories: ["editor"],
   keywords: ["empty", "null", "void", "problem", "number", "invalid", "inoperative", "none", "nothing"],
 };
 
 export const isNull: IMXIcon = {
   name: "is-null",
-  value: require("./svgs/is-null.svg"),
+  value: isNullIcon,
   categories: ["editor"],
   keywords: ["null", "circle", "zero", "o"],
 };
 
 export const isTrue: IMXIcon = {
   name: "is-true",
-  value: require("./svgs/is-true.svg"),
+  value: isTrueIcon,
   categories: ["editor"],
   keywords: ["true", "false", "choice", "options", "yes", "no", "check", "tick", "cross"],
 };
 
 export const lastMonth: IMXIcon = {
   name: "last-month",
-  value: require("./svgs/last-month.svg"),
+  value: lastMonthIcon,
   categories: ["editor"],
   keywords: ["last", "calendar", "month", "date", "day", "previous", "schedule", "arrow", "left", "page"],
 };
 
 export const lastYear: IMXIcon = {
   name: "last-year",
-  value: require("./svgs/last-year.svg"),
+  value: lastYearIcon,
   categories: ["editor"],
   keywords: ["last", "calendar", "month", "date", "previous", "schedule", "arrow", "left"],
 };
 
 export const lessThan: IMXIcon = {
   name: "less-than",
-  value: require("./svgs/less-than.svg"),
+  value: lessThanIcon,
   categories: ["editor"],
   keywords: ["less", "smaller", "compare", "previous", "back", "chevron", "math", "inequalty", "arrow"],
 };
 
 export const lessThanOrEqual: IMXIcon = {
   name: "less-than-or-equal",
-  value: require("./svgs/less-than-or-equal.svg"),
+  value: lessThanOrEqualIcon,
   categories: ["editor"],
   keywords: ["less", "smaller", "equal", "equals", "compare", "math"],
 };
 
 export const match: IMXIcon = {
   name: "match",
-  value: require("./svgs/match.svg"),
+  value: matchIcon,
   categories: ["editor"],
   keywords: ["match", "fit", "puzzle", "pieces", "jigsaw", "combination", "play", "game", "toy"],
 };
 
 export const nextMonth: IMXIcon = {
   name: "next-month",
-  value: require("./svgs/next-month.svg"),
+  value: nextMonthIcon,
   categories: ["editor"],
   keywords: ["next", "calendar", "month", "date", "day", "following", "schedule", "arrow", "right", "page"],
 };
 
 export const nextYear: IMXIcon = {
   name: "next-year",
-  value: require("./svgs/next-year.svg"),
+  value: nextYearIcon,
   categories: ["editor"],
   keywords: ["next", "calendar", "month", "date", "following", "schedule", "arrow", "right"],
 };
 
 export const notEmpty: IMXIcon = {
   name: "not-empty",
-  value: require("./svgs/not-empty.svg"),
+  value: notEmptyIcon,
   categories: ["editor"],
   keywords: ["empty", "full"],
 };
 
 export const notEqual: IMXIcon = {
   name: "not-equal",
-  value: require("./svgs/not-equal.svg"),
+  value: notEqualIcon,
   categories: ["editor"],
   keywords: ["equal", "equals", "different", "compare", "filter", "equality", "calculation", "math"],
 };
 
 export const selectAll: IMXIcon = {
   name: "select-all",
-  value: require("./svgs/all.svg"),
+  value: selectAllIcon,
   categories: ["editor"],
   keywords: ["all", "select", "check", "multiple"],
 };
 
 export const startExpression: IMXIcon = {
   name: "start-expression",
-  value: require("./svgs/start-expression.svg"),
+  value: startExpressionIcon,
   categories: ["editor"],
   keywords: ["start", "expression", "arrow", "left"],
 };
 
 export const startsWith: IMXIcon = {
   name: "starts-with",
-  value: require("./svgs/starts-with.svg"),
+  value: startsWithIcon,
   categories: ["editor"],
   keywords: ["start", "character", "compare", "filter"],
 };
 
 export const thisMonth: IMXIcon = {
   name: "this-month",
-  value: require("./svgs/this-month.svg"),
+  value: thisMonthIcon,
   categories: ["editor"],
   keywords: ["this", "calendar", "month", "date", "day", "current", "schedule", "check", "page", "now"],
 };
 
 export const thisYear: IMXIcon = {
   name: "this-year",
-  value: require("./svgs/this-year.svg"),
+  value: thisYearIcon,
   categories: ["editor"],
   keywords: ["this", "calendar", "month", "date", "current", "schedule", "check", "now"],
 };
 
 export const today: IMXIcon = {
   name: "today",
-  value: require("./svgs/today.svg"),
+  value: todayIcon,
   categories: ["editor"],
   keywords: ["today", "now", "check", "date", "day", "calendar", "current", "schedule", "event"],
 };
 
 export const ungroup: IMXIcon = {
   name: "ungroup",
-  value: require("./svgs/ungroup.svg"),
+  value: ungroupIcon,
   categories: ["editor"],
   keywords: ["ungroup", "exclude", "extract"],
 };
 
 export const yesterday: IMXIcon = {
   name: "yesterday",
-  value: require("./svgs/yesterday.svg"),
+  value: yesterdayIcon,
   categories: ["editor"],
   keywords: ["yesterday", "date", "calendar", "left", "arrow", "past", "previous", "day"],
 };
 
 export const tomorrow: IMXIcon = {
   name: "tomorrow",
-  value: require("./svgs/tomorrow.svg"),
+  value: tomorrowIcon,
   categories: ["editor"],
   keywords: ["tomorrow", "date", "calendar", "right", "arrow", "future", "next", "day"],
 };

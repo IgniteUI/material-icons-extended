@@ -1,6 +1,7 @@
-const { series, src, dest } = require("gulp");
-const svgSprite = require("gulp-svg-sprite");
-const rimraf = require("rimraf");
+import gulp from "gulp";
+import svgSprite from "gulp-svg-sprite";
+import rimraf from "rimraf";
+const { series, src, dest } = gulp;
 
 const spritesConfig = {
   shape: {
@@ -17,7 +18,7 @@ const spritesConfig = {
       box: "icon",
     },
     meta: "./src/a11y-meta.yml",
-    dest: '../src/svgs/'
+    dest: "../src/svgs/",
   },
   svg: {
     xmlDeclaration: false,
@@ -62,4 +63,5 @@ function buildSvgSprites() {
     .pipe(dest("sprites"));
 }
 
-exports.build = series(clean, buildSvgSprites);
+const build = series(clean, buildSvgSprites);
+export { clean, build };

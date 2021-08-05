@@ -1,13 +1,15 @@
 {
   "compileOnSave": true,
   "compilerOptions": {
-    "target": "es5",
-    "module": "commonjs",
+    "target": "es2015",
+    "module": "ES2015",
+    "lib": ["es2015"],
+    "moduleResolution": "Node",
     "declaration": true,
     "strict": true,
-    "outDir": "./build",
     "sourceMap": true,
-    "typeRoots": ["node_modules/@types"],
+    "outDir": "./build",
+    "typeRoots": ["node_modules/@types", "./src/@types"],
     "noImplicitAny": true,
     "removeComments": true
   },

@@ -1,12 +1,14 @@
-const path = require("path");
+import path from "path";
+const __dirname = path.resolve();
 
-module.exports = {
+const config = {
   entry: "./src/index.ts",
-  module: {
+  mode: "production",
+  module: { 
     rules: [
       {
-        test: /\.svg$/,
-        loader: "svg-inline-loader",
+        test: /\.svg/,
+        type: 'asset/source'
       },
       {
         test: /\.ts?$/,
@@ -18,9 +20,16 @@ module.exports = {
   resolve: {
     extensions: [".ts", ".js", ".svg"],
   },
+  experiments: {
+    outputModule: true
+  },
   output: {
     filename: "index.js",
-    path: path.resolve(__dirname, "build"),
-    libraryTarget: "commonjs",
+    path: path.resolve(__dirname, "build/src/"),
+    library: {
+      type: "module"
+    }
   },
 };
+
+export default config;

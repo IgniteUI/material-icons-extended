@@ -1,70 +1,80 @@
 import { IMXIcon } from "./common/icon";
+import addChildIcon from "./svgs/add-child.svg";
+import addFilterIcon from "./svgs/add-filter.svg";
+import addRowIcon from "./svgs/add-row.svg";
+import jumpDownIcon from "./svgs/jump-down.svg";
+import jumpUpIcon from "./svgs/jump-up.svg";
+import pinLeftIcon from "./svgs/pin-left.svg";
+import pinRightIcon from "./svgs/pin-right.svg";
+import unpinLeftIcon from "./svgs/unpin-left.svg";
+import unpinRightIcon from "./svgs/unpin-right.svg";
 
 export const addChild: IMXIcon = {
   name: "add-child",
-  value: require("./svgs/add-child.svg"),
+  value: addChildIcon,
   categories: ["content"],
   keywords: ["add", "insert", "row", "child", "new", "below", "under"],
 };
 
 export const addFilter: IMXIcon = {
   name: "add-filter",
-  value: require("./svgs/add-filter.svg"),
+  value: addFilterIcon,
   categories: ["content"],
   keywords: ["add", "filter", "funnel", "leads", "new"],
 };
 
 export const addRow: IMXIcon = {
   name: "add-row",
-  value: require("./svgs/add-row.svg"),
+  value: addRowIcon,
   categories: ["content"],
   keywords: ["add", "insert", "row", "new"],
 };
 
 export const jumpDown: IMXIcon = {
   name: "jump-down",
-  value: require("./svgs/jump-down.svg"),
+  value: jumpDownIcon,
   categories: ["content"],
   keywords: ["jump", "down", "arrow", "below", "under"],
 };
 
 export const jumpUp: IMXIcon = {
   name: "jump-up",
-  value: require("./svgs/jump-up.svg"),
+  value: jumpUpIcon,
   categories: ["content"],
   keywords: ["jump", "up", "arrow", "above"],
 };
 
 export const pinLeft: IMXIcon = {
   name: "pin-left",
-  value: require("./svgs/pin-left.svg"),
+  value: pinLeftIcon,
   categories: ["content"],
   keywords: ["pin", "freeze", "left", "pushpin", "nail", "marker", "attach", "tack", "thumbtack"],
 };
 
 export const pinRight: IMXIcon = {
   name: "pin-right",
-  value: require("./svgs/pin-right.svg"),
+  value: pinRightIcon,
   categories: ["content"],
   keywords: ["pin", "freeze", "right", "pushpin", "nail", "marker", "attach", "tack", "thumbtack"],
 };
 
 export const unpinLeft: IMXIcon = {
   name: "unpin-left",
-  value: require("./svgs/unpin-left.svg"),
+  value: unpinLeftIcon,
   categories: ["content"],
   keywords: ["unpin", "unfreeze", "left", "pushpin", "nail", "marker", "detach", "tack", "thumbtack"],
 };
 
 export const unpinRight: IMXIcon = {
   name: "unpin-right",
-  value: require("./svgs/unpin-right.svg"),
+  value: unpinRightIcon,
   categories: ["content"],
   keywords: ["unpin", "unfreeze", "right", "pushpin", "nail", "marker", "detach", "tack", "thumbtack"],
 };
 
 export const content = [
   addChild,
+  addFilter,
   addRow,
   jumpDown,
   jumpUp,
