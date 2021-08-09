@@ -9,14 +9,15 @@ import { programming } from "./programming";
 import { socialMedia } from "./socialMedia";
 import { IMXIcon } from './common/icon';
 
+export * from "./content";
+export * from "./construction";
+export * from "./editor";
 export * from "./election";
 export * from "./finance";
 export * from "./health";
 export * from "./logos";
 export * from "./programming";
 export * from "./socialMedia";
-export * from "./content";
-export * from "./editor";
 
 export { IMXIcon, IconCategory, IconCategoryEnum } from "./common/icon";
 

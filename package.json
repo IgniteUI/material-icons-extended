@@ -1,13 +1,24 @@
 {
   "name": "@igniteui/material-icons-extended",
-  "version": "2.8.1",
+  "version": "2.9.0",
   "description": "A subset of Material Icons that extend the official Material Design Icons by Google.",
+  "type": "module",
   "scripts": {
-    "build": "gulp build && webpack --mode production",
+    "build": "gulp build && npm run build:ts",
+    "build:ts": "node ./webpack.js",
     "build:dev": "gulp build && webpack --mode development"
   },
-  "main": "build/index.js",
-  "types": "build/src/index.d.ts",
+  "main": "build/src/index.js",
+  "exports": {
+    ".": "./build/src/index.js"
+  },
+  "typesVersion": {
+    "*": {
+      "*": [
+        "build/src/*"
+      ]
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/IgniteUI/material-icons-extended.git"
@@ -35,10 +46,10 @@
     "gulp": "^4.0.2",
     "gulp-svg-sprite": "^1.5.0",
     "rimraf": "^3.0.2",
-    "svg-inline-loader": "^0.8.2",
-    "ts-loader": "^8.0.2",
-    "typescript": "^3.9.7",
-    "webpack": "^4.44.1",
+    "svgo-loader": "^3.0.0",
+    "ts-loader": "^9.2.5",
+    "typescript": "^4.3.5",
+    "webpack": "^5.48.0",
     "webpack-cli": "^3.3.12"
   }
 }
