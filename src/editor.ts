@@ -1,5 +1,17 @@
 import { IMXIcon } from "./common/icon";
 
+export const bottomPercentileRecords: IMXIcon = {
+  name: "bottom-percentile-records",
+  value: require("./svgs/bottom-percentile-records.svg"),
+  categories: ["editor"],
+};
+
+export const bottomRecords: IMXIcon = {
+  name: "bottom-records",
+  value: require("./svgs/bottom-records.svg"),
+  categories: ["editor"],
+};
+
 export const caseSensitive: IMXIcon = {
   name: "case-sensitive",
   value: require("./svgs/case-sensitive.svg"),
@@ -108,6 +120,18 @@ export const lastMonth: IMXIcon = {
   categories: ["editor"],
 };
 
+export const lastQuarter: IMXIcon = {
+  name: "last-quarter",
+  value: require("./svgs/last-quarter.svg"),
+  categories: ["editor"],
+};
+
+export const lastWeek: IMXIcon = {
+  name: "last-week",
+  value: require("./svgs/last-week.svg"),
+  categories: ["editor"],
+};
+
 export const lastYear: IMXIcon = {
   name: "last-year",
   value: require("./svgs/last-year.svg"),
@@ -132,9 +156,27 @@ export const match: IMXIcon = {
   categories: ["editor"],
 };
 
+export const month: IMXIcon = {
+  name: "month",
+  value: require("./svgs/month.svg"),
+  categories: ["editor"],
+};
+
 export const nextMonth: IMXIcon = {
   name: "next-month",
   value: require("./svgs/next-month.svg"),
+  categories: ["editor"],
+};
+
+export const nextQuarter: IMXIcon = {
+  name: "next-quarter",
+  value: require("./svgs/next-quarter.svg"),
+  categories: ["editor"],
+};
+
+export const nextWeek: IMXIcon = {
+  name: "next-week",
+  value: require("./svgs/next-week.svg"),
   categories: ["editor"],
 };
 
@@ -153,6 +195,30 @@ export const notEmpty: IMXIcon = {
 export const notEqual: IMXIcon = {
   name: "not-equal",
   value: require("./svgs/not-equal.svg"),
+  categories: ["editor"],
+};
+
+export const quarterFour: IMXIcon = {
+  name: "quarter-four",
+  value: require("./svgs/quarter-four.svg"),
+  categories: ["editor"],
+};
+
+export const quarterOne: IMXIcon = {
+  name: "quarter-one",
+  value: require("./svgs/quarter-one.svg"),
+  categories: ["editor"],
+};
+
+export const quarterThree: IMXIcon = {
+  name: "quarter-three",
+  value: require("./svgs/quarter-three.svg"),
+  categories: ["editor"],
+};
+
+export const quarterTwo: IMXIcon = {
+  name: "quarter-two",
+  value: require("./svgs/quarter-two.svg"),
   categories: ["editor"],
 };
 
@@ -180,6 +246,18 @@ export const thisMonth: IMXIcon = {
   categories: ["editor"],
 };
 
+export const thisQuarter: IMXIcon = {
+  name: "this-quarter",
+  value: require("./svgs/this-quarter.svg"),
+  categories: ["editor"],
+};
+
+export const thisWeek: IMXIcon = {
+  name: "this-week",
+  value: require("./svgs/this-week.svg"),
+  categories: ["editor"],
+};
+
 export const thisYear: IMXIcon = {
   name: "this-year",
   value: require("./svgs/this-year.svg"),
@@ -192,9 +270,33 @@ export const today: IMXIcon = {
   categories: ["editor"],
 };
 
+export const topPercentileRecords: IMXIcon = {
+  name: "top-percentile-records",
+  value: require("./svgs/top-percentile-records.svg"),
+  categories: ["editor"],
+};
+
+export const topRecords: IMXIcon = {
+  name: "top-records",
+  value: require("./svgs/top-records.svg"),
+  categories: ["editor"],
+};
+
 export const ungroup: IMXIcon = {
   name: "ungroup",
   value: require("./svgs/ungroup.svg"),
+  categories: ["editor"],
+};
+
+export const yearToDate: IMXIcon = {
+  name: "year-to-date",
+  value: require("./svgs/year-to-date.svg"),
+  categories: ["editor"],
+};
+
+export const year: IMXIcon = {
+  name: "year",
+  value: require("./svgs/year.svg"),
   categories: ["editor"],
 };
 
@@ -211,6 +313,8 @@ export const tomorrow: IMXIcon = {
 };
 
 export const editor = [
+  bottomPercentileRecords,
+  bottomRecords,
   caseSensitive,
   check,
   contains,
@@ -229,14 +333,23 @@ export const editor = [
   isNull,
   isTrue,
   lastMonth,
+  lastQuarter,
+  lastWeek,
   lastYear,
   lessThan,
   lessThanOrEqual,
   match,
+  month,
   nextMonth,
+  nextQuarter,
+  nextWeek,
   nextYear,
   notEmpty,
   notEqual,
+  quarterFour,
+  quarterOne,
+  quarterThree,
+  quarterTwo,
   endsWith,
   equals,
   isEmpty,
@@ -244,9 +357,15 @@ export const editor = [
   startExpression,
   startsWith,
   thisMonth,
+  thisQuarter,
+  thisWeek,
   thisYear,
   today,
+  topPercentileRecords,
+  topRecords,
   ungroup,
+  yearToDate,
+  year,
   yesterday,
   tomorrow,
 ];
