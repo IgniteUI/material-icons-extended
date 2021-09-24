@@ -35,6 +35,18 @@ import ungroupIcon from "./svgs/ungroup.svg";
 import yesterdayIcon from "./svgs/yesterday.svg";
 import tomorrowIcon from "./svgs/tomorrow.svg"; 
 
+export const bottomPercentileRecords: IMXIcon = {
+  name: "bottom-percentile-records",
+  value: require("./svgs/bottom-percentile-records.svg"),
+  categories: ["editor"],
+};
+
+export const bottomRecords: IMXIcon = {
+  name: "bottom-records",
+  value: require("./svgs/bottom-records.svg"),
+  categories: ["editor"],
+};
+
 export const caseSensitive: IMXIcon = {
   name: "case-sensitive",
   value: caseSensitiveIcon,
@@ -161,6 +173,18 @@ export const lastMonth: IMXIcon = {
   keywords: ["last", "calendar", "month", "date", "day", "previous", "schedule", "arrow", "left", "page"],
 };
 
+export const lastQuarter: IMXIcon = {
+  name: "last-quarter",
+  value: require("./svgs/last-quarter.svg"),
+  categories: ["editor"],
+};
+
+export const lastWeek: IMXIcon = {
+  name: "last-week",
+  value: require("./svgs/last-week.svg"),
+  categories: ["editor"],
+};
+
 export const lastYear: IMXIcon = {
   name: "last-year",
   value: lastYearIcon,
@@ -189,11 +213,29 @@ export const match: IMXIcon = {
   keywords: ["match", "fit", "puzzle", "pieces", "jigsaw", "combination", "play", "game", "toy"],
 };
 
+export const month: IMXIcon = {
+  name: "month",
+  value: require("./svgs/month.svg"),
+  categories: ["editor"],
+};
+
 export const nextMonth: IMXIcon = {
   name: "next-month",
   value: nextMonthIcon,
   categories: ["editor"],
   keywords: ["next", "calendar", "month", "date", "day", "following", "schedule", "arrow", "right", "page"],
+};
+
+export const nextQuarter: IMXIcon = {
+  name: "next-quarter",
+  value: require("./svgs/next-quarter.svg"),
+  categories: ["editor"],
+};
+
+export const nextWeek: IMXIcon = {
+  name: "next-week",
+  value: require("./svgs/next-week.svg"),
+  categories: ["editor"],
 };
 
 export const nextYear: IMXIcon = {
@@ -215,6 +257,30 @@ export const notEqual: IMXIcon = {
   value: notEqualIcon,
   categories: ["editor"],
   keywords: ["equal", "equals", "different", "compare", "filter", "equality", "calculation", "math"],
+};
+
+export const quarterFour: IMXIcon = {
+  name: "quarter-four",
+  value: require("./svgs/quarter-four.svg"),
+  categories: ["editor"],
+};
+
+export const quarterOne: IMXIcon = {
+  name: "quarter-one",
+  value: require("./svgs/quarter-one.svg"),
+  categories: ["editor"],
+};
+
+export const quarterThree: IMXIcon = {
+  name: "quarter-three",
+  value: require("./svgs/quarter-three.svg"),
+  categories: ["editor"],
+};
+
+export const quarterTwo: IMXIcon = {
+  name: "quarter-two",
+  value: require("./svgs/quarter-two.svg"),
+  categories: ["editor"],
 };
 
 export const selectAll: IMXIcon = {
@@ -245,6 +311,18 @@ export const thisMonth: IMXIcon = {
   keywords: ["this", "calendar", "month", "date", "day", "current", "schedule", "check", "page", "now"],
 };
 
+export const thisQuarter: IMXIcon = {
+  name: "this-quarter",
+  value: require("./svgs/this-quarter.svg"),
+  categories: ["editor"],
+};
+
+export const thisWeek: IMXIcon = {
+  name: "this-week",
+  value: require("./svgs/this-week.svg"),
+  categories: ["editor"],
+};
+
 export const thisYear: IMXIcon = {
   name: "this-year",
   value: thisYearIcon,
@@ -259,11 +337,35 @@ export const today: IMXIcon = {
   keywords: ["today", "now", "check", "date", "day", "calendar", "current", "schedule", "event"],
 };
 
+export const topPercentileRecords: IMXIcon = {
+  name: "top-percentile-records",
+  value: require("./svgs/top-percentile-records.svg"),
+  categories: ["editor"],
+};
+
+export const topRecords: IMXIcon = {
+  name: "top-records",
+  value: require("./svgs/top-records.svg"),
+  categories: ["editor"],
+};
+
 export const ungroup: IMXIcon = {
   name: "ungroup",
   value: ungroupIcon,
   categories: ["editor"],
   keywords: ["ungroup", "exclude", "extract"],
+};
+
+export const yearToDate: IMXIcon = {
+  name: "year-to-date",
+  value: require("./svgs/year-to-date.svg"),
+  categories: ["editor"],
+};
+
+export const year: IMXIcon = {
+  name: "year",
+  value: require("./svgs/year.svg"),
+  categories: ["editor"],
 };
 
 export const yesterday: IMXIcon = {
@@ -281,6 +383,8 @@ export const tomorrow: IMXIcon = {
 };
 
 export const editor = [
+  bottomPercentileRecords,
+  bottomRecords,
   caseSensitive,
   check,
   contains,
@@ -299,14 +403,23 @@ export const editor = [
   isNull,
   isTrue,
   lastMonth,
+  lastQuarter,
+  lastWeek,
   lastYear,
   lessThan,
   lessThanOrEqual,
   match,
+  month,
   nextMonth,
+  nextQuarter,
+  nextWeek,
   nextYear,
   notEmpty,
   notEqual,
+  quarterFour,
+  quarterOne,
+  quarterThree,
+  quarterTwo,
   endsWith,
   equals,
   isEmpty,
@@ -314,9 +427,15 @@ export const editor = [
   startExpression,
   startsWith,
   thisMonth,
+  thisQuarter,
+  thisWeek,
   thisYear,
   today,
+  topPercentileRecords,
+  topRecords,
   ungroup,
+  yearToDate,
+  year,
   yesterday,
   tomorrow,
 ];
