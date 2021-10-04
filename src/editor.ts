@@ -36,6 +36,18 @@ export const doesNotContain: IMXIcon = {
   categories: ["editor"],
 };
 
+export const doesNotEndWith: IMXIcon = {
+  name: "does-not-end-with",
+  value: require("./svgs/does-not-end-with.svg"),
+  categories: ["editor"],
+};
+
+export const doesNotStartWith: IMXIcon = {
+  name: "does-not-start-with",
+  value: require("./svgs/does-not-start-with.svg"),
+  categories: ["editor"],
+};
+
 export const endExpression: IMXIcon = {
   name: "end-expression",
   value: require("./svgs/end-expression.svg"),
@@ -198,6 +210,18 @@ export const notEqual: IMXIcon = {
   categories: ["editor"],
 };
 
+export const previousQuarter: IMXIcon = {
+  name: "previous-quarter",
+  value: require("./svgs/previous-quarter.svg"),
+  categories: ["editor"],
+};
+
+export const previousWeek: IMXIcon = {
+  name: "previous-week",
+  value: require("./svgs/previous-week.svg"),
+  categories: ["editor"],
+};
+
 export const quarterFour: IMXIcon = {
   name: "quarter-four",
   value: require("./svgs/quarter-four.svg"),
@@ -319,6 +343,8 @@ export const editor = [
   check,
   contains,
   doesNotContain,
+  doesNotEndWith,
+  doesNotStartWith,
   endExpression,
   endsWith,
   equals,
@@ -346,6 +372,8 @@ export const editor = [
   nextYear,
   notEmpty,
   notEqual,
+  previousQuarter,
+  previousWeek,
   quarterFour,
   quarterOne,
   quarterThree,
