@@ -80,6 +80,13 @@ export const contains: IMXIcon = {
   keywords: ["contains", "letter", "contain", "compare", "filter"],
 };
 
+export const customFilter: IMXIcon = {
+  name: "custom-filter",
+  value: require("./svgs/custom-filter.svg"),
+  categories: ["editor"],
+  keywords: ["custom", "filter"],
+};
+
 export const doesNotContain: IMXIcon = {
   name: "does-not-contain",
   value: doesNotContainIcon,
@@ -514,6 +521,7 @@ export const editor = [
   caseSensitive,
   check,
   contains,
+  customFilter,
   doesNotContain,
   doesNotEndWith,
   doesNotStartWith,
