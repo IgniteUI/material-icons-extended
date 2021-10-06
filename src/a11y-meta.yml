@@ -106,6 +106,12 @@
 "blu-ray":
     title: "Blu-Ray Icon"
     description: "A picture showing the Blu-Ray logo."
+"bottom-records":
+    title: "Bottom records"
+    description: "Shows records positioned at the bottom."
+"bottom-percentile-records":
+    title: "Bottom records"
+    description: "Shows percentile records positioned at the bottom."
 "box":
     title: "Box Icon"
     description: "A picture showing the Box logo."
@@ -226,6 +232,9 @@
 "country-home":
     title: "Country Home Icon"
     description: "A picture depicting a house in the country with a garden and trees."
+"custom-filter":
+    title: "Custom Filter Icon"
+    description: "An icon showing that custom filter is applied."
 "crane":
     title: "Crane Icon"
     description: "A picture depicting a tower crane with a hook."
@@ -292,6 +301,12 @@
 "does-not-contain":
     title: "Does-Not-Contain Icon"
     description: "A picture showing the lowercase letter A in a crossed-out square box."
+"does-not-end-with":
+    title: "Does-Not-End-With Icon"
+    description: "A picture showing crossed-out lines at the end of a square box."
+"does-not-start-with":
+    title: "Does-Not-Start-With Icon"
+    description: "A picture showing crossed-out lines at the beginning of a square box."
 "dollar-circled":
     title: "Dollar Circled Icon"
     description: "A picture showing an encircled dollar symbol."
@@ -529,6 +544,12 @@
 "last-year":
     title: "Last Year Icon"
     description: "A picture depicting a calendar with an back-arrow in the middle."
+"last-quarter":
+    title: "Last Quarter Icon"
+    description: "A picture depicting a quarter of a circle with an arrow pointing right."
+"last-week":
+    title: "Last Week Icon"
+    description: "A picture depicting a square with an arrow pointing down."
 "legal-document":
     title: "Legal Document Icon"
     description: "A picture depicting a sheet of paper with a badge of honor in the middle."
@@ -595,6 +616,9 @@
 "money-bag":
     title: "Money Bag Icon"
     description: "A picture depicting a bag of coins."
+"month":
+    title: "Month Icon"
+    description: "A picture depicting a month calendar."
 "ms-edge":
     title: "Microsoft Edge Icon"
     description: "A picture showing the Microsoft Edge browser logo."
@@ -622,6 +646,12 @@
 "next-year":
     title: "Next Year icon"
     description: "A picture depicting a calendar with a forward-arrow in the middle."
+"next-week":
+    title: "Next Week Icon"
+    description: "A picture depicting a square with an arrow pointing right."
+"next-quarter":
+    title: "Next Quarter Icon"
+    description: "A picture depicting a quarter circle with an arrow pointing right."
 "not-empty":
     title: "Not Empty Icon"
     description: "A picture showing a crossed-out dotted square."
@@ -706,6 +736,12 @@
 "pregnancy-no-alcohol":
     title: "Pregnancy No Alcohol Icon"
     description: "A picture showing a crossed-out woman drinking wine."
+"previous-quarter":
+    title: "Previous Quarter Icon"
+    description: "A picture depicting a quarter circle with an arrow pointing left."
+"previous-week":
+    title: "Next Week Icon"
+    description: "A picture depicting a square with an arrow pointing left."
 "project-revenue":
     title: "Project Revenue Icon"
     description: "A picture showing the dollar symbol inside a mechanical gear encircled by rotating arrows."
@@ -718,6 +754,18 @@
 "pulse":
     title: "Pulse Icon"
     description: "A picture depicting a cardiogram."
+"quarter-one":
+    title: "Quarter One Icon"
+    description: "A picture depicting a quarter of a circle next to a three-thirds circle."
+"quarter-two":
+    title: "Quarter Two Icon"
+    description: "A picture depicting a quarter of a circle next to a three-thirds circle."
+"quarter-three":
+    title: "Quarter Three Icon"
+    description: "A picture depicting a quarter of a circle next to a three-thirds circle."
+"quarter-four":
+    title: "Quarter Four Icon"
+    description: "A picture depicting a quarter of a circle next to a three-thirds circle."
 "radiator":
     title: "Radiator Icon"
     description: "A picture showing a radiator used for heating."
@@ -898,6 +946,12 @@
 "this-year":
     title: "This Year Icon"
     description: "A picture depicting a stacked calendar with a check mark in the middle."
+"this-quarter":
+    title: "This Quarter Icon"
+    description: "A picture depicting an arrow pointing right to a quarter of a circle."
+"this-week":
+    title: "This Quarter Icon"
+    description: "A picture depicting a square with an arrow pointing up."
 "tiktok":
     title: "TikTok Icon"
     description: "A picture showing the TikTok application logo."
@@ -916,6 +970,12 @@
 "tomorrow":
     title: "Tomorrow Icon"
     description: "A picture depicting a calendar with a right-pointed arrow in the middle."
+"top-records":
+    title: "Top Records Icon"
+    description: "Shows records positioned at the top."
+"top-percentile-records":
+    title: "Top Percentile Records Icon"
+    description: "Shows percentile records positioned at the top."
 "tooth":
     title: "Tooth Icon"
     description: "A picture depicting a human tooth."

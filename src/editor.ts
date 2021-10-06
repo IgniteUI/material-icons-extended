@@ -1,8 +1,13 @@
 import { IMXIcon } from "./common/icon";
+import bottomRecordsIcon from "./svgs/bottom-records.svg";
+import bottomPercentileRecordsIcon from "./svgs/bottom-percentile-records.svg";
 import caseSensitiveIcon from "./svgs/case-sensitive.svg";
 import checkIcon from "./svgs/check.svg";
 import containsIcon from "./svgs/contains.svg";
+import customFilterIcon from "./svgs/custom-filter.svg";
 import doesNotContainIcon from "./svgs/does-not-contain.svg";
+import doesNotEndWithIcon from "./svgs/does-not-end-with.svg";
+import doesNotStartWithIcon from  "./svgs/does-not-start-with.svg";
 import endExpressionIcon from "./svgs/end-expression.svg";
 import endsWithIcon from "./svgs/ends-with.svg";
 import equalsIcon from "./svgs/equals.svg";
@@ -20,42 +25,47 @@ import lastMonthIcon from "./svgs/last-month.svg";
 import lastYearIcon from "./svgs/last-year.svg";
 import lessThanIcon from "./svgs/less-than.svg";
 import lessThanOrEqualIcon from "./svgs/less-than-or-equal.svg";
+import lastQuarterIcon from "./svgs/last-quarter.svg";
+import lastWeekIcon from "./svgs/last-week.svg";
 import matchIcon from "./svgs/match.svg";
+import monthIcon from "./svgs/month.svg";
 import nextMonthIcon from "./svgs/next-month.svg";
 import nextYearIcon from "./svgs/next-year.svg";
+import nextWeekIcon from "./svgs/next-week.svg";
 import notEmptyIcon from "./svgs/not-empty.svg";
 import notEqualIcon from "./svgs/not-equal.svg";
+import nextQuarterIcon from "./svgs/next-quarter.svg";
+import previousQuarterIcon from "./svgs/previous-quarter.svg";
+import previousWeekIcon from "./svgs/previous-week.svg";
+import quarterFourIcon from "./svgs/quarter-four.svg";
+import quarterOneIcon from "./svgs/quarter-one.svg";
+import quarterTwoIcon from "./svgs/quarter-two.svg";
+import quarterThreeIcon from "./svgs/quarter-three.svg";
 import selectAllIcon from "./svgs/all.svg";
 import startExpressionIcon from "./svgs/start-expression.svg";
 import startsWithIcon from "./svgs/starts-with.svg";
 import thisMonthIcon from "./svgs/this-month.svg";
 import thisYearIcon from "./svgs/this-year.svg";
+import thisQuarterIcon from "./svgs/this-quarter.svg";
+import thisWeekIcon from "./svgs/this-week.svg";
 import todayIcon from "./svgs/today.svg";
+import topRecordsIcon from "./svgs/top-records.svg";
+import topPercentileRecordsIcon from "./svgs/top-percentile-records.svg";
+import tomorrowIcon from "./svgs/tomorrow.svg";
 import ungroupIcon from "./svgs/ungroup.svg";
 import yesterdayIcon from "./svgs/yesterday.svg";
-import tomorrowIcon from "./svgs/tomorrow.svg"; 
+import yearIcon from "./svgs/year.svg";
+import yearToDateIcon from "./svgs/year-to-date.svg";
 
 export const bottomPercentileRecords: IMXIcon = {
   name: "bottom-percentile-records",
-  value: require("./svgs/bottom-percentile-records.svg"),
+  value: bottomPercentileRecordsIcon,
   categories: ["editor"],
 };
 
 export const bottomRecords: IMXIcon = {
   name: "bottom-records",
-  value: require("./svgs/bottom-records.svg"),
-  categories: ["editor"],
-};
-
-export const bottomPercentileRecords: IMXIcon = {
-  name: "bottom-percentile-records",
-  value: require("./svgs/bottom-percentile-records.svg"),
-  categories: ["editor"],
-};
-
-export const bottomRecords: IMXIcon = {
-  name: "bottom-records",
-  value: require("./svgs/bottom-records.svg"),
+  value: bottomRecordsIcon,
   categories: ["editor"],
 };
 
@@ -82,7 +92,7 @@ export const contains: IMXIcon = {
 
 export const customFilter: IMXIcon = {
   name: "custom-filter",
-  value: require("./svgs/custom-filter.svg"),
+  value: customFilterIcon,
   categories: ["editor"],
   keywords: ["custom", "filter"],
 };
@@ -96,13 +106,13 @@ export const doesNotContain: IMXIcon = {
 
 export const doesNotEndWith: IMXIcon = {
   name: "does-not-end-with",
-  value: require("./svgs/does-not-end-with.svg"),
+  value: doesNotEndWithIcon,
   categories: ["editor"],
 };
 
 export const doesNotStartWith: IMXIcon = {
   name: "does-not-start-with",
-  value: require("./svgs/does-not-start-with.svg"),
+  value: doesNotStartWithIcon,
   categories: ["editor"],
 };
 
@@ -206,25 +216,13 @@ export const lastMonth: IMXIcon = {
 
 export const lastQuarter: IMXIcon = {
   name: "last-quarter",
-  value: require("./svgs/last-quarter.svg"),
+  value: lastQuarterIcon,
   categories: ["editor"],
 };
 
 export const lastWeek: IMXIcon = {
   name: "last-week",
-  value: require("./svgs/last-week.svg"),
-  categories: ["editor"],
-};
-
-export const lastQuarter: IMXIcon = {
-  name: "last-quarter",
-  value: require("./svgs/last-quarter.svg"),
-  categories: ["editor"],
-};
-
-export const lastWeek: IMXIcon = {
-  name: "last-week",
-  value: require("./svgs/last-week.svg"),
+  value: lastWeekIcon,
   categories: ["editor"],
 };
 
@@ -258,13 +256,7 @@ export const match: IMXIcon = {
 
 export const month: IMXIcon = {
   name: "month",
-  value: require("./svgs/month.svg"),
-  categories: ["editor"],
-};
-
-export const month: IMXIcon = {
-  name: "month",
-  value: require("./svgs/month.svg"),
+  value: monthIcon,
   categories: ["editor"],
 };
 
@@ -277,25 +269,13 @@ export const nextMonth: IMXIcon = {
 
 export const nextQuarter: IMXIcon = {
   name: "next-quarter",
-  value: require("./svgs/next-quarter.svg"),
+  value: nextQuarterIcon,
   categories: ["editor"],
 };
 
 export const nextWeek: IMXIcon = {
   name: "next-week",
-  value: require("./svgs/next-week.svg"),
-  categories: ["editor"],
-};
-
-export const nextQuarter: IMXIcon = {
-  name: "next-quarter",
-  value: require("./svgs/next-quarter.svg"),
-  categories: ["editor"],
-};
-
-export const nextWeek: IMXIcon = {
-  name: "next-week",
-  value: require("./svgs/next-week.svg"),
+  value: nextWeekIcon,
   categories: ["editor"],
 };
 
@@ -320,63 +300,39 @@ export const notEqual: IMXIcon = {
   keywords: ["equal", "equals", "different", "compare", "filter", "equality", "calculation", "math"],
 };
 
-export const quarterFour: IMXIcon = {
-  name: "quarter-four",
-  value: require("./svgs/quarter-four.svg"),
-  categories: ["editor"],
-};
-
-export const quarterOne: IMXIcon = {
-  name: "quarter-one",
-  value: require("./svgs/quarter-one.svg"),
-  categories: ["editor"],
-};
-
-export const quarterThree: IMXIcon = {
-  name: "quarter-three",
-  value: require("./svgs/quarter-three.svg"),
-  categories: ["editor"],
-};
-
-export const quarterTwo: IMXIcon = {
-  name: "quarter-two",
-  value: require("./svgs/quarter-two.svg"),
-  categories: ["editor"],
-};
-
 export const previousQuarter: IMXIcon = {
   name: "previous-quarter",
-  value: require("./svgs/previous-quarter.svg"),
+  value: previousQuarterIcon,
   categories: ["editor"],
 };
 
 export const previousWeek: IMXIcon = {
   name: "previous-week",
-  value: require("./svgs/previous-week.svg"),
+  value: previousWeekIcon,
   categories: ["editor"],
 };
 
 export const quarterFour: IMXIcon = {
   name: "quarter-four",
-  value: require("./svgs/quarter-four.svg"),
+  value: quarterFourIcon,
   categories: ["editor"],
 };
 
 export const quarterOne: IMXIcon = {
   name: "quarter-one",
-  value: require("./svgs/quarter-one.svg"),
+  value: quarterOneIcon,
   categories: ["editor"],
 };
 
 export const quarterThree: IMXIcon = {
   name: "quarter-three",
-  value: require("./svgs/quarter-three.svg"),
+  value: quarterThreeIcon,
   categories: ["editor"],
 };
 
 export const quarterTwo: IMXIcon = {
   name: "quarter-two",
-  value: require("./svgs/quarter-two.svg"),
+  value: quarterTwoIcon,
   categories: ["editor"],
 };
 
@@ -410,25 +366,13 @@ export const thisMonth: IMXIcon = {
 
 export const thisQuarter: IMXIcon = {
   name: "this-quarter",
-  value: require("./svgs/this-quarter.svg"),
+  value: thisQuarterIcon,
   categories: ["editor"],
 };
 
 export const thisWeek: IMXIcon = {
   name: "this-week",
-  value: require("./svgs/this-week.svg"),
-  categories: ["editor"],
-};
-
-export const thisQuarter: IMXIcon = {
-  name: "this-quarter",
-  value: require("./svgs/this-quarter.svg"),
-  categories: ["editor"],
-};
-
-export const thisWeek: IMXIcon = {
-  name: "this-week",
-  value: require("./svgs/this-week.svg"),
+  value: thisWeekIcon,
   categories: ["editor"],
 };
 
@@ -446,27 +390,15 @@ export const today: IMXIcon = {
   keywords: ["today", "now", "check", "date", "day", "calendar", "current", "schedule", "event"],
 };
 
-export const topPercentileRecords: IMXIcon = {
-  name: "top-percentile-records",
-  value: require("./svgs/top-percentile-records.svg"),
-  categories: ["editor"],
-};
-
 export const topRecords: IMXIcon = {
   name: "top-records",
-  value: require("./svgs/top-records.svg"),
+  value: topRecordsIcon,
   categories: ["editor"],
 };
 
 export const topPercentileRecords: IMXIcon = {
   name: "top-percentile-records",
-  value: require("./svgs/top-percentile-records.svg"),
-  categories: ["editor"],
-};
-
-export const topRecords: IMXIcon = {
-  name: "top-records",
-  value: require("./svgs/top-records.svg"),
+  value: topPercentileRecordsIcon,
   categories: ["editor"],
 };
 
@@ -477,27 +409,15 @@ export const ungroup: IMXIcon = {
   keywords: ["ungroup", "exclude", "extract"],
 };
 
-export const yearToDate: IMXIcon = {
-  name: "year-to-date",
-  value: require("./svgs/year-to-date.svg"),
-  categories: ["editor"],
-};
-
 export const year: IMXIcon = {
   name: "year",
-  value: require("./svgs/year.svg"),
+  value: yearIcon,
   categories: ["editor"],
 };
 
 export const yearToDate: IMXIcon = {
   name: "year-to-date",
-  value: require("./svgs/year-to-date.svg"),
-  categories: ["editor"],
-};
-
-export const year: IMXIcon = {
-  name: "year",
-  value: require("./svgs/year.svg"),
+  value: yearToDateIcon,
   categories: ["editor"],
 };
 
