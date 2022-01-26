@@ -46,6 +46,18 @@
 "apple-pay":
     title: "Apple Pay Icon"
     description: "A picture showing the Apple Pay logo inside."
+"arrow-down-left":
+    title: "Arrow Down Left Icon"
+    description: "A picture showing an arrow pointing down attached to an arrow pointing left."
+"arrow-down-right":
+    title: "Arrow Down Right Icon"
+    description: "A picture showing an arrow pointing down attached to an arrow pointing right."
+"arrow-up-left":
+    title: "Arrow Up Left Icon"
+    description: "A picture showing an arrow pointing up attached to an arrow pointing left."
+"arrow-up-right":
+    title: "Arrow Up Right Icon"
+    description: "A picture showing an arrow pointing up attached to an arrow pointing right."
 "atm":
     title: "ATM Icon"
     description: "A picture showing an empty screen and a keypad."
