@@ -2,6 +2,10 @@ import { IMXIcon } from "./common/icon";
 import addChildIcon from "./svgs/add-child.svg";
 import addFilterIcon from "./svgs/add-filter.svg";
 import addRowIcon from "./svgs/add-row.svg";
+import arrowDownLeftIcon from ".svgs/arrow-down-left.svg";
+import arrowDownRightIcon from ".svgs/arrow-down-right.svg";
+import arrowUpLeftIcon from ".svgs/arrow-up-left.svg";
+import arrowUpRightIcon from ".svgs/arrow-up-right.svg";
 import jumpDownIcon from "./svgs/jump-down.svg";
 import jumpUpIcon from "./svgs/jump-up.svg";
 import pinLeftIcon from "./svgs/pin-left.svg";
@@ -28,6 +32,34 @@ export const addRow: IMXIcon = {
   value: addRowIcon,
   categories: ["content"],
   keywords: ["add", "insert", "row", "new"],
+};
+
+export const arrowDownLeft: IMXIcon = {
+  name: "arrow-down-left",
+  value: arrowDownLeftIcon,
+  categories: ["content"],
+  keywords: ["arrow", "down", "left", "dimension"],
+};
+
+export const arrowDownRight: IMXIcon = {
+  name: "arrow-down-right",
+  value: arrowDownRightIcon,
+  categories: ["content"],
+  keywords: ["arrow", "down", "right"],
+};
+
+export const arrowUpLeft: IMXIcon = {
+  name: "arrow-up-left",
+  value: arrowUpLeftIcon,
+  categories: ["content"],
+  keywords: ["arrow", "up", "left"],
+};
+
+export const arrowUpRight: IMXIcon = {
+  name: "arrow-up-right",
+  value: arrowUpRightIcon,
+  categories: ["content"],
+  keywords: ["arrow", "up", "right", "axis", "coordinate", "system"],
 };
 
 export const jumpDown: IMXIcon = {
@@ -76,6 +108,10 @@ export const content = [
   addChild,
   addFilter,
   addRow,
+  arrowDownLeft,
+  arrowDownRight,
+  arrowUpLeft,
+  arrowUpRight,
   jumpDown,
   jumpUp,
   pinLeft,
