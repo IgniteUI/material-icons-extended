@@ -2,10 +2,10 @@ import { IMXIcon } from "./common/icon";
 import addChildIcon from "./svgs/add-child.svg";
 import addFilterIcon from "./svgs/add-filter.svg";
 import addRowIcon from "./svgs/add-row.svg";
-import arrowDownLeftIcon from ".svgs/arrow-down-left.svg";
-import arrowDownRightIcon from ".svgs/arrow-down-right.svg";
-import arrowUpLeftIcon from ".svgs/arrow-up-left.svg";
-import arrowUpRightIcon from ".svgs/arrow-up-right.svg";
+import arrowDownLeftIcon from "./svgs/arrow-down-left.svg";
+import arrowDownRightIcon from "./svgs/arrow-down-right.svg";
+import arrowUpLeftIcon from "./svgs/arrow-up-left.svg";
+import arrowUpRightIcon from "./svgs/arrow-up-right.svg";
 import jumpDownIcon from "./svgs/jump-down.svg";
 import jumpUpIcon from "./svgs/jump-up.svg";
 import pinLeftIcon from "./svgs/pin-left.svg";
@@ -80,28 +80,68 @@ export const pinLeft: IMXIcon = {
   name: "pin-left",
   value: pinLeftIcon,
   categories: ["content"],
-  keywords: ["pin", "freeze", "left", "pushpin", "nail", "marker", "attach", "tack", "thumbtack"],
+  keywords: [
+    "pin",
+    "freeze",
+    "left",
+    "pushpin",
+    "nail",
+    "marker",
+    "attach",
+    "tack",
+    "thumbtack",
+  ],
 };
 
 export const pinRight: IMXIcon = {
   name: "pin-right",
   value: pinRightIcon,
   categories: ["content"],
-  keywords: ["pin", "freeze", "right", "pushpin", "nail", "marker", "attach", "tack", "thumbtack"],
+  keywords: [
+    "pin",
+    "freeze",
+    "right",
+    "pushpin",
+    "nail",
+    "marker",
+    "attach",
+    "tack",
+    "thumbtack",
+  ],
 };
 
 export const unpinLeft: IMXIcon = {
   name: "unpin-left",
   value: unpinLeftIcon,
   categories: ["content"],
-  keywords: ["unpin", "unfreeze", "left", "pushpin", "nail", "marker", "detach", "tack", "thumbtack"],
+  keywords: [
+    "unpin",
+    "unfreeze",
+    "left",
+    "pushpin",
+    "nail",
+    "marker",
+    "detach",
+    "tack",
+    "thumbtack",
+  ],
 };
 
 export const unpinRight: IMXIcon = {
   name: "unpin-right",
   value: unpinRightIcon,
   categories: ["content"],
-  keywords: ["unpin", "unfreeze", "right", "pushpin", "nail", "marker", "detach", "tack", "thumbtack"],
+  keywords: [
+    "unpin",
+    "unfreeze",
+    "right",
+    "pushpin",
+    "nail",
+    "marker",
+    "detach",
+    "tack",
+    "thumbtack",
+  ],
 };
 
 export const content = [

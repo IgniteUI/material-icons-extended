@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "CommonJS",
+    "sourceMap": false,
+    "declaration": true,
+    "outDir": "../build/migrations/base-migration/"
+  }
+}

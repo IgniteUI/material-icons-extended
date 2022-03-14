@@ -63,5 +63,11 @@ function buildSvgSprites() {
     .pipe(dest("sprites"));
 }
 
+function copyMigrations() {
+  return src(["./migrations/migration.json", "./migrations/package.json"]).pipe(
+    dest("build/migrations")
+  );
+}
+
 const build = series(clean, buildSvgSprites);
-export { clean, build };
+export { clean, build, copyMigrations };
