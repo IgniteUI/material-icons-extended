@@ -12,7 +12,7 @@
   "main": "build/src/index.js",
   "exports": {
     ".": "./build/src/index.js",
-    "./migrations/*": {
+    "./build/migrations/*": {
       "default": "./build/migrations/*"
     },
     "./package.json": {
