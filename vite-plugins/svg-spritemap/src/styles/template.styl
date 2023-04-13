@@ -1,0 +1,20 @@
+sprite($name, $include-size = false, $type = 'uri')
+	$sprite = $sprites[$name]
+	$url = false
+
+	if $type == 'fragment'
+		$url = '/__spritemap#' + $sprites-prefix + $name + '-view'
+	else if $type == 'uri'
+		$url = $sprite[uri]
+	else
+		error('sprite(): $type must be either "fragment" or "uri"')
+
+	if $url
+		background: url($url) center no-repeat
+
+		if $include-size
+			if $include-size == true
+				background-size: $sprite[width] $sprite[height]
+			else if $include-size == 'box'
+				width: $sprite[width]
+				height: $sprite[height]

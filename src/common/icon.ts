@@ -23,7 +23,7 @@ export namespace IconCategory {
   }
 }
 
-export interface IMXIcon {
+export type IMXIcon = {
   name: string;
   value: string;
   categories: IconCategory[];

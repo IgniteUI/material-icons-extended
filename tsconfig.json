@@ -1,9 +1,9 @@
 {
   "compileOnSave": true,
   "compilerOptions": {
-    "target": "es2015",
-    "module": "ES2015",
-    "lib": ["es2015"],
+    "target": "ESNext",
+    "module": "ESNext",
+    "lib": ["ESNext"],
     "moduleResolution": "Node",
     "declaration": true,
     "strict": true,
@@ -13,5 +13,5 @@
     "noImplicitAny": true,
     "removeComments": true
   },
-  "exclude": ["build"]
+  "exclude": ["dist", "node_modules"]
 }
