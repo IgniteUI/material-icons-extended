@@ -7,7 +7,7 @@ export default defineConfig({
   dts: true,
   format: ['esm'],
   async onSuccess() {
-    const files = await fg('src/styles/*.(scss|styl|less)')
+    const files = await fg('src/styles/*.(css|scss|styl|less)')
     for (const file of files) {
       await fs.copyFile(file, file.replace('src/styles', 'dist/'))
     }

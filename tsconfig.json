@@ -8,10 +8,10 @@
     "declaration": true,
     "strict": true,
     "sourceMap": true,
-    "outDir": "./build",
-    "typeRoots": ["node_modules/@types", "./src/@types"],
+    "outDir": "./dist",
+    "typeRoots": ["node_modules/@types"],
     "noImplicitAny": true,
     "removeComments": true
   },
-  "exclude": ["dist", "node_modules"]
+  "exclude": ["dist", "node_modules", "vite-plugins"]
 }
