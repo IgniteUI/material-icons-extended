@@ -33,6 +33,10 @@ export default defineConfig({
           filename: 'styles/sprite.less',
           lang: 'less',
         },
+        {
+          filename: 'styles/sprite.styl',
+          lang: 'styl',
+        },
       ],
     }),
     dts({

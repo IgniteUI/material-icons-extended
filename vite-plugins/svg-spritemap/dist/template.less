@@ -1,6 +1,6 @@
 .imx-icon(@name) {
-  @sprite: @sprites[ @@name];
-  @uri: if(@type = 'uri', @sprite[uri], false);
+  @sprite: @sprites[@@name];
+  @uri: @sprite[uri];
 
   --size: 1.5rem;
   --color: currentColor;
