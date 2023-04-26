@@ -1,4 +1,5 @@
-## Material Icons Extended by Infragistics  
+## Material Icons Extended by Infragistics
+
 [![npm version](https://badge.fury.io/js/%40igniteui%2Fmaterial-icons-extended.svg)](https://badge.fury.io/js/%40igniteui%2Fmaterial-icons-extended)
 
 This is an unofficial subset of icons that extends the official [Material Design Icon set](https://github.com/google/material-design-icons) provided by Google.
@@ -36,16 +37,16 @@ npm install @igniteui/material-icons-extended
 In your component:
 
 ```typescript
-import { Component, OnInit } from "@angular/core";
-import { IgxIconService } from "igniteui-angular";
-import { github } from "@igniteui/material-icons-extended";
+import { Component, OnInit } from '@angular/core';
+import { IgxIconService } from 'igniteui-angular';
+import { github } from '@igniteui/material-icons-extended';
 // ...
 export class SampleComponent implements OnInit {
   constructor(private iconService: IgxIconService) {}
 
   ngOnInit(): void {
     // Register a single icon
-    this.iconService.addSvgIconFromText(github.name, github.value, "imx-icons");
+    this.iconService.addSvgIconFromText(github.name, github.value, 'imx-icons');
   }
 }
 ```
@@ -54,13 +55,13 @@ Or to register multiple icons/categories:
 
 ```typescript
 //...
-import { github, health, programming } from "@igniteui/material-icons-extended";
+import { github, health, programming } from '@igniteui/material-icons-extended';
 
 export class SampleComponent implements OnInit {
   //...
   addIcons() {
     for (let icon of [...health, ...programming, github]) {
-      this.iconService.addSvgIconFromText(icon.name, icon.value, "imx-icons");
+      this.iconService.addSvgIconFromText(icon.name, icon.value, 'imx-icons');
     }
   }
 
@@ -70,7 +71,7 @@ export class SampleComponent implements OnInit {
 }
 ```
 
-In yout component template:
+In your component template:
 
 ```html
 <igx-icon fontSet="imx-icons" name="github"></igx-icon>
@@ -85,50 +86,84 @@ npm install svg-inline-react
 ```
 
 ```javascript
-import InlineSVG from "svg-inline-react";
-import { github } from "@igniteui/material-icons-extended";
+import InlineSVG from 'svg-inline-react';
+import { github } from '@igniteui/material-icons-extended';
 
 const App = () => (
-  <InlineSVG src={github.value} style={{ width: "24px", height: "24px" }} />
+  <InlineSVG src={github.value} style={{ width: '24px', height: '24px' }} />
 );
 ```
 
 #### With SVG sprites
 
-##### CSS Sprite Map
+##### CSS Sprite Maps
 
-The package includes an SVG sprite that bundles all icons into a single file. Alongside this sprite, we include CSS, Sass, and Less files that associate each icon in the sprite with a CSS class. To consume the icons in this way, you must include one of the aforementioned style files in your project.
+We include CSS that associate each icon with a CSS class. This file can be quite large and you may not use all icons included in it. If you want to cherry-pick only the icons that will ever be used in your project, we include Sass, Less, and Stylus mixins that allow you to only add one icon at a time to the compiled CSS.
 
-For instance, with Sass, in your main Sass file import:
+To use the CSS classes, import the main the CSS sprite file in your app (verify the path to the stylesheet based on your project structure):
 
-```scss
-@import "~@igniteui/material-icons-extended/sprites/styles/sprite";
-
-.imx-icon {
-  width: 24px;
-  height: 24px;
-  background-size: auto 100%;
-}
+```html
+<link
+  href="../node_modules/@igniteui/material-icons-extended/dist/styles/sprite.css"
+  rel="stylesheet"
+/>
 ```
 
-Then in your HTML file:
+Then you can simply use any of the icons in the following manner:
+
+Include the GitHub icon.
 
 ```html
 <i class="imx-icon imx-github"></i>
 ```
 
-We also include a Less and Sass mixin called `igx-icon`. This mixins includes the `background-image` and `background-position`.
+To take advantage of the included mixins, import the corresponding sprite.(scss|less|styl) file.
+
+With Sass, in your main Sass file import:
+
+```scss
+@use '@igniteui/material-icons-extended/dist/styles/sprite.scss' as *;
+
+.github-icon {
+  @include imx-icon('github');
+}
+```
+
+With Less:
+
+```less
+@import '@igniteui/material-icons-extended/dist/styles/sprite.less';
+
+.github-icon {
+  .imx-icon('github');
+}
+```
+
+With Stylus:
+
+```stylus
+@import '@igniteui/material-icons-extended/dist/styles/sprite.styl'
+
+.github-icon
+    imx-icon('github')
+```
+
+Then in an HTML file:
+
+```html
+<i class="github-icon"></i>
+```
 
 ##### Symbols
 
-The package also includes an SVG sprite with all icons listed as `<symbol>` elements. This sprite can be imported from `@igniteui/material-icons-extended/sprites/symbol/svg/sprite.symbol.svg`;
+The package also includes an SVG sprite with all icons listed as `<symbol>` elements. This sprite can be imported from `@igniteui/material-icons-extended/dist/assets/sprite.symbol.svg`;
 Once you add the image to your application, you can use the encapsulated symbols like this:
 
 In your HTML:
 
 ```html
 <svg class="imx-github">
-  <use xlink:href="svg/sprite.symbol.svg#github"></use>
+  <use xlink:href="sprite.symbol.svg#imx-github"></use>
 </svg>
 ```
 
@@ -136,15 +171,13 @@ In your CSS:
 
 ```css
 .imx-github {
-  width: 24px;
-  height: 24px;
   fill: royalblue;
 }
 ```
 
 #### Standalone SVG images:
 
-All SVG icons can be found in `@igniteui/material-icons-extended/src/svgs`;
+All SVG icons can be found in `@igniteui/material-icons-extended/dist/assets/svgs`;
 
 ### Requests
 
