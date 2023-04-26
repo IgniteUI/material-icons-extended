@@ -154,7 +154,7 @@ Then in an HTML file:
 <i class="github-icon"></i>
 ```
 
-##### Symbols
+#### Symbols
 
 The package also includes an SVG sprite with all icons listed as `<symbol>` elements. This sprite can be imported from `@igniteui/material-icons-extended/dist/assets/sprite.symbol.svg`;
 Once you add the image to your application, you can use the encapsulated symbols like this:
