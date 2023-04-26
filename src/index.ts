@@ -19,6 +19,9 @@ export * from './logos';
 export * from './programming';
 export * from './socialMedia';
 
+export { IconCategory, IconCategoryEnum } from './common/icon';
+export type { IMXIcon };
+
 export const all: IMXIcon[] = [
   ...content,
   ...construction,

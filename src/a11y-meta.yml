@@ -922,7 +922,7 @@
 'strategy':
   title: 'Strategy Icon'
   description: 'A picture depicting a chess rook.'
-'strecher':
+'stretcher':
   title: 'Stretcher Icon'
   description: 'A picture depicting a stretcher.'
 'stripe':
@@ -1129,6 +1129,12 @@
 'wrench':
   title: 'Wrench Icon'
   description: 'A picture showing a wrench.'
+'year':
+  title: 'Year icon'
+  description: 'A picture depicting an year calendar.'
+'year-to-date':
+  title: 'Year To Date Icon'
+  description: 'A picture depicting an year calendar.'
 'yen-circled':
   title: 'Yen Circled Icon'
   description: 'A picture of an encircled Japanese Yen symbol.'
