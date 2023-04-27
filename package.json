@@ -1,37 +1,23 @@
 {
   "name": "@igniteui/material-icons-extended",
-  "version": "3.0.0",
   "description": "A subset of Material Icons that extend the official Material Design Icons by Google.",
+  "author": "Infragistics",
+  "license": "MIT",
+  "version": "3.0.0",
   "type": "module",
   "scripts": {
-    "build": "npm run build:a11y && vite build",
-    "build:a11y": "npm run clean:tmp && node scripts/a11y.mjs",
-    "build:migrations": "gulp copyMigrations && tsc --listEmittedFiles --project ./migrations/tsconfig.json",
+    "build": "npm run clean && npm run build:a11y && vite build && npm run build:migrations",
+    "build:a11y": "node scripts/a11y.mjs",
+    "build:migrations": "tsc --listEmittedFiles --project ./migrations/tsconfig.json",
+    "clean": "npm run clean:dist && npm run clean:tmp",
+    "clean:dist": "rimraf ./dist",
     "clean:tmp": "rimraf ./.tmp"
   },
   "workspaces": [
     "./vite-plugins/*"
   ],
   "main": "dist/index.js",
-  "files": [
-    "dist"
-  ],
-  "exports": {
-    ".": "./dist/index.js",
-    "./build/migrations/*": {
-      "default": "./dist/migrations/*"
-    },
-    "./package.json": {
-      "default": "./package.json"
-    }
-  },
-  "typesVersion": {
-    "*": {
-      "*": [
-        "dist/*"
-      ]
-    }
-  },
+  "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/IgniteUI/material-icons-extended.git"
@@ -39,12 +25,6 @@
   "publishConfig": {
     "access": "public"
   },
-  "keywords": [
-    "icons",
-    "material"
-  ],
-  "author": "Infragistics",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/IgniteUI/material-icons-extended/issues"
   },

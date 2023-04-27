@@ -8,10 +8,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
         with:
-          node-version: '18'
+          node-version: 18
           cache: 'npm'
           registry-url: 'https://registry.npmjs.org'
 
@@ -31,10 +31,10 @@ jobs:
 
       - name: Create package version
         run: npm version ${VERSION} --no-git-tag-version --save --allow-same-version
-        working-directory: ./
+        working-directory: dist
 
       - name: Publish material-icons-extended
         run: npm publish --tag ${NPM_TAG}
-        working-directory: ./
+        working-directory: dist
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}

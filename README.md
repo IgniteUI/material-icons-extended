@@ -104,7 +104,7 @@ To use the CSS classes, import the main the CSS sprite file in your app (verify 
 
 ```html
 <link
-  href="../node_modules/@igniteui/material-icons-extended/dist/styles/sprite.css"
+  href="../node_modules/@igniteui/material-icons-extended/styles/sprite.css"
   rel="stylesheet"
 />
 ```
@@ -122,7 +122,7 @@ To take advantage of the included mixins, import the corresponding sprite.(scss|
 With Sass, in your main Sass file import:
 
 ```scss
-@use '@igniteui/material-icons-extended/dist/styles/sprite.scss' as *;
+@use '@igniteui/material-icons-extended/styles/sprite.scss' as *;
 
 .github-icon {
   @include imx-icon('github');
@@ -132,7 +132,7 @@ With Sass, in your main Sass file import:
 With Less:
 
 ```less
-@import '@igniteui/material-icons-extended/dist/styles/sprite.less';
+@import '@igniteui/material-icons-extended/styles/sprite.less';
 
 .github-icon {
   .imx-icon('github');
@@ -142,7 +142,7 @@ With Less:
 With Stylus:
 
 ```stylus
-@import '@igniteui/material-icons-extended/dist/styles/sprite.styl'
+@import '@igniteui/material-icons-extended/styles/sprite.styl'
 
 .github-icon
     imx-icon('github')
@@ -156,7 +156,7 @@ Then in an HTML file:
 
 #### Symbols
 
-The package also includes an SVG sprite with all icons listed as `<symbol>` elements. This sprite can be imported from `@igniteui/material-icons-extended/dist/assets/sprite.symbol.svg`;
+The package also includes an SVG sprite with all icons listed as `<symbol>` elements. This sprite can be imported from `@igniteui/material-icons-extended/assets/sprite.symbol.svg`;
 Once you add the image to your application, you can use the encapsulated symbols like this:
 
 In your HTML:
@@ -177,7 +177,7 @@ In your CSS:
 
 #### Standalone SVG images:
 
-All SVG icons can be found in `@igniteui/material-icons-extended/dist/assets/svgs`;
+All SVG icons can be found in `@igniteui/material-icons-extended/assets/svgs`;
 
 ### Requests
 
@@ -186,4 +186,4 @@ Feel free to use the issue tracker to request new icons.
 ### Where is the web font?
 
 After some internal discussions and research, we've decided not to include a web font.
-There are various reasons for this decision, the main one being accesibility. SVG should be well supported across all modern browsers.
+There are various reasons for this decision, the main one being accessibility. SVG should be well supported across all modern browsers.

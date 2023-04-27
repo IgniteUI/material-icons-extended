@@ -45,7 +45,24 @@ export default defineConfig({
     viteStaticCopy({
       targets: [
         {
-          src: 'migrations',
+          src: 'migrations/migration.json',
+          dest: 'migrations',
+        },
+        {
+          src: 'migrations/package.json',
+          dest: 'migrations',
+        },
+        {
+          src: 'README.md',
+          dest: './',
+        },
+        {
+          src: 'LICENSE',
+          dest: './',
+        },
+        {
+          src: '_package.json',
+          rename: 'package.json',
           dest: './',
         },
       ],
