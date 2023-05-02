@@ -1,0 +1,24 @@
+{
+  "name": "svg-loader",
+  "version": "1.0.0",
+  "description": "Loads and transforms SVGs files for the purpose of the icon library.",
+  "main": "index.js",
+  "type": "module",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./index.js"
+    }
+  },
+  "module": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Infragistics",
+  "license": "ISC",
+  "devDependencies": {
+    "@xmldom/xmldom": "^0.8.7",
+    "svgo": "^3.0.2",
+    "yaml": "^2.2.1"
+  }
+}

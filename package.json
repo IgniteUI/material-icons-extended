@@ -1,31 +1,23 @@
 {
   "name": "@igniteui/material-icons-extended",
-  "version": "2.11.0",
   "description": "A subset of Material Icons that extend the official Material Design Icons by Google.",
+  "author": "Infragistics",
+  "license": "MIT",
+  "version": "3.0.0",
   "type": "module",
   "scripts": {
-    "build": "gulp build && npm run build:ts && npm run build:migrations",
-    "build:ts": "node ./webpack.js",
-    "build:migrations": "gulp copyMigrations && tsc --listEmittedFiles --project ./migrations/tsconfig.json",
-    "build:dev": "gulp build && webpack --mode development"
+    "build": "npm run clean && npm run build:a11y && vite build && npm run build:migrations",
+    "build:a11y": "node scripts/a11y.mjs",
+    "build:migrations": "tsc --listEmittedFiles --project ./migrations/tsconfig.json",
+    "clean": "npm run clean:dist && npm run clean:tmp",
+    "clean:dist": "rimraf ./dist",
+    "clean:tmp": "rimraf ./.tmp"
   },
-  "main": "build/src/index.js",
-  "exports": {
-    ".": "./build/src/index.js",
-    "./build/migrations/*": {
-      "default": "./build/migrations/*"
-    },
-    "./package.json": {
-      "default": "./package.json"
-    }
-  },
-  "typesVersion": {
-    "*": {
-      "*": [
-        "build/src/*"
-      ]
-    }
-  },
+  "workspaces": [
+    "./vite-plugins/*"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/IgniteUI/material-icons-extended.git"
@@ -33,12 +25,6 @@
   "publishConfig": {
     "access": "public"
   },
-  "keywords": [
-    "icons",
-    "material"
-  ],
-  "author": "Infragistics",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/IgniteUI/material-icons-extended/issues"
   },
@@ -46,17 +32,20 @@
   "ng-update": {
     "migrations": "./build/migrations/migration.json"
   },
-  "dependencies": {},
   "devDependencies": {
     "@angular-devkit/schematics": "^10.0.8",
-    "@types/node": "^14.6.2",
-    "gulp": "^4.0.2",
-    "gulp-svg-sprite": "^1.5.0",
-    "rimraf": "^3.0.2",
-    "svgo-loader": "^3.0.0",
-    "ts-loader": "^9.2.5",
-    "typescript": "^4.3.5",
-    "webpack": "^5.48.0",
-    "webpack-cli": "^3.3.12"
+    "@spiriit/vite-plugin-svg-spritemap": "1.1.0",
+    "@types/node": "^18.15.11",
+    "@types/xmldom": "^0.1.31",
+    "@xmldom/xmldom": "^0.8.7",
+    "prettier": "^2.8.8",
+    "rimraf": "^5.0.0",
+    "svg-loader": "^1.0.0",
+    "svgo": "^3.0.2",
+    "typescript": "^5.0.4",
+    "vite": "^4.2.1",
+    "vite-plugin-dts": "^2.3.0",
+    "vite-plugin-static-copy": "^0.14.0",
+    "yaml": "^2.2.1"
   }
 }

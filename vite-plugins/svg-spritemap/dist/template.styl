@@ -1,0 +1,19 @@
+imx-icon($name)
+  $sprite = $sprites[$name]
+  $url = $sprite[uri]
+  
+  --size: 1.5rem
+  --color: currentColor
+  
+  display: inline-block
+  width: var(--size)
+  height: var(--size)
+  background-color: var(--color)
+  
+  if $url
+    --icon: embedurl($url)
+    mask-image: var(--icon)
+    mask-repeat: no-repeat
+    -webkit-mask-image: var(--icon)
+    -webkit-mask-repeat: no-repeat
+    -webkit-mask-size: auto var(--size)

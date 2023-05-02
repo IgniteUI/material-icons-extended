@@ -1,0 +1,15 @@
+.imx-icon {
+  --size: 1.5rem;
+  --color: currentColor;
+
+  display: inline-block;
+  background-color: var(--color);
+  width: var(--size);
+  height: var(--size);
+  mask-image: var(--icon);
+  mask-size: auto var(--size);
+  mask-repeat: no-repeat;
+  -webkit-mask-image: var(--icon);
+  -webkit-mask-size: auto var(--size);
+  -webkit-mask-repeat: no-repeat;
+}

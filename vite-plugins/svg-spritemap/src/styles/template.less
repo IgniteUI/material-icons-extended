@@ -1,0 +1,23 @@
+.imx-icon(@name) {
+  @sprite: @sprites[@@name];
+  @uri: @sprite[uri];
+
+  --size: 1.5rem;
+  --color: currentColor;
+
+  display: inline-block;
+  width: var(--size);
+  height: var(--size);
+  background-color: var(--color);
+
+  & when (isstring(@uri)) {
+    --icon: url(@uri);
+
+    mask-image: var(--icon);
+    mask-repeat: no-repeat;
+    mask-size: auto var(--size);
+    -webkit-mask-image: var(--icon);
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: auto var(--size);
+  }
+}

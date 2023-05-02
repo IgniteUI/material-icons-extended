@@ -1,17 +1,17 @@
 {
   "compileOnSave": true,
   "compilerOptions": {
-    "target": "es2015",
-    "module": "ES2015",
-    "lib": ["es2015"],
+    "target": "ESNext",
+    "module": "ESNext",
+    "lib": ["ESNext"],
     "moduleResolution": "Node",
     "declaration": true,
     "strict": true,
     "sourceMap": true,
-    "outDir": "./build",
-    "typeRoots": ["node_modules/@types", "./src/@types"],
+    "outDir": "./dist",
+    "typeRoots": ["node_modules/@types"],
     "noImplicitAny": true,
     "removeComments": true
   },
-  "exclude": ["build"]
+  "exclude": ["dist", "node_modules", "vite-plugins"]
 }
