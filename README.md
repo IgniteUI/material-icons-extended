@@ -74,7 +74,7 @@ export class SampleComponent implements OnInit {
 In your component template:
 
 ```html
-<igx-icon fontSet="imx-icons" name="github"></igx-icon>
+<igx-icon family="imx-icons" name="github"></igx-icon>
 ```
 
 #### In a React App
