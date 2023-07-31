@@ -6,6 +6,7 @@
   "version": "3.0.0",
   "type": "module",
   "scripts": {
+    "start": "npm run build && vite dev",
     "build": "npm run clean && npm run build:a11y && vite build && npm run build:migrations",
     "build:a11y": "node scripts/a11y.mjs",
     "build:migrations": "tsc --listEmittedFiles --project ./migrations/tsconfig.json",
