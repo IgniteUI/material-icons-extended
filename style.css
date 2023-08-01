@@ -1,0 +1,15 @@
+:root {
+    --icon-size: 48px;
+    --icon-color: orange;
+}
+
+.imx-icon {
+    --size: var(--icon-size);
+    --color: var(--icon-color);
+}
+
+svg {
+    width: var(--icon-size);
+    height: var(--icon-size);
+    fill: var(--icon-color);
+}
