@@ -3,9 +3,10 @@
   "description": "A subset of Material Icons that extend the official Material Design Icons by Google.",
   "author": "Infragistics",
   "license": "MIT",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "type": "module",
   "scripts": {
+    "start": "npm run build && vite dev",
     "build": "npm run clean && npm run build:a11y && vite build && npm run build:migrations",
     "build:a11y": "node scripts/a11y.mjs",
     "build:migrations": "tsc --listEmittedFiles --project ./migrations/tsconfig.json",

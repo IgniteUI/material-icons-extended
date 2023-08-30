@@ -25,8 +25,6 @@ async function processFile(path, name, a11y) {
   const documentElement = document.documentElement;
   let title = documentElement.getElementsByTagName("title");
   let desc = document.getElementsByTagName("desc");
-  const title_id = `${name}-title`;
-  const desc_id = `${name}-desc`;
   const a11y_meta = a11y[name];
 
   if (!a11y_meta) {
@@ -47,15 +45,12 @@ async function processFile(path, name, a11y) {
     title = DOM.createElement("title");
     desc = DOM.createElement("desc");
 
-    title.setAttribute("id", title_id);
     title.textContent = a11y_meta.title;
 
-    desc.setAttribute("id", desc_id);
     desc.textContent = a11y_meta.description;
 
     documentElement.insertBefore(desc, documentElement.firstChild);
     documentElement.insertBefore(title, documentElement.firstChild);
-    documentElement.setAttribute("aria-labelledby", `${title_id} ${desc_id}`);
   }
 
   return Serializer.serializeToString(documentElement);
