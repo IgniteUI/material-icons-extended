@@ -3,7 +3,7 @@
   "description": "A subset of Material Icons that extend the official Material Design Icons by Google.",
   "author": "Infragistics",
   "license": "MIT",
-  "version": "4.0.0",
+  "version": "3.0.2",
   "type": "module",
   "scripts": {
     "start": "npm run build && vite dev",
