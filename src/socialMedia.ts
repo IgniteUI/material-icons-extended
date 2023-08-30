@@ -257,24 +257,3 @@ export const youtube: IMXIcon = {
     'trademark',
   ],
 };
-
-export const socialMedia = [
-  behance,
-  dribbble,
-  facebookMessenger,
-  facebook,
-  github,
-  instagram,
-  linkedin,
-  medium,
-  pinterest,
-  reddit,
-  snapchat,
-  telegram,
-  tiktok,
-  twitter,
-  viber,
-  wechat,
-  whatsapp,
-  youtube,
-];

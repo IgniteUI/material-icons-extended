@@ -143,19 +143,3 @@ export const unpinRight: IMXIcon = {
     'thumbtack',
   ],
 };
-
-export const content = [
-  addChild,
-  addFilter,
-  addRow,
-  arrowDownLeft,
-  arrowDownRight,
-  arrowUpLeft,
-  arrowUpRight,
-  jumpDown,
-  jumpUp,
-  pinLeft,
-  pinRight,
-  unpinLeft,
-  unpinRight,
-];
