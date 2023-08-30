@@ -44,5 +44,6 @@
   "homepage": "https://github.com/IgniteUI/material-icons-extended#readme",
   "ng-update": {
     "migrations": "./migrations/migration.json"
-  }
+  },
+  "sideEffects": false
 }
