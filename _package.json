@@ -3,11 +3,20 @@
   "description": "A subset of Material Icons that extend the official Material Design Icons by Google.",
   "author": "Infragistics",
   "license": "MIT",
-  "version": "3.0.1",
+  "version": "4.0.0",
   "type": "module",
   "main": "index.js",
   "exports": {
     ".": "./index.js",
+    "./construction": "./construction.js",
+    "./content": "./content.js",
+    "./editor": "./editor.js",
+    "./election": "./election.js",
+    "./finance": "./finance.js",
+    "./health": "./health.js",
+    "./logos": "./logos.js",
+    "./programming": "./programming.js",
+    "./socialMedia": "./socialMedia.js",
     "./migrations/*": {
       "default": "./migrations/*"
     },
